@@ -1,0 +1,1308 @@
+{
+  "image_facts": {
+    "event_253": 4365000,
+    "event_1442": 200000.0,
+    "event_1545": 41272.0,
+    "event_1700": 2854.0,
+    "event_1786": 704.05,
+    "event_3051": 1995.0,
+    "event_5170": 723.0,
+    "event_6033": 79679.26,
+    "event_6859": 3650.0,
+    "event_7307": 33.5,
+    "event_7941": 2298,
+    "event_9421": 4543.0
+  },
+  "message_facts": {
+    "message_01": {
+      "effect": "salary_increase",
+      "related_event_id": null,
+      "new_amount": 42750000,
+      "new_date": "2025-08-15"
+    },
+    "message_02": {
+      "effect": "no_change",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_03": {
+      "effect": "pending",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_04": {
+      "effect": "salary_decrease",
+      "related_event_id": null,
+      "new_amount": 1037.52,
+      "new_date": null
+    },
+    "message_05": {
+      "effect": "date_change",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": "2024-09-23"
+    },
+    "message_06": {
+      "effect": "salary_decrease",
+      "related_event_id": null,
+      "new_amount": 1422.85,
+      "new_date": null
+    },
+    "message_07": {
+      "effect": "pending",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_08": {
+      "effect": "salary_update",
+      "related_event_id": null,
+      "new_amount": 38760000,
+      "new_date": null
+    },
+    "message_09": {
+      "effect": "contract_ended",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_10": {
+      "effect": "salary_resumed",
+      "related_event_id": null,
+      "new_amount": 2717,
+      "new_date": "2025-08-15"
+    },
+    "message_11": {
+      "effect": "first_salary",
+      "related_event_id": null,
+      "new_amount": 1661,
+      "new_date": "2026-01-15"
+    },
+    "message_12": {
+      "effect": "rent_increase",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_13": {
+      "effect": "internal_transfer",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_14": {
+      "effect": "refund_initiated",
+      "related_event_id": "event_1785",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_15": {
+      "effect": "portfolio_update",
+      "related_event_id": "event_1960",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_16": {
+      "effect": "prize_processing",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_17": {
+      "effect": "prize_paid",
+      "related_event_id": "event_2165",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_18": {
+      "effect": "invoice_approved",
+      "related_event_id": null,
+      "new_amount": 30780000,
+      "new_date": "2025-08-15"
+    },
+    "message_19": {
+      "effect": "pending",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_20": {
+      "effect": "salary_update",
+      "related_event_id": null,
+      "new_amount": 1452,
+      "new_date": null
+    },
+    "message_21": {
+      "effect": "contract_ended",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_22": {
+      "effect": "first_salary",
+      "related_event_id": null,
+      "new_amount": 54120,
+      "new_date": "2025-02-15"
+    },
+    "message_23": {
+      "effect": "internal_transfer",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_24": {
+      "effect": "invoice_approved",
+      "related_event_id": null,
+      "new_amount": 196000,
+      "new_date": "2024-12-15"
+    },
+    "message_25": {
+      "effect": "refund_initiated",
+      "related_event_id": "event_3230",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_26": {
+      "effect": "salary_increase",
+      "related_event_id": null,
+      "new_amount": 2988,
+      "new_date": "2026-07-15"
+    },
+    "message_27": {
+      "effect": "salary_update",
+      "related_event_id": null,
+      "new_amount": 21090000,
+      "new_date": null
+    },
+    "message_28": {
+      "effect": "prize_paid",
+      "related_event_id": "event_3491",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_29": {
+      "effect": "first_salary",
+      "related_event_id": null,
+      "new_amount": 1760,
+      "new_date": "2024-06-15"
+    },
+    "message_30": {
+      "effect": "salary_reduced",
+      "related_event_id": null,
+      "new_amount": 148000,
+      "new_date": null
+    },
+    "message_31": {
+      "effect": "CREATED",
+      "related_event_id": null,
+      "new_amount": 32870000,
+      "new_date": "2024-09-15"
+    },
+    "message_32": {
+      "effect": "CREATED",
+      "related_event_id": null,
+      "new_amount": 115000,
+      "new_date": "2025-02-15"
+    },
+    "message_33": {
+      "effect": "UPDATED",
+      "related_event_id": null,
+      "new_amount": 17290000,
+      "new_date": "2026-07-15"
+    },
+    "message_34": {
+      "effect": "UNCHANGED",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_35": {
+      "effect": "UNCHANGED",
+      "related_event_id": "event_4535",
+      "new_amount": null,
+      "new_date": "2026-07-24"
+    },
+    "message_36": {
+      "effect": "UPDATED",
+      "related_event_id": null,
+      "new_amount": 31464000,
+      "new_date": null
+    },
+    "message_37": {
+      "effect": "UPDATED",
+      "related_event_id": null,
+      "new_amount": 126000,
+      "new_date": null
+    },
+    "message_38": {
+      "effect": "CREATED",
+      "related_event_id": null,
+      "new_amount": 69000,
+      "new_date": "2024-06-15"
+    },
+    "message_39": {
+      "effect": "UNCHANGED",
+      "related_event_id": "event_4994",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_40": {
+      "effect": "UPDATED",
+      "related_event_id": null,
+      "new_amount": 42460,
+      "new_date": "2026-07-15"
+    },
+    "message_41": {
+      "effect": "UNCHANGED",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_42": {
+      "effect": "UPDATED",
+      "related_event_id": null,
+      "new_amount": 25840000,
+      "new_date": null
+    },
+    "message_43": {
+      "effect": "UNCHANGED",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_44": {
+      "effect": "UPDATED",
+      "related_event_id": null,
+      "new_amount": 530.4,
+      "new_date": null
+    },
+    "message_45": {
+      "effect": "DELETED",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_46": {
+      "effect": "CREATED",
+      "related_event_id": null,
+      "new_amount": 2112,
+      "new_date": "2025-08-15"
+    },
+    "message_47": {
+      "effect": "UNCHANGED",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_48": {
+      "effect": "UNCHANGED",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_49": {
+      "effect": "CREATED",
+      "related_event_id": null,
+      "new_amount": 116000,
+      "new_date": "2026-04-15"
+    },
+    "message_50": {
+      "effect": "UPDATED",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": "2025-02-23"
+    },
+    "message_51": {
+      "effect": "UNCHANGED",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_52": {
+      "effect": "UNCHANGED",
+      "related_event_id": "event_6532",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_53": {
+      "effect": "CREATED",
+      "related_event_id": null,
+      "new_amount": 696,
+      "new_date": "2025-05-15"
+    },
+    "message_54": {
+      "effect": "CREATED",
+      "related_event_id": null,
+      "new_amount": 18700,
+      "new_date": "2026-07-15"
+    },
+    "message_55": {
+      "effect": "UNCHANGED",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_56": {
+      "effect": "CREATED",
+      "related_event_id": null,
+      "new_amount": 26180,
+      "new_date": "2025-08-15"
+    },
+    "message_57": {
+      "effect": "DELETED",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_58": {
+      "effect": "CREATED",
+      "related_event_id": null,
+      "new_amount": 3072,
+      "new_date": null
+    },
+    "message_59": {
+      "effect": "UNCHANGED",
+      "related_event_id": "event_7186",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_60": {
+      "effect": "CREATED",
+      "related_event_id": null,
+      "new_amount": 158000,
+      "new_date": null
+    },
+    "message_61": {
+      "effect": "Rent increase",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_62": {
+      "effect": "Salary update",
+      "related_event_id": null,
+      "new_amount": 1752,
+      "new_date": null
+    },
+    "message_63": {
+      "effect": "Salary resumption",
+      "related_event_id": null,
+      "new_amount": 62000,
+      "new_date": "2025-05-15"
+    },
+    "message_64": {
+      "effect": "Payment confirmation",
+      "related_event_id": "event_7941",
+      "new_amount": null,
+      "new_date": "2026-04-03"
+    },
+    "message_65": {
+      "effect": "Temporary salary update",
+      "related_event_id": null,
+      "new_amount": 8618400,
+      "new_date": null
+    },
+    "message_66": {
+      "effect": "Salary resumption",
+      "related_event_id": null,
+      "new_amount": 251000,
+      "new_date": "2026-01-15"
+    },
+    "message_67": {
+      "effect": "Prize selection requiring payment",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_68": {
+      "effect": "Invoice approval",
+      "related_event_id": null,
+      "new_amount": 13420,
+      "new_date": "2026-07-15"
+    },
+    "message_69": {
+      "effect": "Debit attempt failed",
+      "related_event_id": "event_8575",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_70": {
+      "effect": "Base salary confirmation",
+      "related_event_id": null,
+      "new_amount": 49280,
+      "new_date": null
+    },
+    "message_71": {
+      "effect": "Prize claim processing",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_72": {
+      "effect": "Invoice approval",
+      "related_event_id": null,
+      "new_amount": 924,
+      "new_date": "2024-12-15"
+    },
+    "message_73": {
+      "effect": "Salary date update",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": "2025-05-23"
+    },
+    "message_74": {
+      "effect": "Salary confirmation",
+      "related_event_id": null,
+      "new_amount": 1804,
+      "new_date": "2025-08-15"
+    },
+    "message_75": {
+      "effect": "Prize proceeds received",
+      "related_event_id": "event_9420",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_76": {
+      "effect": "Invoice approval",
+      "related_event_id": null,
+      "new_amount": 1419,
+      "new_date": "2026-04-15"
+    },
+    "message_77": {
+      "effect": "Temporary pay update",
+      "related_event_id": null,
+      "new_amount": 164880,
+      "new_date": null
+    },
+    "message_78": {
+      "effect": "Base salary confirmation",
+      "related_event_id": null,
+      "new_amount": 35860,
+      "new_date": null
+    },
+    "message_79": {
+      "effect": "Market value increase",
+      "related_event_id": "event_9805",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_80": {
+      "effect": "First salary confirmation",
+      "related_event_id": null,
+      "new_amount": 1815,
+      "new_date": "2024-12-15"
+    },
+    "message_81": {
+      "effect": "First salary scheduled",
+      "related_event_id": null,
+      "new_amount": 2123,
+      "new_date": "2025-05-15"
+    },
+    "message_82": {
+      "effect": "Base salary confirmation",
+      "related_event_id": null,
+      "new_amount": 33440,
+      "new_date": null
+    },
+    "message_83": {
+      "effect": "Invoice approval",
+      "related_event_id": null,
+      "new_amount": 16720,
+      "new_date": "2025-08-15"
+    },
+    "message_84": {
+      "effect": "Employment ended",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_85": {
+      "effect": "First salary confirmation",
+      "related_event_id": null,
+      "new_amount": 627,
+      "new_date": "2024-06-15"
+    },
+    "message_86": {
+      "effect": "Salary credit confirmed",
+      "related_event_id": "event_10521",
+      "new_amount": 1296,
+      "new_date": "2026-09-15"
+    },
+    "message_87": {
+      "effect": "Salary reduction",
+      "related_event_id": null,
+      "new_amount": 148200,
+      "new_date": null
+    },
+    "message_88": {
+      "effect": "Prize proceeds received",
+      "related_event_id": "event_10699",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_89": {
+      "effect": "Salary increase",
+      "related_event_id": null,
+      "new_amount": 1188,
+      "new_date": "2026-07-15"
+    },
+    "message_90": {
+      "effect": "Salary update",
+      "related_event_id": null,
+      "new_amount": 759,
+      "new_date": null
+    },
+    "message_121": {
+      "effect": "dispute_pending",
+      "related_event_id": "event_14399",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_122": {
+      "effect": "temporary_salary_update",
+      "related_event_id": null,
+      "new_amount": 23940000,
+      "new_date": null
+    },
+    "message_123": {
+      "effect": "payout_pending",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_124": {
+      "effect": "first_salary_scheduled",
+      "related_event_id": null,
+      "new_amount": 1672,
+      "new_date": "2024-06-15"
+    },
+    "message_125": {
+      "effect": "first_salary_scheduled",
+      "related_event_id": null,
+      "new_amount": 26790000,
+      "new_date": "2025-11-15"
+    },
+    "message_126": {
+      "effect": "salary_increase",
+      "related_event_id": null,
+      "new_amount": 29070000,
+      "new_date": "2026-07-15"
+    },
+    "message_127": {
+      "effect": "regular_salary_update",
+      "related_event_id": null,
+      "new_amount": 30400000,
+      "new_date": null
+    },
+    "message_128": {
+      "effect": "base_salary_confirmed",
+      "related_event_id": null,
+      "new_amount": 44270000,
+      "new_date": null
+    },
+    "message_129": {
+      "effect": "employment_ended",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_130": {
+      "effect": "invoice_payment_approved",
+      "related_event_id": null,
+      "new_amount": 2340,
+      "new_date": "2024-12-15"
+    },
+    "message_131": {
+      "effect": "payroll_date_updated",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": "2025-05-23"
+    },
+    "message_132": {
+      "effect": "salary_reduced",
+      "related_event_id": null,
+      "new_amount": 137150,
+      "new_date": null
+    },
+    "message_133": {
+      "effect": "refund_processing",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_134": {
+      "effect": "reward_payout_processing",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_135": {
+      "effect": "account_transfer_info",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_136": {
+      "effect": "payment_notice_info",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_137": {
+      "effect": "salary_confirmed",
+      "related_event_id": null,
+      "new_amount": 1284,
+      "new_date": "2025-11-15"
+    },
+    "message_138": {
+      "effect": "temporary_salary_update",
+      "related_event_id": null,
+      "new_amount": 1924.56,
+      "new_date": null
+    },
+    "message_139": {
+      "effect": "base_salary_confirmed",
+      "related_event_id": null,
+      "new_amount": 847,
+      "new_date": null
+    },
+    "message_140": {
+      "effect": "salary_reduced",
+      "related_event_id": null,
+      "new_amount": 1731.6,
+      "new_date": null
+    },
+    "message_141": {
+      "effect": "invoice_payment_approved",
+      "related_event_id": null,
+      "new_amount": 2376,
+      "new_date": "2024-12-15"
+    },
+    "message_142": {
+      "effect": "fee_request_notice",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_143": {
+      "effect": "first_salary_scheduled",
+      "related_event_id": null,
+      "new_amount": 59000,
+      "new_date": "2026-07-15"
+    },
+    "message_144": {
+      "effect": "bonus_pending",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_145": {
+      "effect": "currency_conversion_info",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_146": {
+      "effect": "refund_processing",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_147": {
+      "effect": "rent_increase_notice",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_148": {
+      "effect": "salary_reduced",
+      "related_event_id": null,
+      "new_amount": 31889,
+      "new_date": null
+    },
+    "message_149": {
+      "effect": "first_salary_scheduled",
+      "related_event_id": null,
+      "new_amount": 145000,
+      "new_date": "2024-09-15"
+    },
+    "message_150": {
+      "effect": "reimbursement_claim_closed",
+      "related_event_id": "event_17401",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_151": {
+      "effect": "salary_increase",
+      "related_event_id": null,
+      "new_amount": 627,
+      "new_date": "2026-07-15"
+    },
+    "message_152": {
+      "effect": "refund_pending",
+      "related_event_id": "event_17662",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_153": {
+      "effect": "salary_reduction",
+      "related_event_id": null,
+      "new_amount": 1750.32,
+      "new_date": null
+    },
+    "message_154": {
+      "effect": "payday_change",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": "2025-08-23"
+    },
+    "message_155": {
+      "effect": "salary_reduction",
+      "related_event_id": null,
+      "new_amount": 1222.65,
+      "new_date": null
+    },
+    "message_156": {
+      "effect": "salary_update",
+      "related_event_id": null,
+      "new_amount": 38190000,
+      "new_date": "2025-11-15"
+    },
+    "message_157": {
+      "effect": "dispute_pending",
+      "related_event_id": "event_18269",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_158": {
+      "effect": "payout_pending",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_159": {
+      "effect": "bonus_pending",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_160": {
+      "effect": "contract_ended",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_161": {
+      "effect": "payment_notice",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_162": {
+      "effect": "salary_update",
+      "related_event_id": null,
+      "new_amount": 2024,
+      "new_date": "2026-01-15"
+    },
+    "message_163": {
+      "effect": "value_decrease",
+      "related_event_id": "event_19182",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_164": {
+      "effect": "dispute_pending",
+      "related_event_id": "event_19334",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_165": {
+      "effect": "payday_change",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": "2025-02-23"
+    },
+    "message_166": {
+      "effect": "contract_ended",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_167": {
+      "effect": "refund_processing",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_168": {
+      "effect": "payout_pending",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_169": {
+      "effect": "salary_increase",
+      "related_event_id": null,
+      "new_amount": 2424,
+      "new_date": "2026-07-15"
+    },
+    "message_170": {
+      "effect": "salary_resumed",
+      "related_event_id": null,
+      "new_amount": 1914,
+      "new_date": "2026-04-15"
+    },
+    "message_171": {
+      "effect": "salary_reduction",
+      "related_event_id": null,
+      "new_amount": 1346.4,
+      "new_date": null
+    },
+    "message_172": {
+      "effect": "refund_pending",
+      "related_event_id": "event_20379",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_173": {
+      "effect": "invoice_approved",
+      "related_event_id": null,
+      "new_amount": 35200,
+      "new_date": "2026-01-15"
+    },
+    "message_174": {
+      "effect": "expense_reimbursed",
+      "related_event_id": "event_20615",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_175": {
+      "effect": "rent_increase",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_176": {
+      "effect": "salary_update",
+      "related_event_id": null,
+      "new_amount": 260000,
+      "new_date": null
+    },
+    "message_177": {
+      "effect": "bonus_pending",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_178": {
+      "effect": "salary_update",
+      "related_event_id": null,
+      "new_amount": 30400000,
+      "new_date": "2026-04-15"
+    },
+    "message_179": {
+      "effect": "debit_failed",
+      "related_event_id": "event_21101",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_180": {
+      "effect": "salary_update",
+      "related_event_id": null,
+      "new_amount": 2827,
+      "new_date": null
+    },
+    "message_181": {
+      "effect": "Upcoming first salary confirmed",
+      "related_event_id": null,
+      "new_amount": 2772,
+      "new_date": "2024-06-15"
+    },
+    "message_182": {
+      "effect": "Upcoming first salary scheduled",
+      "related_event_id": null,
+      "new_amount": 16910000,
+      "new_date": "2025-11-15"
+    },
+    "message_183": {
+      "effect": "Dispute under investigation with no reversal posted yet",
+      "related_event_id": "event_21582",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_184": {
+      "effect": "Foreign-currency refund processing",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_185": {
+      "effect": "Investment displayed value decreased",
+      "related_event_id": "event_21785",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_186": {
+      "effect": "Seasonal contract ended",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_187": {
+      "effect": "Household employment record ended and remaining salary confirmed",
+      "related_event_id": null,
+      "new_amount": 912,
+      "new_date": null
+    },
+    "message_188": {
+      "effect": "Upcoming first salary confirmed",
+      "related_event_id": null,
+      "new_amount": 62000,
+      "new_date": "2026-01-15"
+    },
+    "message_189": {
+      "effect": "Seasonal contract ended",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_190": {
+      "effect": "Upcoming first salary scheduled",
+      "related_event_id": null,
+      "new_amount": 968,
+      "new_date": "2025-08-15"
+    },
+    "message_191": {
+      "effect": "Salary confirmed for scheduled date",
+      "related_event_id": null,
+      "new_amount": 1680,
+      "new_date": "2025-11-15"
+    },
+    "message_192": {
+      "effect": "Employment ended",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_193": {
+      "effect": "Temporary monthly pay updated",
+      "related_event_id": null,
+      "new_amount": 1528.56,
+      "new_date": null
+    },
+    "message_194": {
+      "effect": "Confirmed base salary updated",
+      "related_event_id": null,
+      "new_amount": 1548,
+      "new_date": null
+    },
+    "message_195": {
+      "effect": "Salary reduced due to unpaid leave",
+      "related_event_id": null,
+      "new_amount": 702,
+      "new_date": null
+    },
+    "message_196": {
+      "effect": "First salary from new employer confirmed",
+      "related_event_id": null,
+      "new_amount": 53680,
+      "new_date": "2024-12-15"
+    },
+    "message_197": {
+      "effect": "Dispute under investigation with no reversal posted yet",
+      "related_event_id": "event_23203",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_198": {
+      "effect": "Debit attempt failed and bill outstanding",
+      "related_event_id": "event_23306",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_199": {
+      "effect": "Quarterly bonus pending final performance review",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_200": {
+      "effect": "First salary confirmed",
+      "related_event_id": null,
+      "new_amount": 214000,
+      "new_date": "2024-06-15"
+    },
+    "message_201": {
+      "effect": "Debit attempt failed and bill outstanding",
+      "related_event_id": "event_23855",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_202": {
+      "effect": "Internal transfer between user accounts",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_203": {
+      "effect": "Household employment record ended and remaining salary confirmed",
+      "related_event_id": null,
+      "new_amount": 48260000,
+      "new_date": null
+    },
+    "message_204": {
+      "effect": "Salary confirmed for scheduled date",
+      "related_event_id": null,
+      "new_amount": 1485,
+      "new_date": "2025-05-15"
+    },
+    "message_205": {
+      "effect": "Investment displayed value decreased",
+      "related_event_id": "event_24352",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_206": {
+      "effect": "Seasonal contract ended",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_207": {
+      "effect": "Portfolio market value increased",
+      "related_event_id": "event_24534",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_208": {
+      "effect": "Foreign currency transaction pending settlement",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_209": {
+      "effect": "Prize claim verified and processing",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_210": {
+      "effect": "Upcoming first salary scheduled",
+      "related_event_id": null,
+      "new_amount": 38280,
+      "new_date": "2025-11-15"
+    },
+    "message_211": {
+      "effect": "payroll_salary_notification",
+      "related_event_id": null,
+      "new_amount": 103000,
+      "new_date": null
+    },
+    "message_212": {
+      "effect": "pending_quarterly_bonus_update",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_213": {
+      "effect": "internal_transfer_review",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_214": {
+      "effect": "foreign_currency_refund_processing",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_215": {
+      "effect": "refund_processing_update",
+      "related_event_id": "event_25342",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_91": {
+      "effect": "created",
+      "related_event_id": null,
+      "new_amount": 176000,
+      "new_date": "2025-05-15"
+    },
+    "message_92": {
+      "effect": "no_change",
+      "related_event_id": "event_11129",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_93": {
+      "effect": "created",
+      "related_event_id": null,
+      "new_amount": 15390000,
+      "new_date": "2025-08-15"
+    },
+    "message_94": {
+      "effect": "no_change",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_95": {
+      "effect": "created",
+      "related_event_id": null,
+      "new_amount": 748,
+      "new_date": "2025-11-15"
+    },
+    "message_96": {
+      "effect": "created",
+      "related_event_id": null,
+      "new_amount": 152000,
+      "new_date": "2026-07-15"
+    },
+    "message_97": {
+      "effect": "created",
+      "related_event_id": null,
+      "new_amount": 50160,
+      "new_date": "2024-09-15"
+    },
+    "message_98": {
+      "effect": "no_change",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_99": {
+      "effect": "no_change",
+      "related_event_id": "event_11925",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_100": {
+      "effect": "created",
+      "related_event_id": null,
+      "new_amount": 2177.28,
+      "new_date": null
+    },
+    "message_101": {
+      "effect": "updated",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": "2025-05-23"
+    },
+    "message_102": {
+      "effect": "updated",
+      "related_event_id": null,
+      "new_amount": 1193.4,
+      "new_date": null
+    },
+    "message_103": {
+      "effect": "no_change",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_104": {
+      "effect": "updated",
+      "related_event_id": null,
+      "new_amount": 828,
+      "new_date": "2026-07-15"
+    },
+    "message_105": {
+      "effect": "no_change",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_106": {
+      "effect": "no_change",
+      "related_event_id": "event_12709",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_107": {
+      "effect": "created",
+      "related_event_id": null,
+      "new_amount": 31900,
+      "new_date": "2025-02-15"
+    },
+    "message_108": {
+      "effect": "no_change",
+      "related_event_id": "event_13032",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_109": {
+      "effect": "created",
+      "related_event_id": null,
+      "new_amount": 2040,
+      "new_date": "2024-12-15"
+    },
+    "message_110": {
+      "effect": "no_change",
+      "related_event_id": "event_13207",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_111": {
+      "effect": "created",
+      "related_event_id": null,
+      "new_amount": 864,
+      "new_date": "2026-07-15"
+    },
+    "message_112": {
+      "effect": "created",
+      "related_event_id": null,
+      "new_amount": 258000,
+      "new_date": null
+    },
+    "message_113": {
+      "effect": "created",
+      "related_event_id": null,
+      "new_amount": 1529,
+      "new_date": "2026-04-15"
+    },
+    "message_114": {
+      "effect": "no_change",
+      "related_event_id": "event_13663",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_115": {
+      "effect": "updated",
+      "related_event_id": null,
+      "new_amount": 893.75,
+      "new_date": null
+    },
+    "message_116": {
+      "effect": "created",
+      "related_event_id": null,
+      "new_amount": 46170000,
+      "new_date": "2024-09-15"
+    },
+    "message_117": {
+      "effect": "no_change",
+      "related_event_id": "event_14026",
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_118": {
+      "effect": "no_change",
+      "related_event_id": null,
+      "new_amount": null,
+      "new_date": null
+    },
+    "message_119": {
+      "effect": "updated",
+      "related_event_id": null,
+      "new_amount": 1628,
+      "new_date": null
+    },
+    "message_120": {
+      "effect": "created",
+      "related_event_id": null,
+      "new_amount": 84000,
+      "new_date": "2025-05-15"
+    }
+  }
+}

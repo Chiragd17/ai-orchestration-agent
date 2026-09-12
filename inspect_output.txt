@@ -1,0 +1,1123 @@
+=== SCHEMAS ===
+
+--- exchange_rates.csv ---
+Shape: (134, 4)
+Dtypes & Nulls:
+                 dtype  nulls
+rate_date          str      0
+from_currency      str      0
+to_currency        str      0
+rate           float64      0
+
+--- financial_events.csv ---
+Shape: (25342, 14)
+Dtypes & Nulls:
+                          dtype  nulls
+event_id                    str      0
+user_id                     str      0
+event_type                  str      0
+description                 str      0
+category                    str      0
+direction                   str      0
+amount                  float64     16
+currency                    str      0
+event_date                  str      0
+settlement_date             str     10
+status                      str      0
+linked_event_id             str  25284
+flexibility                 str      0
+minimum_allowed_amount  float64  22435
+
+--- financial_profiles.csv ---
+Shape: (275, 10)
+Dtypes & Nulls:
+                                                dtype  nulls
+user_id                                           str      0
+home_currency                                     str      0
+current_available_balance                     float64      0
+minimum_balance_to_keep                         int64      0
+financial_priorities                              str      0
+expense_categories_to_protect                     str      0
+expense_categories_user_is_willing_to_reduce      str     39
+expense_categories_user_is_willing_to_stop        str     62
+payment_methods_user_will_consider                str      0
+max_installment_months                        float64    119
+
+--- images.csv ---
+Shape: (16, 4)
+Dtypes & Nulls:
+                 dtype  nulls
+image_id           str      0
+user_id            str      0
+request_id         str      0
+related_event_id   str      0
+
+--- messages.csv ---
+Shape: (215, 7)
+Dtypes & Nulls:
+                 dtype  nulls
+message_id         str      0
+user_id            str      0
+request_id         str     87
+related_event_id   str    176
+sent_at            str      0
+source_type        str      0
+message_text       str      0
+
+--- output.csv ---
+Shape: (250, 8)
+Dtypes & Nulls:
+                                  dtype  nulls
+request_id                          str      0
+amount_safe_to_pay              float64    250
+affordability_status            float64    250
+recommended_payment_method      float64    250
+payment_plan                    float64    250
+earliest_date_for_full_payment  float64    250
+spending_changes_needed         float64    250
+decision_explanation            float64    250
+
+--- requests.csv ---
+Shape: (250, 8)
+Dtypes & Nulls:
+                           dtype  nulls
+request_id                   str      0
+user_id                      str      0
+request_date                 str      0
+request_type                 str      0
+requested_amount         float64      0
+desired_completion_date      str      0
+allows_partial_payment      bool      0
+request_text                 str      0
+
+--- request_payment_options.csv ---
+Shape: (790, 9)
+Dtypes & Nulls:
+                          dtype  nulls
+payment_option_id           str      0
+request_id                  str      0
+payment_method              str      0
+payment_amount          float64      0
+number_of_payments        int64      0
+first_payment_date          str      0
+payment_frequency_days  float64    275
+financing_fee           float64      0
+total_payable_amount    float64      0
+
+--- sample_requests.csv ---
+Shape: (25, 15)
+Dtypes & Nulls:
+                                  dtype  nulls
+request_id                          str      0
+user_id                             str      0
+request_date                        str      0
+request_type                        str      0
+requested_amount                float64      0
+desired_completion_date             str      0
+allows_partial_payment             bool      0
+request_text                        str      0
+amount_safe_to_pay              float64      0
+affordability_status                str      0
+recommended_payment_method          str      0
+payment_plan                        str      0
+earliest_date_for_full_payment      str      7
+spending_changes_needed             str      0
+decision_explanation                str      0
+
+=== SAMPLE USERS ===
+Selected Users: ['user_01', 'user_02', 'user_03']
+
+--- User: user_01 ---
+2023-09-08 | event_33 | expense | 925.62 | linked_to: nan
+2023-09-09 | event_59 | expense | 399.02 | linked_to: nan
+2023-09-10 | event_85 | expense | 1213.78 | linked_to: nan
+2023-09-15 | event_34 | expense | 939.13 | linked_to: nan
+2023-09-16 | event_60 | expense | 549.8 | linked_to: nan
+2023-09-22 | event_35 | expense | 707.36 | linked_to: nan
+2023-09-23 | event_61 | expense | 468.47 | linked_to: nan
+2023-09-24 | event_86 | expense | 1243.56 | linked_to: nan
+2023-09-29 | event_36 | expense | 629.96 | linked_to: nan
+2023-09-30 | event_62 | expense | 428.92 | linked_to: nan
+2023-10-02 | event_01 | expense | 5148.0 | linked_to: nan
+2023-10-06 | event_37 | expense | 873.17 | linked_to: nan
+2023-10-06 | event_02 | expense | 1475.46 | linked_to: nan
+2023-10-07 | event_63 | expense | 373.05 | linked_to: nan
+2023-10-08 | event_87 | expense | 1128.35 | linked_to: nan
+2023-10-08 | event_03 | expense | 1821.6 | linked_to: nan
+2023-10-11 | event_04 | debt_payment | 3487.0 | linked_to: nan
+2023-10-11 | event_05 | subscription | 235.4 | linked_to: nan
+2023-10-13 | event_06 | subscription | 306.9 | linked_to: nan
+2023-10-13 | event_38 | expense | 915.12 | linked_to: nan
+2023-10-14 | event_64 | expense | 503.02 | linked_to: nan
+2023-10-20 | event_39 | expense | 644.3 | linked_to: nan
+2023-10-21 | event_65 | expense | 351.49 | linked_to: nan
+2023-10-22 | event_88 | expense | 1027.06 | linked_to: nan
+2023-10-27 | event_40 | expense | 663.27 | linked_to: nan
+2023-10-28 | event_66 | expense | 553.74 | linked_to: nan
+2023-11-02 | event_07 | expense | 5148.0 | linked_to: nan
+2023-11-03 | event_41 | expense | 1030.1 | linked_to: nan
+2023-11-04 | event_67 | expense | 421.89 | linked_to: nan
+2023-11-05 | event_89 | expense | 1070.17 | linked_to: nan
+2023-11-06 | event_08 | expense | 1483.81 | linked_to: nan
+2023-11-08 | event_09 | expense | 1821.6 | linked_to: nan
+2023-11-10 | event_42 | expense | 672.37 | linked_to: nan
+2023-11-11 | event_11 | subscription | 235.4 | linked_to: nan
+2023-11-11 | event_68 | expense | 347.86 | linked_to: nan
+2023-11-11 | event_10 | debt_payment | 3487.0 | linked_to: nan
+2023-11-13 | event_12 | subscription | 306.9 | linked_to: nan
+2023-11-17 | event_43 | expense | 803.55 | linked_to: nan
+2023-11-18 | event_69 | expense | 518.04 | linked_to: nan
+2023-11-19 | event_90 | expense | 956.7 | linked_to: nan
+2023-11-24 | event_44 | expense | 644.43 | linked_to: nan
+2023-11-25 | event_70 | expense | 444.56 | linked_to: nan
+2023-12-01 | event_45 | expense | 882.48 | linked_to: nan
+2023-12-02 | event_13 | expense | 5148.0 | linked_to: nan
+2023-12-02 | event_71 | expense | 323.58 | linked_to: nan
+2023-12-03 | event_91 | expense | 1160.42 | linked_to: nan
+2023-12-06 | event_14 | expense | 1541.75 | linked_to: nan
+2023-12-08 | event_46 | expense | 602.87 | linked_to: nan
+2023-12-08 | event_15 | expense | 1821.6 | linked_to: nan
+2023-12-09 | event_72 | expense | 478.16 | linked_to: nan
+2023-12-11 | event_16 | debt_payment | 3487.0 | linked_to: nan
+2023-12-11 | event_17 | subscription | 235.4 | linked_to: nan
+2023-12-13 | event_18 | subscription | 306.9 | linked_to: nan
+2023-12-15 | event_47 | expense | 765.64 | linked_to: nan
+2023-12-16 | event_73 | expense | 534.56 | linked_to: nan
+2023-12-17 | event_92 | expense | 972.88 | linked_to: nan
+2023-12-22 | event_48 | expense | 651.12 | linked_to: nan
+2023-12-23 | event_74 | expense | 411.07 | linked_to: nan
+2023-12-29 | event_49 | expense | 899.04 | linked_to: nan
+2023-12-30 | event_75 | expense | 374.6 | linked_to: nan
+2023-12-31 | event_93 | expense | 914.64 | linked_to: nan
+2024-01-02 | event_19 | expense | 5148.0 | linked_to: nan
+2024-01-05 | event_50 | expense | 961.46 | linked_to: nan
+2024-01-06 | event_20 | expense | 1651.81 | linked_to: nan
+2024-01-06 | event_76 | expense | 358.85 | linked_to: nan
+2024-01-08 | event_21 | expense | 1821.6 | linked_to: nan
+2024-01-11 | event_22 | debt_payment | 3487.0 | linked_to: nan
+2024-01-11 | event_23 | subscription | 235.4 | linked_to: nan
+2024-01-12 | event_51 | expense | 875.35 | linked_to: nan
+2024-01-13 | event_77 | expense | 434.69 | linked_to: nan
+2024-01-13 | event_24 | subscription | 306.9 | linked_to: nan
+2024-01-14 | event_94 | expense | 1017.11 | linked_to: nan
+2024-01-19 | event_52 | expense | 756.39 | linked_to: nan
+2024-01-20 | event_78 | expense | 375.73 | linked_to: nan
+2024-01-25 | event_98 | expense | 583.0 | linked_to: nan
+2024-01-26 | event_53 | expense | 624.94 | linked_to: nan
+2024-01-27 | event_79 | expense | 560.21 | linked_to: nan
+2024-01-28 | event_95 | expense | 1222.49 | linked_to: nan
+2024-01-28 | event_99 | refund | 583.0 | linked_to: event_98
+2024-02-02 | event_26 | expense | 5148.0 | linked_to: nan
+2024-02-02 | event_54 | expense | 719.51 | linked_to: nan
+2024-02-03 | event_80 | expense | 406.54 | linked_to: nan
+2024-02-06 | event_27 | expense | 1386.17 | linked_to: nan
+2024-02-08 | event_28 | expense | 1821.6 | linked_to: nan
+2024-02-09 | event_55 | expense | 755.11 | linked_to: nan
+2024-02-10 | event_81 | expense | 488.36 | linked_to: nan
+2024-02-11 | event_29 | debt_payment | 3487.0 | linked_to: nan
+2024-02-11 | event_96 | expense | 1016.12 | linked_to: nan
+2024-02-11 | event_30 | subscription | 235.4 | linked_to: nan
+2024-02-13 | event_31 | subscription | 306.9 | linked_to: nan
+2024-02-14 | event_100 | expense | 816.2 | linked_to: nan
+2024-02-15 | event_25 | income | 12826.0 | linked_to: nan
+2024-02-16 | event_101 | expense | 816.2 | linked_to: event_100
+2024-02-16 | event_56 | expense | 881.22 | linked_to: nan
+2024-02-17 | event_82 | expense | 424.56 | linked_to: nan
+2024-02-23 | event_57 | expense | 626.01 | linked_to: nan
+2024-02-24 | event_83 | expense | 549.05 | linked_to: nan
+2024-02-25 | event_97 | expense | 1216.17 | linked_to: nan
+2024-03-01 | event_58 | expense | 964.05 | linked_to: nan
+2024-03-02 | event_32 | expense | 5148.0 | linked_to: nan
+2024-03-02 | event_102 | expense | 567.6 | linked_to: nan
+2024-03-02 | event_84 | expense | 339.29 | linked_to: nan
+2024-03-15 | event_103 | income | 23320.0 | linked_to: nan
+
+--- User: user_02 ---
+2025-02-10 | event_145 | expense | 2477697.53 | linked_to: nan
+2025-02-11 | event_163 | expense | 1373039.34 | linked_to: nan
+2025-02-12 | event_176 | expense | 1166644.88 | linked_to: nan
+2025-02-20 | event_146 | expense | 1667911.86 | linked_to: nan
+2025-02-25 | event_164 | expense | 995704.83 | linked_to: nan
+2025-03-02 | event_147 | expense | 1418745.34 | linked_to: nan
+2025-03-04 | event_105 | expense | 3534000.0 | linked_to: nan
+2025-03-05 | event_177 | expense | 1101709.76 | linked_to: nan
+2025-03-07 | event_106 | expense | 2143659.02 | linked_to: nan
+2025-03-08 | event_107 | expense | 1132400.0 | linked_to: nan
+2025-03-09 | event_108 | expense | 3040000.0 | linked_to: nan
+2025-03-11 | event_109 | expense | 1594883.08 | linked_to: nan
+2025-03-11 | event_165 | expense | 1062246.98 | linked_to: nan
+2025-03-12 | event_148 | expense | 1455258.76 | linked_to: nan
+2025-03-13 | event_111 | subscription | 369550.0 | linked_to: nan
+2025-03-15 | event_110 | expense | 1289187.4 | linked_to: nan
+2025-03-15 | event_104 | income | 33345000.0 | linked_to: nan
+2025-03-22 | event_149 | expense | 1920485.7 | linked_to: nan
+2025-03-25 | event_166 | expense | 1053078.61 | linked_to: nan
+2025-03-26 | event_178 | expense | 935929.08 | linked_to: nan
+2025-04-01 | event_150 | expense | 1630631.42 | linked_to: nan
+2025-04-04 | event_113 | expense | 3534000.0 | linked_to: nan
+2025-04-07 | event_114 | expense | 2081730.85 | linked_to: nan
+2025-04-08 | event_167 | expense | 1294200.86 | linked_to: nan
+2025-04-08 | event_115 | expense | 1132400.0 | linked_to: nan
+2025-04-09 | event_116 | expense | 3040000.0 | linked_to: nan
+2025-04-11 | event_151 | expense | 1664708.05 | linked_to: nan
+2025-04-11 | event_117 | expense | 1467514.81 | linked_to: nan
+2025-04-13 | event_119 | subscription | 369550.0 | linked_to: nan
+2025-04-15 | event_118 | expense | 1367779.89 | linked_to: nan
+2025-04-15 | event_112 | income | 33345000.0 | linked_to: nan
+2025-04-16 | event_179 | expense | 1271076.93 | linked_to: nan
+2025-04-21 | event_152 | expense | 1478895.05 | linked_to: nan
+2025-04-22 | event_168 | expense | 1440242.94 | linked_to: nan
+2025-05-01 | event_153 | expense | 2192475.45 | linked_to: nan
+2025-05-04 | event_121 | expense | 3534000.0 | linked_to: nan
+2025-05-06 | event_169 | expense | 1021628.43 | linked_to: nan
+2025-05-07 | event_180 | expense | 971169.92 | linked_to: nan
+2025-05-07 | event_122 | expense | 1830311.06 | linked_to: nan
+2025-05-08 | event_123 | expense | 1132400.0 | linked_to: nan
+2025-05-09 | event_124 | expense | 3040000.0 | linked_to: nan
+2025-05-11 | event_154 | expense | 1852958.27 | linked_to: nan
+2025-05-11 | event_125 | expense | 1452405.16 | linked_to: nan
+2025-05-13 | event_127 | subscription | 369550.0 | linked_to: nan
+2025-05-15 | event_126 | expense | 1287628.28 | linked_to: nan
+2025-05-15 | event_120 | income | 33345000.0 | linked_to: nan
+2025-05-20 | event_170 | expense | 1374936.26 | linked_to: nan
+2025-05-21 | event_155 | expense | 2030400.43 | linked_to: nan
+2025-05-28 | event_181 | expense | 1111388.15 | linked_to: nan
+2025-05-31 | event_156 | expense | 1611886.08 | linked_to: nan
+2025-06-03 | event_171 | expense | 1329347.44 | linked_to: nan
+2025-06-04 | event_129 | expense | 3534000.0 | linked_to: nan
+2025-06-07 | event_130 | expense | 1981601.61 | linked_to: nan
+2025-06-08 | event_131 | expense | 1132400.0 | linked_to: nan
+2025-06-09 | event_132 | expense | 3040000.0 | linked_to: nan
+2025-06-10 | event_157 | expense | 2158165.32 | linked_to: nan
+2025-06-11 | event_133 | expense | 1641668.72 | linked_to: nan
+2025-06-13 | event_135 | subscription | 369550.0 | linked_to: nan
+2025-06-15 | event_134 | expense | 1193699.1 | linked_to: nan
+2025-06-15 | event_128 | income | 33345000.0 | linked_to: nan
+2025-06-17 | event_172 | expense | 1309608.46 | linked_to: nan
+2025-06-18 | event_182 | expense | 947892.35 | linked_to: nan
+2025-06-20 | event_158 | expense | 2222527.88 | linked_to: nan
+2025-06-30 | event_159 | expense | 2079368.25 | linked_to: nan
+2025-07-01 | event_173 | expense | 1111352.32 | linked_to: nan
+2025-07-04 | event_137 | expense | 3534000.0 | linked_to: nan
+2025-07-07 | event_138 | expense | 2141849.94 | linked_to: nan
+2025-07-08 | event_139 | expense | 1132400.0 | linked_to: nan
+2025-07-09 | event_183 | expense | 1043758.65 | linked_to: nan
+2025-07-09 | event_140 | expense | 3040000.0 | linked_to: nan
+2025-07-10 | event_160 | expense | 2218141.61 | linked_to: nan
+2025-07-11 | event_141 | expense | 1538498.1 | linked_to: nan
+2025-07-13 | event_143 | subscription | 369550.0 | linked_to: nan
+2025-07-15 | event_174 | expense | 1327886.54 | linked_to: nan
+2025-07-15 | event_142 | expense | 1352563.79 | linked_to: nan
+2025-07-15 | event_136 | income | 33345000.0 | linked_to: nan
+2025-07-20 | event_161 | expense | 2365919.6 | linked_to: nan
+2025-07-29 | event_175 | expense | 1062310.27 | linked_to: nan
+2025-07-30 | event_184 | expense | 1204805.34 | linked_to: nan
+2025-07-30 | event_162 | expense | 1913686.86 | linked_to: nan
+2025-08-04 | event_144 | expense | 3534000.0 | linked_to: nan
+2025-08-04 | event_185 | expense | 1651100.0 | linked_to: nan
+
+--- User: user_03 ---
+2019-03-09 | event_244 | expense | 117456.78 | linked_to: nan
+2019-03-12 | event_217 | expense | 159576.52 | linked_to: nan
+2019-03-13 | event_235 | expense | 81510.25 | linked_to: nan
+2019-03-22 | event_218 | expense | 234390.87 | linked_to: nan
+2019-03-30 | event_245 | expense | 141412.46 | linked_to: nan
+2019-04-01 | event_219 | expense | 230312.98 | linked_to: nan
+2019-04-03 | event_236 | expense | 116319.21 | linked_to: nan
+2019-04-04 | event_187 | expense | 1140000.0 | linked_to: nan
+2019-04-08 | event_188 | expense | 295330.29 | linked_to: nan
+2019-04-11 | event_220 | expense | 234602.65 | linked_to: nan
+2019-04-11 | event_190 | subscription | 117800.0 | linked_to: nan
+2019-04-14 | event_189 | subscription | 20900.0 | linked_to: nan
+2019-04-14 | event_191 | expense | 151493.37 | linked_to: nan
+2019-04-15 | event_186 | income | 4365000.0 | linked_to: nan
+2019-04-20 | event_246 | expense | 146236.28 | linked_to: nan
+2019-04-21 | event_221 | expense | 209875.85 | linked_to: nan
+2019-04-24 | event_237 | expense | 71790.29 | linked_to: nan
+2019-05-01 | event_222 | expense | 178469.49 | linked_to: nan
+2019-05-04 | event_193 | expense | 1140000.0 | linked_to: nan
+2019-05-08 | event_194 | expense | 290684.15 | linked_to: nan
+2019-05-11 | event_196 | subscription | 117800.0 | linked_to: nan
+2019-05-11 | event_223 | expense | 180577.99 | linked_to: nan
+2019-05-11 | event_247 | expense | 132247.64 | linked_to: nan
+2019-05-14 | event_195 | subscription | 20900.0 | linked_to: nan
+2019-05-14 | event_197 | expense | 184274.02 | linked_to: nan
+2019-05-15 | event_238 | expense | 73531.06 | linked_to: nan
+2019-05-15 | event_192 | income | 4365000.0 | linked_to: nan
+2019-05-21 | event_224 | expense | 155851.46 | linked_to: nan
+2019-05-31 | event_225 | expense | 188355.72 | linked_to: nan
+2019-06-01 | event_248 | expense | 158476.5 | linked_to: nan
+2019-06-04 | event_199 | expense | 1140000.0 | linked_to: nan
+2019-06-05 | event_239 | expense | 106806.88 | linked_to: nan
+2019-06-08 | event_200 | expense | 270537.63 | linked_to: nan
+2019-06-10 | event_226 | expense | 166710.61 | linked_to: nan
+2019-06-11 | event_202 | subscription | 117800.0 | linked_to: nan
+2019-06-14 | event_203 | expense | 153395.26 | linked_to: nan
+2019-06-14 | event_201 | subscription | 20900.0 | linked_to: nan
+2019-06-15 | event_198 | income | 4365000.0 | linked_to: nan
+2019-06-20 | event_227 | expense | 171495.67 | linked_to: nan
+2019-06-22 | event_249 | expense | 175170.67 | linked_to: nan
+2019-06-26 | event_240 | expense | 79693.97 | linked_to: nan
+2019-06-30 | event_228 | expense | 145691.38 | linked_to: nan
+2019-07-04 | event_205 | expense | 1140000.0 | linked_to: nan
+2019-07-08 | event_206 | expense | 303042.45 | linked_to: nan
+2019-07-10 | event_229 | expense | 171259.18 | linked_to: nan
+2019-07-11 | event_208 | subscription | 117800.0 | linked_to: nan
+2019-07-13 | event_250 | expense | 171303.21 | linked_to: nan
+2019-07-14 | event_207 | subscription | 20900.0 | linked_to: nan
+2019-07-14 | event_209 | expense | 173930.81 | linked_to: nan
+2019-07-15 | event_204 | income | 4365000.0 | linked_to: nan
+2019-07-17 | event_241 | expense | 83523.33 | linked_to: nan
+2019-07-20 | event_230 | expense | 173004.74 | linked_to: nan
+2019-07-30 | event_231 | expense | 214266.98 | linked_to: nan
+2019-08-03 | event_251 | expense | 171191.99 | linked_to: nan
+2019-08-04 | event_212 | expense | 1140000.0 | linked_to: nan
+2019-08-07 | event_242 | expense | 99961.13 | linked_to: nan
+2019-08-08 | event_213 | expense | 262344.55 | linked_to: nan
+2019-08-09 | event_232 | expense | 221578.88 | linked_to: nan
+2019-08-11 | event_215 | subscription | 117800.0 | linked_to: nan
+2019-08-14 | event_216 | expense | 180395.29 | linked_to: nan
+2019-08-14 | event_214 | subscription | 20900.0 | linked_to: nan
+2019-08-15 | event_210 | income | 4365000.0 | linked_to: nan
+2019-08-19 | event_233 | expense | 240706.45 | linked_to: nan
+2019-08-20 | event_211 | income | 1964250.0 | linked_to: nan
+2019-08-24 | event_252 | expense | 135718.35 | linked_to: nan
+2019-08-28 | event_243 | expense | 106233.46 | linked_to: nan
+2019-08-29 | event_234 | expense | 200238.72 | linked_to: nan
+2019-08-31 | event_253 | income | nan (BLANK AMOUNT) -> Image: image_01.png | linked_to: nan
+2019-09-02 | event_254 | expense | 95000.0 | linked_to: nan
+
+=== LINKED EVENT CHAINS ===
+Found 58 linked events.
+Child: event_99 (refund) -> Parent: event_98 (expense)
+Child: event_101 (expense) -> Parent: event_100 (expense)
+Child: event_1544 (refund) -> Parent: event_1543 (expense)
+Child: event_1785 (refund) -> Parent: event_1784 (expense)
+Child: event_1856 (investment_valuation) -> Parent: event_1855 (investment_purchase)
+Child: event_1960 (investment_valuation) -> Parent: event_1959 (investment_purchase)
+Child: event_2361 (refund) -> Parent: event_2360 (expense)
+Child: event_2363 (expense) -> Parent: event_2362 (expense)
+Child: event_3230 (refund) -> Parent: event_3229 (expense)
+Child: event_4994 (refund) -> Parent: event_4993 (expense)
+Child: event_5169 (debt_payment) -> Parent: event_5168 (debt_payment)
+Child: event_6290 (expense) -> Parent: event_6289 (expense)
+Child: event_6532 (investment_valuation) -> Parent: event_6531 (investment_purchase)
+Child: event_6858 (refund) -> Parent: event_6857 (expense)
+Child: event_7186 (refund) -> Parent: event_7185 (expense)
+Child: event_7306 (investment_sale) -> Parent: event_7305 (investment_purchase)
+Child: event_8576 (debt_payment) -> Parent: event_8575 (debt_payment)
+Child: event_9805 (investment_valuation) -> Parent: event_9804 (investment_purchase)
+Child: event_10043 (expense) -> Parent: event_10042 (expense)
+Child: event_10802 (refund) -> Parent: event_10801 (expense)
+Child: event_11127 (refund) -> Parent: event_11126 (expense)
+Child: event_11129 (investment_sale) -> Parent: event_11128 (investment_purchase)
+Child: event_12382 (investment_sale) -> Parent: event_12381 (investment_purchase)
+Child: event_12709 (expense) -> Parent: event_12708 (expense)
+Child: event_12809 (debt_payment) -> Parent: event_12808 (debt_payment)
+Child: event_13032 (investment_sale) -> Parent: event_13031 (investment_purchase)
+Child: event_13492 (refund) -> Parent: event_13491 (expense)
+Child: event_13663 (investment_sale) -> Parent: event_13662 (investment_purchase)
+Child: event_13745 (refund) -> Parent: event_13744 (expense)
+Child: event_13747 (expense) -> Parent: event_13746 (expense)
+Child: event_14026 (refund) -> Parent: event_14025 (expense)
+Child: event_14399 (expense) -> Parent: event_14398 (expense)
+Child: event_15327 (refund) -> Parent: event_15326 (expense)
+Child: event_16691 (debt_payment) -> Parent: event_16690 (debt_payment)
+Child: event_17401 (refund) -> Parent: event_17400 (expense)
+Child: event_17579 (expense) -> Parent: event_17578 (expense)
+Child: event_17662 (refund) -> Parent: event_17661 (expense)
+Child: event_18269 (expense) -> Parent: event_18268 (expense)
+Child: event_19182 (investment_valuation) -> Parent: event_19181 (investment_purchase)
+Child: event_19334 (expense) -> Parent: event_19333 (expense)
+Child: event_19753 (refund) -> Parent: event_19752 (expense)
+Child: event_20129 (refund) -> Parent: event_20128 (expense)
+Child: event_20379 (refund) -> Parent: event_20378 (expense)
+Child: event_20615 (refund) -> Parent: event_20614 (expense)
+Child: event_21102 (debt_payment) -> Parent: event_21101 (debt_payment)
+Child: event_21307 (expense) -> Parent: event_21306 (expense)
+Child: event_21309 (investment_valuation) -> Parent: event_21308 (investment_purchase)
+Child: event_21582 (expense) -> Parent: event_21581 (expense)
+Child: event_21785 (investment_valuation) -> Parent: event_21784 (investment_purchase)
+Child: event_22361 (investment_valuation) -> Parent: event_22360 (investment_purchase)
+Child: event_23203 (expense) -> Parent: event_23202 (expense)
+Child: event_23307 (debt_payment) -> Parent: event_23306 (debt_payment)
+Child: event_23856 (debt_payment) -> Parent: event_23855 (debt_payment)
+Child: event_24056 (refund) -> Parent: event_24055 (expense)
+Child: event_24352 (investment_valuation) -> Parent: event_24351 (investment_purchase)
+Child: event_24534 (investment_valuation) -> Parent: event_24533 (investment_purchase)
+Child: event_25074 (expense) -> Parent: event_25073 (expense)
+Child: event_25342 (refund) -> Parent: event_25341 (expense)
+
+=== MESSAGES ===
+Msg ID: message_01 | User: user_02 | Date: 2025-07-29T09:30:00Z
+Content: Rincian penggajian Anda di Cobalt Systems telah berubah. Gaji bulanan Anda naik menjadi IDR 42750000. Perubahan ini berlaku mulai 2025-08-15. Jumlah yang diperbarui akan terlihat pada slip gaji berikutnya. Ref payroll EMP-0001.
+
+Msg ID: message_02 | User: user_03 | Date: 2019-08-31T09:30:00Z
+Content: Tim payroll BrightPath Media telah mengirim pembaruan. Gaji rutin untuk penggajian berikutnya sudah dikonfirmasi. Slip gaji berikutnya akan menampilkan gaji rutin dan penyesuaian satu kali secara terpisah. Ref payroll EMP-0002.
+
+Msg ID: message_03 | User: user_04 | Date: 2024-06-01T09:30:00Z
+Content: Rincian penggajian Anda di Greenfield Foods telah berubah. Bonus kuartalan Anda masih menunggu hasil akhir penilaian kinerja. Jumlah akhir dan tanggal pembayaran belum disetujui. Kami akan mengirim pembaruan setelah tim payroll mengonfirmasi jumlah dan tanggalnya. Ref payroll EMP-0003.
+
+Msg ID: message_04 | User: user_06 | Date: 2025-12-28T09:30:00Z
+Content: Here’s the latest payroll information from Northstar Labs. Your temporary monthly pay is EUR 1037.52. The reduced amount continues for the next payroll. This is the amount currently scheduled for the affected pay cycle. Payroll ref EMP-0004.
+
+Msg ID: message_05 | User: user_07 | Date: 2024-08-29T09:30:00Z
+Content: BrightPath Media has updated your payroll record. Your confirmed salary is now expected on 2024-09-23. This replaces the payroll date shown in the earlier update. Please use the revised date for anything you normally pay around payday. Payroll ref EMP-0005.
+
+Msg ID: message_06 | User: user_08 | Date: 2025-02-06T09:30:00Z
+Content: Hi, Greenfield Foods payroll here. Your next salary is reduced to EUR 1422.85. The adjustment is due to approved unpaid leave. The adjustment will be visible on your next payslip. Payroll ref EMP-0006.
+
+Msg ID: message_07 | User: user_10 | Date: 2024-11-25T09:30:00Z
+Content: Here’s the latest service update from QuickCrew. The next QuickCrew payout is still pending. The weekly earnings shown in the QuickCrew app can change until the payout is closed. The balance isn’t withdrawable until the payout shows as completed. Case ref SER-0007.
+
+Msg ID: message_08 | User: user_11 | Date: 2025-04-22T09:30:00Z
+Content: Berikut informasi penggajian terbaru dari Greenfield Foods. Gaji pokok yang dikonfirmasi adalah IDR 38760000. Komisi dari transaksi yang masih berjalan belum disetujui. Transaksi yang masih berjalan tidak masuk pembayaran sampai komisinya dinyatakan diperoleh. Ref payroll EMP-0008.
+
+Msg ID: message_09 | User: user_12 | Date: 2026-03-25T09:30:00Z
+Content: A note from Cobalt Systems about your upcoming pay. The current seasonal contract has ended. No off-season income or renewal has been confirmed. We’ll contact you separately if another shift block or contract is approved. Payroll ref EMP-0009.
+
+Msg ID: message_10 | User: user_14 | Date: 2025-07-27T09:30:00Z
+Content: Here’s the latest payroll information from HarborWorks. Regular salary of EUR 2717 resumes on 2025-08-15. A new recurring childcare payment begins in the same month. The updated pay and deductions will appear from the next cycle. Payroll ref EMP-0010.
+
+Msg ID: message_11 | User: user_15 | Date: 2026-01-03T09:30:00Z
+Content: A quick update from the payroll team at Riverline Retail. Your first salary will be EUR 1661. The confirmed credit date is 2026-01-15. The money will appear after the bank posts the credit. Payroll ref EMP-0011.
+
+Msg ID: message_12 | User: user_16 | Date: 2023-08-01T09:30:00Z
+Content: StayLedger wanted to let you know about a change on your account. The renewed lease increases monthly rent by 12%. The new amount will be used for the next rent payment. Case ref SER-0012.
+
+Msg ID: message_13 | User: user_18 | Date: 2026-07-01T09:30:00Z
+Content: There’s an update from Summit Bank on your recent account activity. The matching debit and credit came from a transfer between your two accounts. Both accounts are registered under the same account holder. Both entries will remain visible in your transaction history. Txn ref BAN-0013.
+
+Msg ID: message_14 | User: user_20 | Date: 2026-02-06T09:30:00Z
+Content: CartLane has new information about your payment or refund. Your refund has been initiated but has not reached your account yet. We’ll send another update when the credit is completed. Order ref MER-0014.
+
+Msg ID: message_15 | User: user_22 | Date: 2024-12-02T09:30:00Z
+Content: Here’s the latest account information from ClearFund. Your portfolio’s displayed market value has increased substantially. No units have been sold and no cash proceeds have been generated. The displayed value will continue to move with market prices. Account ref FIN-0015.
+
+Msg ID: message_16 | User: user_23 | Date: 2025-04-26T09:30:00Z
+Content: Here’s the latest account information from DrawPay. Your prize claim has been verified and is still in payment processing. The payment has not been credited to your account yet. We’ll confirm again if and when the money is actually credited. Account ref FIN-0016.
+
+Msg ID: message_17 | User: user_24 | Date: 2025-12-29T09:30:00Z
+Content: Here’s the latest account information from PrizeTrack. The prize proceeds have reached your account after withholding. The claim is now closed and there are no further scheduled payments. There won’t be another payment unless a separate prize is confirmed. Account ref FIN-0017.
+
+Msg ID: message_18 | User: user_26 | Date: 2025-07-27T09:30:00Z
+Content: Halo, ini InvoiceFlow. Klien menyetujui pembayaran faktur sebesar IDR 30780000. Penyelesaian diperkirakan pada 2025-08-15; faktur lain yang diajukan masih menunggu persetujuan. Hanya faktur yang sudah dikonfirmasi yang dapat dimasukkan dalam pembayaran berikutnya. Ref kasus SER-0018.
+
+Msg ID: message_19 | User: user_27 | Date: 2026-06-27T09:30:00Z
+Content: Hi, TaskLoop here. The next TaskLoop payout is still pending. The weekly earnings shown in the TaskLoop app can change until the payout is closed. The balance isn’t withdrawable until the payout shows as completed. Case ref SER-0019.
+
+Msg ID: message_20 | User: user_28 | Date: 2024-06-04T09:30:00Z
+Content: A quick update from the payroll team at Cedar Health. Your regular salary for the next payroll is EUR 1452. The same payroll includes a one-time arrears adjustment of EUR 653.40. Your next payslip will show the regular pay and any one-off adjustment separately. Payroll ref EMP-0020.
+
+Msg ID: message_21 | User: user_29 | Date: 2025-10-27T09:30:00Z
+Content: Here’s the latest payroll information from Riverline Retail. The current seasonal contract has ended. No off-season income or renewal has been confirmed. We’ll contact you separately if another shift block or contract is approved. Payroll ref EMP-0021.
+
+Msg ID: message_22 | User: user_32 | Date: 2025-01-24T09:30:00Z
+Content: BrightPath Media has updated your payroll record. Your first salary will be ZAR 54120. The confirmed credit date is 2025-02-15. The money will appear after the bank posts the credit. Payroll ref EMP-0022.
+
+Msg ID: message_23 | User: user_33 | Date: 2026-01-03T09:30:00Z
+Content: Cedar Bank has reviewed the transaction on your account. The matching debit and credit came from a transfer between your two accounts. Both entries will remain visible in your transaction history. Txn ref BAN-0023.
+
+Msg ID: message_24 | User: user_34 | Date: 2024-11-23T09:30:00Z
+Content: Hi, InvoiceLane here. The client approved an invoice payment of INR 196000. Settlement is expected on 2024-12-15; the other submitted invoices are still awaiting approval. Only invoices marked as confirmed should be included in the upcoming payout. Case ref SER-0024.
+
+Msg ID: message_25 | User: user_35 | Date: 2025-10-20T09:30:00Z
+Content: Here’s the latest payment status from Everyday Store. Your refund has been initiated but has not reached your account yet. We’ll send another update when the credit is completed. Order ref MER-0025.
+
+Msg ID: message_26 | User: user_36 | Date: 2026-06-22T09:30:00Z
+Content: Hi, Northstar Labs payroll here. Your monthly salary has increased to USD 2988. The change applies from 2026-07-15. The revised amount will appear on your next payslip. Payroll ref EMP-0026.
+
+Msg ID: message_27 | User: user_37 | Date: 2024-03-01T09:30:00Z
+Content: Cedar Health telah memperbarui catatan penggajian Anda. Gaji rutin Anda untuk penggajian berikutnya adalah IDR 21090000. Penggajian yang sama mencakup penyesuaian tunggakan satu kali sebesar IDR 9490500. Slip gaji berikutnya akan menampilkan gaji rutin dan penyesuaian satu kali secara terpisah. Ref payroll EMP-0027.
+
+Msg ID: message_28 | User: user_38 | Date: 2025-08-06T09:30:00Z
+Content: Hi, Rewards Desk here. The prize proceeds have reached your account after withholding. The claim is now closed and there are no further scheduled payments. There won’t be another payment unless a separate prize is confirmed. Account ref FIN-0028.
+
+Msg ID: message_29 | User: user_40 | Date: 2024-06-03T09:30:00Z
+Content: Your payroll details at BrightPath Media have changed. Your first salary will be EUR 1760. The confirmed credit date is 2024-06-15. The money will appear after the bank posts the credit. Payroll ref EMP-0029.
+
+Msg ID: message_30 | User: user_42 | Date: 2025-12-31T09:30:00Z
+Content: A quick update from the payroll team at Greenfield Foods. One household employment record has ended. The remaining confirmed monthly salary is INR 148000. Any income that has ended should be removed from future estimates. Payroll ref EMP-0030.
+
+Msg ID: message_31 | User: user_43 | Date: 2024-09-05T09:30:00Z
+Content: Ada pembaruan singkat dari tim payroll HarborWorks. Gaji pertama dari perusahaan baru adalah IDR 32870000. Pembayaran sudah dikonfirmasi untuk 2024-09-15. Pemrosesan bank dapat memerlukan waktu seperti biasa setelah gaji dikirim. Ref payroll EMP-0031.
+
+Msg ID: message_32 | User: user_44 | Date: 2025-01-30T09:30:00Z
+Content: A note from Riverline Retail about your upcoming pay. Your first salary will be INR 115000. The confirmed credit date is 2025-02-15. The money will appear after the bank posts the credit. Payroll ref EMP-0032.
+
+Msg ID: message_33 | User: user_45 | Date: 2026-07-01T09:30:00Z
+Content: Ada pembaruan singkat dari tim payroll Northstar Labs. Gaji bulanan Anda naik menjadi IDR 17290000. Perubahan ini berlaku mulai 2026-07-15. Jumlah yang diperbarui akan terlihat pada slip gaji berikutnya. Ref payroll EMP-0033.
+
+Msg ID: message_34 | User: user_47 | Date: 2025-05-04T09:30:00Z
+Content: RideGrid ingin memberi tahu Anda tentang perubahan pada akun. Pembayaran berikutnya dari RideGrid masih tertunda. Penghasilan mingguan di aplikasi RideGrid masih dapat berubah sampai pembayaran diselesaikan. Saldo belum dapat ditarik sampai status pembayaran menunjukkan selesai. Ref kasus SER-0034.
+
+Msg ID: message_35 | User: user_48 | Date: 2026-07-24T09:30:00Z
+Content: Your property maintenance payment was received on 24 July 2026. The receipt has the final INR amount and the original due date. Payment ref SER-0035.
+
+Msg ID: message_36 | User: user_49 | Date: 2024-02-21T09:30:00Z
+Content: Rincian penggajian Anda di Greenfield Foods telah berubah. Gaji bulanan sementara Anda adalah IDR 31464000. Jumlah yang lebih rendah masih berlaku untuk penggajian berikutnya. Inilah jumlah yang saat ini dijadwalkan untuk periode penggajian tersebut. Ref payroll EMP-0036.
+
+Msg ID: message_37 | User: user_50 | Date: 2025-08-05T09:30:00Z
+Content: Greenfield Foods has updated your payroll record. One household employment record has ended. The remaining confirmed monthly salary is INR 126000. Any income that has ended should be removed from future estimates. Payroll ref EMP-0037.
+
+Msg ID: message_38 | User: user_52 | Date: 2024-06-04T09:30:00Z
+Content: HarborWorks has updated your payroll record. Your first salary from the new employer is INR 69000. It is confirmed for 2024-06-15. Bank processing may take the usual time after the payroll is released. Payroll ref EMP-0038.
+
+Msg ID: message_39 | User: user_53 | Date: 2025-10-28T09:30:00Z
+Content: Hi, Everyday Store here with an update on your payment. Your refund has been initiated but has not reached your account yet. Most refunds are completed within ten business days. We’ll send another update when the credit is completed. Order ref MER-0039.
+
+Msg ID: message_40 | User: user_54 | Date: 2026-07-03T09:30:00Z
+Content: Northstar Labs has updated your payroll record. Your monthly salary has increased to ZAR 42460. The change applies from 2026-07-15. The revised amount will appear on your next payslip. Payroll ref EMP-0040.
+
+Msg ID: message_41 | User: user_57 | Date: 2026-03-25T09:30:00Z
+Content: Here’s the latest transaction update from Summit Bank. The matching debit and credit came from a transfer between your two accounts. Both accounts are registered under the same account holder. Both entries will remain visible in your transaction history. Txn ref BAN-0041.
+
+Msg ID: message_42 | User: user_58 | Date: 2024-11-29T09:30:00Z
+Content: Rincian penggajian Anda di Cedar Health telah berubah. Salah satu sumber pendapatan kerja rumah tangga telah berakhir. Sisa gaji bulanan yang dikonfirmasi adalah IDR 25840000. Pendapatan yang sudah berakhir harus dikeluarkan dari perkiraan berikutnya. Ref payroll EMP-0042.
+
+Msg ID: message_43 | User: user_59 | Date: 2025-04-22T09:30:00Z
+Content: A quick update about your WorkDash account. The next WorkDash payout is still pending. The weekly earnings shown in the WorkDash app can change until the payout is closed. The balance isn’t withdrawable until the payout shows as completed. Case ref SER-0043.
+
+Msg ID: message_44 | User: user_60 | Date: 2025-12-26T09:30:00Z
+Content: Here’s the latest payroll information from Northstar Labs. Your next salary is reduced to USD 530.40. The adjustment is due to approved unpaid leave. The adjustment will be visible on your next payslip. Payroll ref EMP-0044.
+
+Msg ID: message_45 | User: user_61 | Date: 2024-02-28T09:30:00Z
+Content: Greenfield Foods has updated your payroll record. The current seasonal contract has ended. No off-season income or renewal has been confirmed. We’ll contact you separately if another shift block or contract is approved. Payroll ref EMP-0045.
+
+Msg ID: message_46 | User: user_62 | Date: 2025-08-04T09:30:00Z
+Content: InvoiceFlow has new information about your next payment. The client approved an invoice payment of USD 2112. Settlement is expected on 2025-08-15; the other submitted invoices are still awaiting approval. Only invoices marked as confirmed should be included in the upcoming payout. Case ref SER-0046.
+
+Msg ID: message_47 | User: user_64 | Date: 2024-05-29T09:30:00Z
+Content: There’s a new payment update from UrbanCart. The foreign-currency refund is still processing. The home-currency credit may change with the settlement-date rate. Order ref MER-0047.
+
+Msg ID: message_48 | User: user_65 | Date: 2025-11-02T09:30:00Z
+Content: Your payroll details at Northstar Labs have changed. Your quarterly bonus is still subject to the final performance review. The final amount and payment date have not been approved yet. We’ll send another update once payroll confirms the amount and date. Payroll ref EMP-0048.
+
+Msg ID: message_49 | User: user_66 | Date: 2026-03-29T09:30:00Z
+Content: PayPilot has new information about your next payment. The client approved an invoice payment of INR 116000. Settlement is expected on 2026-04-15; the other submitted invoices are still awaiting approval. Only invoices marked as confirmed should be included in the upcoming payout. Case ref SER-0049.
+
+Msg ID: message_50 | User: user_68 | Date: 2025-01-31T09:30:00Z
+Content: Riverline Retail has updated your payroll record. Your confirmed salary is now expected on 2025-02-23. This replaces the payroll date shown in the earlier update. Please use the revised date for anything you normally pay around payday. Payroll ref EMP-0050.
+
+Msg ID: message_51 | User: user_69 | Date: 2025-12-30T09:30:00Z
+Content: There’s a new account update from RentNest. The renewed lease increases monthly rent by 12%. The new amount applies from the next rent payment. The new amount will be used for the next rent payment. Case ref SER-0051.
+
+Msg ID: message_52 | User: user_70 | Date: 2024-12-02T09:30:00Z
+Content: A new notice is available for your PocketVest account. Your portfolio’s displayed market value has increased substantially. No units have been sold and no cash proceeds have been generated. The displayed value will continue to move with market prices. Account ref FIN-0052.
+
+Msg ID: message_53 | User: user_71 | Date: 2025-04-23T09:30:00Z
+Content: Greenfield Foods telah memperbarui catatan penggajian Anda. Gaji sebesar USD 696 dikonfirmasi untuk 2025-05-15. Bank penerima akan mengonversinya dengan kurs pada tanggal penyelesaian. Jumlah yang diterima dalam mata uang utama bergantung pada kurs tanggal penyelesaian. Ref payroll EMP-0053.
+
+Msg ID: message_54 | User: user_72 | Date: 2026-06-24T09:30:00Z
+Content: Hi, Cedar Health payroll here. Your first salary will be ZAR 18700. The confirmed credit date is 2026-07-15. The money will appear after the bank posts the credit. Payroll ref EMP-0054.
+
+Msg ID: message_55 | User: user_73 | Date: 2023-01-19T09:30:00Z
+Content: There’s a new account update from RentTrack. The renewed lease increases monthly rent by 12%. The new amount will be used for the next rent payment. Case ref SER-0055.
+
+Msg ID: message_56 | User: user_74 | Date: 2025-07-23T09:30:00Z
+Content: Here’s the latest service update from PayPilot. The client approved an invoice payment of ZAR 26180. Settlement is expected on 2025-08-15; the other submitted invoices are still awaiting approval. Only invoices marked as confirmed should be included in the upcoming payout. Case ref SER-0056.
+
+Msg ID: message_57 | User: user_75 | Date: 2026-04-04T09:30:00Z
+Content: A quick update from the payroll team at Northstar Labs. Your employment has ended. There are no regular salary payments scheduled after the final settlement. Details of any final settlement will be sent separately. Payroll ref EMP-0057.
+
+Msg ID: message_58 | User: user_76 | Date: 2024-05-31T09:30:00Z
+Content: Here’s the latest payroll information from BrightPath Media. Your confirmed base salary is USD 3072. The commission shown for open deals is still pending approval. Open deals will stay out of the payout until the commission is marked as earned. Payroll ref EMP-0058.
+
+Msg ID: message_59 | User: user_77 | Date: 2025-11-04T09:30:00Z
+Content: A quick update from BuyBox about your recent order. Your refund has been initiated but has not reached your account yet. Most refunds are completed within ten business days. We’ll send another update when the credit is completed. Order ref MER-0059.
+
+Msg ID: message_60 | User: user_80 | Date: 2025-01-26T09:30:00Z
+Content: Hi, Northstar Labs payroll here. Your confirmed base salary is INR 158000. The commission shown for open deals is still pending approval. Open deals will stay out of the payout until the commission is marked as earned. Payroll ref EMP-0060.
+
+Msg ID: message_61 | User: user_81 | Date: 2026-06-29T09:30:00Z
+Content: StayLedger wanted to let you know about a change on your account. The renewed lease increases monthly rent by 12%. The new amount applies from the next rent payment. The new amount will be used for the next rent payment. Case ref SER-0061.
+
+Msg ID: message_62 | User: user_82 | Date: 2024-11-26T09:30:00Z
+Content: Hi, Cedar Health payroll here. Your regular salary for the next payroll is USD 1752. The same payroll includes a one-time arrears adjustment of USD 788.40. Your next payslip will show the regular pay and any one-off adjustment separately. Payroll ref EMP-0062.
+
+Msg ID: message_63 | User: user_83 | Date: 2025-04-27T09:30:00Z
+Content: Hi, Cobalt Systems payroll here. Regular salary of INR 62000 resumes on 2025-05-15. A new recurring childcare payment begins in the same month. The updated pay and deductions will appear from the next cycle. Payroll ref EMP-0063.
+
+Msg ID: message_64 | User: user_84 | Date: 2026-04-03T09:30:00Z
+Content: BuyBox confirmed that the tote bag order was paid in INR on 3 April 2026. The receipt has the final amount. Order ref MER-0064.
+
+Msg ID: message_65 | User: user_85 | Date: 2024-02-27T09:30:00Z
+Content: Halo, ini tim payroll BrightPath Media. Gaji bulanan sementara Anda adalah IDR 8618400. Jumlah yang lebih rendah masih berlaku untuk penggajian berikutnya. Inilah jumlah yang saat ini dijadwalkan untuk periode penggajian tersebut. Ref payroll EMP-0065.
+
+Msg ID: message_66 | User: user_87 | Date: 2026-01-01T09:30:00Z
+Content: Hi, HarborWorks payroll here. Regular salary of INR 251000 resumes on 2026-01-15. A new recurring childcare payment begins in the same month. The updated pay and deductions will appear from the next cycle. Payroll ref EMP-0066.
+
+Msg ID: message_67 | User: user_88 | Date: 2024-05-31T09:30:00Z
+Content: A note from QuickPrize about your recent financial activity. Congratulations! You’ve been selected for a cash prize. Pay the release charge today to receive the funds immediately. Pay the processing charge now to avoid losing the claim. Account ref FIN-0067.
+
+Msg ID: message_68 | User: user_90 | Date: 2026-06-28T09:30:00Z
+Content: Hi, ClientDesk here. The client approved an invoice payment of ZAR 13420. Settlement is expected on 2026-07-15; the other submitted invoices are still awaiting approval. Only invoices marked as confirmed should be included in the upcoming payout. Case ref SER-0068.
+
+Msg ID: message_69 | User: user_91 | Date: 2024-08-26T09:30:00Z
+Content: Cedar Bank has new information about one of your transactions. The previous debit attempt failed. The bill is still outstanding and another debit will be attempted. The bill is still open and another debit may be attempted. Txn ref BAN-0069.
+
+Msg ID: message_70 | User: user_92 | Date: 2025-01-29T09:30:00Z
+Content: A quick update from the payroll team at Cobalt Systems. Your confirmed base salary is ZAR 49280. The commission shown for open deals is still pending approval. Open deals will stay out of the payout until the commission is marked as earned. Payroll ref EMP-0070.
+
+Msg ID: message_71 | User: user_93 | Date: 2026-03-30T09:30:00Z
+Content: A note from WinPoint about your recent financial activity. Your prize claim has been verified and is still in payment processing. The payment has not been credited to your account yet. We’ll confirm again if and when the money is actually credited. Account ref FIN-0071.
+
+Msg ID: message_72 | User: user_94 | Date: 2024-11-28T09:30:00Z
+Content: Hi, ProjectPay here. The client approved an invoice payment of EUR 924. Settlement is expected on 2024-12-15; the other submitted invoices are still awaiting approval. Only invoices marked as confirmed should be included in the upcoming payout. Case ref SER-0072.
+
+Msg ID: message_73 | User: user_95 | Date: 2025-04-30T09:30:00Z
+Content: Cobalt Systems payroll has posted a new update. Your confirmed salary is now expected on 2025-05-23. This replaces the payroll date shown in the earlier update. Please use the revised date for anything you normally pay around payday. Payroll ref EMP-0073.
+
+Msg ID: message_74 | User: user_98 | Date: 2025-08-06T09:30:00Z
+Content: Greenfield Foods payroll has posted a new update. Your salary of EUR 1804 is confirmed for 2025-08-15. The receiving bank will convert it using the rate applied on the settlement date. The amount received in your home currency will depend on the settlement-date conversion. Payroll ref EMP-0074.
+
+Msg ID: message_75 | User: user_101 | Date: 2025-10-23T09:30:00Z
+Content: A note from ClaimDesk about your recent financial activity. The prize proceeds have reached your account after withholding. There won’t be another payment unless a separate prize is confirmed. Account ref FIN-0075.
+
+Msg ID: message_76 | User: user_102 | Date: 2026-03-27T09:30:00Z
+Content: There’s a new account update from WorkPort. The client approved an invoice payment of EUR 1419. Settlement is expected on 2026-04-15; the other submitted invoices are still awaiting approval. Only invoices marked as confirmed should be included in the upcoming payout. Case ref SER-0076.
+
+Msg ID: message_77 | User: user_103 | Date: 2024-09-05T09:30:00Z
+Content: Cobalt Systems has updated your payroll record. Your temporary monthly pay is INR 164880. The reduced amount continues for the next payroll. This is the amount currently scheduled for the affected pay cycle. Payroll ref EMP-0077.
+
+Msg ID: message_78 | User: user_104 | Date: 2025-01-28T09:30:00Z
+Content: Greenfield Foods has updated your payroll record. Your confirmed base salary is ZAR 35860. The commission shown for open deals is still pending approval. Open deals will stay out of the payout until the commission is marked as earned. Payroll ref EMP-0078.
+
+Msg ID: message_79 | User: user_105 | Date: 2026-05-27T09:30:00Z
+Content: Hi, Nova Securities here. Your portfolio’s displayed market value has increased substantially. The displayed value will continue to move with market prices. Account ref FIN-0079.
+
+Msg ID: message_80 | User: user_106 | Date: 2024-11-24T09:30:00Z
+Content: A quick update from the payroll team at HarborWorks. Your first salary from the new employer is EUR 1815. It is confirmed for 2024-12-15. Bank processing may take the usual time after the payroll is released. Payroll ref EMP-0080.
+
+Msg ID: message_81 | User: user_107 | Date: 2025-05-01T09:30:00Z
+Content: Greenfield Foods payroll has posted a new update. Your first salary of EUR 2123 is scheduled for 2025-05-15. Payroll has approved the payment and sent it for processing. The credit will show only after the bank processes the payroll file. Payroll ref EMP-0081.
+
+Msg ID: message_82 | User: user_108 | Date: 2026-06-28T09:30:00Z
+Content: Your payroll details at Riverline Retail have changed. Your confirmed base salary is ZAR 33440. The commission shown for open deals is still pending approval. Open deals will stay out of the payout until the commission is marked as earned. Payroll ref EMP-0082.
+
+Msg ID: message_83 | User: user_110 | Date: 2025-08-05T09:30:00Z
+Content: WorkPort wanted to let you know about a change on your account. The client approved an invoice payment of ZAR 16720. Settlement is expected on 2025-08-15; the other submitted invoices are still awaiting approval. Only invoices marked as confirmed should be included in the upcoming payout. Case ref SER-0083.
+
+Msg ID: message_84 | User: user_111 | Date: 2026-04-01T09:30:00Z
+Content: Ada informasi baru dari HarborWorks tentang gaji Anda. Hubungan kerja Anda telah berakhir. Tidak ada pembayaran gaji rutin yang dijadwalkan setelah penyelesaian akhir. Rincian penyelesaian akhir akan dikirim secara terpisah. Ref payroll EMP-0084.
+
+Msg ID: message_85 | User: user_112 | Date: 2024-06-02T09:30:00Z
+Content: A note from BrightPath Media about your upcoming pay. Your first salary will be EUR 627. The confirmed credit date is 2024-06-15. The money will appear after the bank posts the credit. Payroll ref EMP-0085.
+
+Msg ID: message_86 | User: user_113 | Date: 2026-09-03T01:00:00Z
+Content: MoneyHub account update: Your wallet was charged for the session at Charge Point 1110 in Krishnagiri on 3 September 2026 at 12:35 a.m. The receipt contains the final INR amount. Your employer has confirmed a USD 1296 salary credit for 15 September 2026. The salary will use the exchange rate when it settles. Account ref FIN-0086.
+
+Msg ID: message_87 | User: user_114 | Date: 2025-12-30T09:30:00Z
+Content: Riverline Retail payroll has posted a new update. Your next salary is reduced to INR 148200. The adjustment is due to approved unpaid leave. The adjustment will be visible on your next payslip. Payroll ref EMP-0087.
+
+Msg ID: message_88 | User: user_115 | Date: 2024-08-31T09:30:00Z
+Content: There’s a new account update from RewardLane. The prize proceeds have reached your account after withholding. The claim is now closed and there are no further scheduled payments. There won’t be another payment unless a separate prize is confirmed. Account ref FIN-0088.
+
+Msg ID: message_89 | User: user_117 | Date: 2026-06-23T09:30:00Z
+Content: Northstar Labs has updated your payroll record. Your monthly salary has increased to EUR 1188. The change applies from 2026-07-15. The revised amount will appear on your next payslip. Payroll ref EMP-0089.
+
+Msg ID: message_90 | User: user_118 | Date: 2024-11-28T09:30:00Z
+Content: A note from Cedar Health about your upcoming pay. Your regular salary for the next payroll is EUR 759. The same payroll includes a one-time arrears adjustment of EUR 341.55. Your next payslip will show the regular pay and any one-off adjustment separately. Payroll ref EMP-0090.
+
+Msg ID: message_91 | User: user_119 | Date: 2025-04-27T09:30:00Z
+Content: A note from Cobalt Systems about your upcoming pay. Regular salary of INR 176000 resumes on 2025-05-15. A new recurring childcare payment begins in the same month. The updated pay and deductions will appear from the next cycle. Payroll ref EMP-0091.
+
+Msg ID: message_92 | User: user_120 | Date: 2026-03-26T09:30:00Z
+Content: Halo, ini Arbor Invest. Hasil penjualan investasi Anda sudah masuk ke rekening tunai. Perintah penjualan sudah selesai dan tidak ada hasil penjualan yang masih tertunda. Riwayat transaksi menunjukkan jumlah yang benar-benar masuk ke rekening tunai. Ref akun FIN-0092.
+
+Msg ID: message_93 | User: user_122 | Date: 2025-07-24T09:30:00Z
+Content: Ada pembaruan singkat untuk akun ProjectPay Anda. Klien menyetujui pembayaran faktur sebesar IDR 15390000. Penyelesaian diperkirakan pada 2025-08-15; faktur lain yang diajukan masih menunggu persetujuan. Hanya faktur yang sudah dikonfirmasi yang dapat dimasukkan dalam pembayaran berikutnya. Ref kasus SER-0093.
+
+Msg ID: message_94 | User: user_123 | Date: 2026-01-06T09:30:00Z
+Content: Ada pembaruan singkat untuk akun TaskSprint Anda. Pembayaran berikutnya dari TaskSprint masih tertunda. Penghasilan mingguan di aplikasi TaskSprint masih dapat berubah sampai pembayaran diselesaikan. Saldo belum dapat ditarik sampai status pembayaran menunjukkan selesai. Ref kasus SER-0094.
+
+Msg ID: message_95 | User: user_125 | Date: 2025-10-26T09:30:00Z
+Content: A quick update from the payroll team at Greenfield Foods. Your salary of EUR 748 is confirmed for 2025-11-15. The receiving bank will convert it using the rate applied on the settlement date. The amount received in your home currency will depend on the settlement-date conversion. Payroll ref EMP-0095.
+
+Msg ID: message_96 | User: user_126 | Date: 2026-06-28T09:30:00Z
+Content: ClientDesk has new information about your next payment. The client approved an invoice payment of INR 152000. Settlement is expected on 2026-07-15; the other submitted invoices are still awaiting approval. Only invoices marked as confirmed should be included in the upcoming payout. Case ref SER-0096.
+
+Msg ID: message_97 | User: user_127 | Date: 2024-08-29T09:30:00Z
+Content: Cedar Health payroll has posted a new update. Regular salary of ZAR 50160 resumes on 2024-09-15. A new recurring childcare payment begins in the same month. The updated pay and deductions will appear from the next cycle. Payroll ref EMP-0097.
+
+Msg ID: message_98 | User: user_128 | Date: 2025-01-26T09:30:00Z
+Content: Your payroll details at Riverline Retail have changed. Your quarterly bonus is still subject to the final performance review. The final amount and payment date have not been approved yet. We’ll send another update once payroll confirms the amount and date. Payroll ref EMP-0098.
+
+Msg ID: message_99 | User: user_129 | Date: 2026-03-29T09:30:00Z
+Content: A new notice is available for your WinPoint account. The prize proceeds have reached your account after withholding. The claim is now closed and there are no further scheduled payments. There won’t be another payment unless a separate prize is confirmed. Account ref FIN-0099.
+
+Msg ID: message_100 | User: user_130 | Date: 2024-11-26T09:30:00Z
+Content: BrightPath Media payroll has posted a new update. Your temporary monthly pay is USD 2177.28. The reduced amount continues for the next payroll. This is the amount currently scheduled for the affected pay cycle. Payroll ref EMP-0100.
+
+Msg ID: message_101 | User: user_131 | Date: 2025-04-23T09:30:00Z
+Content: Cobalt Systems has updated your payroll record. Your confirmed salary is now expected on 2025-05-23. This replaces the payroll date shown in the earlier update. Please use the revised date for anything you normally pay around payday. Payroll ref EMP-0101.
+
+Msg ID: message_102 | User: user_132 | Date: 2025-12-24T09:30:00Z
+Content: Hi, Cedar Health payroll here. Your next salary is reduced to USD 1193.40. The adjustment is due to approved unpaid leave. The adjustment will be visible on your next payslip. Payroll ref EMP-0102.
+
+Msg ID: message_103 | User: user_133 | Date: 2024-03-06T09:30:00Z
+Content: Rincian penggajian Anda di HarborWorks telah berubah. Kontrak musiman saat ini telah berakhir. Belum ada pendapatan di luar musim atau perpanjangan kontrak yang dikonfirmasi. Kami akan menghubungi Anda jika jadwal kerja atau kontrak berikutnya disetujui. Ref payroll EMP-0103.
+
+Msg ID: message_104 | User: user_135 | Date: 2026-06-25T09:30:00Z
+Content: A note from Riverline Retail about your upcoming pay. Your monthly salary has increased to USD 828. The change applies from 2026-07-15. The revised amount will appear on your next payslip. Payroll ref EMP-0104.
+
+Msg ID: message_105 | User: user_137 | Date: 2025-10-29T09:30:00Z
+Content: There’s a new account update from HomePortal. The renewed lease increases monthly rent by 12%. The new amount applies from the next rent payment. The new amount will be used for the next rent payment. Case ref SER-0105.
+
+Msg ID: message_106 | User: user_138 | Date: 2026-04-05T09:30:00Z
+Content: Here’s the latest transaction update from Summit Bank. The extra card charge is still being investigated. A reversal has not been posted to the account yet. The dispute is open and no reversal has been posted yet. Txn ref BAN-0106.
+
+Msg ID: message_107 | User: user_140 | Date: 2025-01-30T09:30:00Z
+Content: Hi, HarborWorks payroll here. Your first salary will be ZAR 31900. The confirmed credit date is 2025-02-15. The money will appear after the bank posts the credit. Payroll ref EMP-0107.
+
+Msg ID: message_108 | User: user_141 | Date: 2025-12-29T09:30:00Z
+Content: ClearFund has updated the latest account activity. The proceeds from your investment sale have settled in the cash account. The sale order is complete and there are no remaining proceeds pending. The transaction history shows the amount that actually reached the cash account. Account ref FIN-0108.
+
+Msg ID: message_109 | User: user_142 | Date: 2024-12-04T09:30:00Z
+Content: A note from InvoiceFlow about recent activity on your account. The client approved an invoice payment of USD 2040. Settlement is expected on 2024-12-15; the other submitted invoices are still awaiting approval. Only invoices marked as confirmed should be included in the upcoming payout. Case ref SER-0109.
+
+Msg ID: message_110 | User: user_143 | Date: 2025-05-04T09:30:00Z
+Content: ClaimDesk has shared an update about your funds. The prize proceeds have reached your account after withholding. The claim is now closed and there are no further scheduled payments. There won’t be another payment unless a separate prize is confirmed. Account ref FIN-0110.
+
+Msg ID: message_111 | User: user_144 | Date: 2026-06-22T09:30:00Z
+Content: A quick update from the payroll team at Cobalt Systems. Your first salary will be USD 864. The confirmed credit date is 2026-07-15. The money will appear after the bank posts the credit. Payroll ref EMP-0111.
+
+Msg ID: message_112 | User: user_145 | Date: 2024-02-29T09:30:00Z
+Content: Hi, Cobalt Systems payroll here. Your regular salary for the next payroll is INR 258000. The same payroll includes a one-time arrears adjustment of INR 116100. Your next payslip will show the regular pay and any one-off adjustment separately. Payroll ref EMP-0112.
+
+Msg ID: message_113 | User: user_147 | Date: 2026-04-03T09:30:00Z
+Content: Hi, Greenfield Foods payroll here. Regular salary of EUR 1529 resumes on 2026-04-15. A new recurring childcare payment begins in the same month. The updated pay and deductions will appear from the next cycle. Payroll ref EMP-0113.
+
+Msg ID: message_114 | User: user_148 | Date: 2024-06-03T09:30:00Z
+Content: A new notice is available for your StackWealth account. The proceeds from your investment sale have settled in the cash account. The sale order is complete and there are no remaining proceeds pending. The transaction history shows the amount that actually reached the cash account. Account ref FIN-0114.
+
+Msg ID: message_115 | User: user_150 | Date: 2026-01-01T09:30:00Z
+Content: Riverline Retail has updated your payroll record. Your next salary is reduced to EUR 893.75. The adjustment is due to approved unpaid leave. The adjustment will be visible on your next payslip. Payroll ref EMP-0115.
+
+Msg ID: message_116 | User: user_151 | Date: 2024-08-30T09:30:00Z
+Content: Halo, ini tim payroll Northstar Labs. Gaji pertama dari perusahaan baru adalah IDR 46170000. Pembayaran sudah dikonfirmasi untuk 2024-09-15. Pemrosesan bank dapat memerlukan waktu seperti biasa setelah gaji dikirim. Ref payroll EMP-0116.
+
+Msg ID: message_117 | User: user_152 | Date: 2025-02-01T09:30:00Z
+Content: Your payroll details at Greenfield Foods have changed. The latest employer credit is the reimbursement for your earlier work expense. The claim is now closed and no additional reimbursement is scheduled. This payment is linked to an earlier work expense, not your regular salary. Payroll ref EMP-0117.
+
+Msg ID: message_118 | User: user_153 | Date: 2026-07-01T09:30:00Z
+Content: Hi, ShopNest here with an update on your payment. The bill was charged in a foreign currency. Your bank will confirm the final home-currency amount when the transaction settles. The final home-currency amount will use the rate applied when it settles. Order ref MER-0118.
+
+Msg ID: message_119 | User: user_154 | Date: 2024-11-25T09:30:00Z
+Content: Hi, Cedar Health payroll here. One household employment record has ended. The remaining confirmed monthly salary is EUR 1628. Any income that has ended should be removed from future estimates. Payroll ref EMP-0119.
+
+Msg ID: message_120 | User: user_155 | Date: 2025-04-28T09:30:00Z
+Content: A quick update from the payroll team at Greenfield Foods. Regular salary of INR 84000 resumes on 2025-05-15. A new recurring childcare payment begins in the same month. The updated pay and deductions will appear from the next cycle. Payroll ref EMP-0120.
+
+Msg ID: message_121 | User: user_156 | Date: 2026-04-01T09:30:00Z
+Content: Hi, Northfield Bank here. The extra card charge is still being investigated. A reversal has not been posted to the account yet. The dispute is open and no reversal has been posted yet. Txn ref BAN-0121.
+
+Msg ID: message_122 | User: user_157 | Date: 2024-02-29T09:30:00Z
+Content: Ada pembaruan singkat dari tim payroll HarborWorks. Gaji bulanan sementara Anda adalah IDR 23940000. Jumlah yang lebih rendah masih berlaku untuk penggajian berikutnya. Inilah jumlah yang saat ini dijadwalkan untuk periode penggajian tersebut. Ref payroll EMP-0122.
+
+Msg ID: message_123 | User: user_159 | Date: 2025-12-25T09:30:00Z
+Content: There’s a new account update from ShiftPay. The next ShiftPay payout is still pending. The weekly earnings shown in the ShiftPay app can change until the payout is closed. The balance isn’t withdrawable until the payout shows as completed. Case ref SER-0123.
+
+Msg ID: message_124 | User: user_160 | Date: 2024-06-01T09:30:00Z
+Content: A quick update from the payroll team at Riverline Retail. Your first salary from the new employer is EUR 1672. It is confirmed for 2024-06-15. Bank processing may take the usual time after the payroll is released. Payroll ref EMP-0124.
+
+Msg ID: message_125 | User: user_161 | Date: 2025-10-24T09:30:00Z
+Content: Ada informasi baru dari HarborWorks tentang gaji Anda. Gaji pertama Anda sebesar IDR 26790000 dijadwalkan pada 2025-11-15. Tim payroll sudah menyetujui pembayaran dan mengirimkannya untuk diproses. Dana baru akan terlihat setelah bank memproses berkas penggajian. Ref payroll EMP-0125.
+
+Msg ID: message_126 | User: user_162 | Date: 2026-07-04T09:30:00Z
+Content: Halo, ini tim payroll Cedar Health. Gaji bulanan Anda naik menjadi IDR 29070000. Perubahan ini berlaku mulai 2026-07-15. Jumlah yang diperbarui akan terlihat pada slip gaji berikutnya. Ref payroll EMP-0126.
+
+Msg ID: message_127 | User: user_163 | Date: 2024-09-02T09:30:00Z
+Content: Greenfield Foods telah memperbarui catatan penggajian Anda. Gaji rutin Anda untuk penggajian berikutnya adalah IDR 30400000. Penggajian yang sama mencakup penyesuaian tunggakan satu kali sebesar IDR 13680000. Slip gaji berikutnya akan menampilkan gaji rutin dan penyesuaian satu kali secara terpisah. Ref payroll EMP-0127.
+
+Msg ID: message_128 | User: user_164 | Date: 2025-02-01T09:30:00Z
+Content: BrightPath Media telah memperbarui catatan penggajian Anda. Gaji pokok yang dikonfirmasi adalah IDR 44270000. Komisi dari transaksi yang masih berjalan belum disetujui. Transaksi yang masih berjalan tidak masuk pembayaran sampai komisinya dinyatakan diperoleh. Ref payroll EMP-0128.
+
+Msg ID: message_129 | User: user_165 | Date: 2026-04-03T09:30:00Z
+Content: A note from Cedar Health about your upcoming pay. Your employment has ended. There are no regular salary payments scheduled after the final settlement. Details of any final settlement will be sent separately. Payroll ref EMP-0129.
+
+Msg ID: message_130 | User: user_166 | Date: 2024-12-02T09:30:00Z
+Content: InvoiceFlow wanted to let you know about a change on your account. The client approved an invoice payment of USD 2340. Settlement is expected on 2024-12-15; the other submitted invoices are still awaiting approval. Only invoices marked as confirmed should be included in the upcoming payout. Case ref SER-0130.
+
+Msg ID: message_131 | User: user_167 | Date: 2025-04-30T09:30:00Z
+Content: Here’s the latest payroll information from BrightPath Media. Your confirmed salary is now expected on 2025-05-23. This replaces the payroll date shown in the earlier update. Please use the revised date for anything you normally pay around payday. Payroll ref EMP-0131.
+
+Msg ID: message_132 | User: user_168 | Date: 2026-01-04T09:30:00Z
+Content: A note from Greenfield Foods about your upcoming pay. Your next salary is reduced to INR 137150. The adjustment is due to approved unpaid leave. The adjustment will be visible on your next payslip. Payroll ref EMP-0132.
+
+Msg ID: message_133 | User: user_169 | Date: 2024-02-26T09:30:00Z
+Content: Hi, CartLane here with an update on your payment. The foreign-currency refund is still processing. The final home-currency credit will be calculated when the refund settles. The home-currency credit may change with the settlement-date rate. Order ref MER-0133.
+
+Msg ID: message_134 | User: user_170 | Date: 2025-08-02T09:30:00Z
+Content: Ada pembaruan baru untuk akun WinPoint Anda. Klaim hadiah Anda sudah diverifikasi dan masih dalam proses pembayaran. Pembayaran tersebut belum masuk ke rekening Anda. Kami akan mengonfirmasi kembali jika dana benar-benar masuk. Ref akun FIN-0134.
+
+Msg ID: message_135 | User: user_171 | Date: 2026-07-01T09:30:00Z
+Content: Cedar Bank has new information about one of your transactions. The matching debit and credit came from a transfer between your two accounts. Both accounts are registered under the same account holder. Both entries will remain visible in your transaction history. Txn ref BAN-0135.
+
+Msg ID: message_136 | User: user_172 | Date: 2024-05-28T09:30:00Z
+Content: Hi, Summit Bank here. There are minimum payments due on two separate card accounts this month. A payment to one card will not cover the amount due on the other card. The minimums belong to separate accounts, so one payment won’t clear the other. Txn ref BAN-0136.
+
+Msg ID: message_137 | User: user_173 | Date: 2025-11-03T09:30:00Z
+Content: Hi, Greenfield Foods payroll here. Your salary of USD 1284 is confirmed for 2025-11-15. The receiving bank will convert it using the rate applied on the settlement date. The amount received in your home currency will depend on the settlement-date conversion. Payroll ref EMP-0137.
+
+Msg ID: message_138 | User: user_175 | Date: 2024-09-01T09:30:00Z
+Content: A note from Riverline Retail about your upcoming pay. Your temporary monthly pay is EUR 1924.56. The reduced amount continues for the next payroll. This is the amount currently scheduled for the affected pay cycle. Payroll ref EMP-0138.
+
+Msg ID: message_139 | User: user_176 | Date: 2025-01-31T09:30:00Z
+Content: A note from Cedar Health about your upcoming pay. Your confirmed base salary is EUR 847. The commission shown for open deals is still pending approval. Open deals will stay out of the payout until the commission is marked as earned. Payroll ref EMP-0139.
+
+Msg ID: message_140 | User: user_177 | Date: 2025-12-24T09:30:00Z
+Content: BrightPath Media payroll has posted a new update. Your next salary is reduced to USD 1731.60. The adjustment is due to approved unpaid leave. The adjustment will be visible on your next payslip. Payroll ref EMP-0140.
+
+Msg ID: message_141 | User: user_178 | Date: 2024-12-04T09:30:00Z
+Content: A quick update about your FreelanceHub account. The client approved an invoice payment of EUR 2376. Settlement is expected on 2024-12-15; the other submitted invoices are still awaiting approval. Only invoices marked as confirmed should be included in the upcoming payout. Case ref SER-0141.
+
+Msg ID: message_142 | User: user_179 | Date: 2025-04-30T09:30:00Z
+Content: Pemberitahuan baru tersedia untuk akun RewardNow Anda. Selamat! Anda terpilih untuk menerima hadiah uang tunai. Bayar biaya pencairan hari ini agar dana segera diterima. Bayar biaya pemrosesan sekarang agar klaim tidak hangus. Ref akun FIN-0142.
+
+Msg ID: message_143 | User: user_180 | Date: 2026-06-29T09:30:00Z
+Content: Here’s the latest payroll information from Northstar Labs. Your first salary will be INR 59000. The confirmed credit date is 2026-07-15. The money will appear after the bank posts the credit. Payroll ref EMP-0143.
+
+Msg ID: message_144 | User: user_182 | Date: 2025-08-04T09:30:00Z
+Content: BrightPath Media has updated your payroll record. Your quarterly bonus is still subject to the final performance review. The final amount and payment date have not been approved yet. We’ll send another update once payroll confirms the amount and date. Payroll ref EMP-0144.
+
+Msg ID: message_145 | User: user_183 | Date: 2026-04-03T09:30:00Z
+Content: CartLane memiliki informasi baru tentang pembayaran atau pengembalian dana Anda. Tagihan dikenakan dalam mata uang asing. Bank Anda akan mengonfirmasi jumlah akhir dalam mata uang utama saat transaksi selesai. Jumlah akhir dalam mata uang utama menggunakan kurs saat transaksi selesai. Ref pesanan MER-0145.
+
+Msg ID: message_146 | User: user_184 | Date: 2024-06-01T09:30:00Z
+Content: There’s a new payment update from BrightBasket. The foreign-currency refund is still processing. The final home-currency credit will be calculated when the refund settles. The home-currency credit may change with the settlement-date rate. Order ref MER-0146.
+
+Msg ID: message_147 | User: user_185 | Date: 2025-10-30T09:30:00Z
+Content: Hi, HomePortal here. The renewed lease increases monthly rent by 12%. The new amount applies from the next rent payment. The new amount will be used for the next rent payment. Case ref SER-0147.
+
+Msg ID: message_148 | User: user_186 | Date: 2025-12-29T09:30:00Z
+Content: Here’s the latest payroll information from HarborWorks. Your next salary is reduced to ZAR 31889. The adjustment is due to approved unpaid leave. The adjustment will be visible on your next payslip. Payroll ref EMP-0148.
+
+Msg ID: message_149 | User: user_187 | Date: 2024-08-30T09:30:00Z
+Content: A note from BrightPath Media about your upcoming pay. Your first salary from the new employer is INR 145000. It is confirmed for 2024-09-15. Bank processing may take the usual time after the payroll is released. Payroll ref EMP-0149.
+
+Msg ID: message_150 | User: user_188 | Date: 2025-01-30T09:30:00Z
+Content: A quick update from the payroll team at Cedar Health. The latest employer credit is the reimbursement for your earlier work expense. The claim is now closed and no additional reimbursement is scheduled. This payment is linked to an earlier work expense, not your regular salary. Payroll ref EMP-0150.
+
+Msg ID: message_151 | User: user_189 | Date: 2026-07-02T09:30:00Z
+Content: Your payroll details at HarborWorks have changed. Your monthly salary has increased to EUR 627. The change applies from 2026-07-15. The revised amount will appear on your next payslip. Payroll ref EMP-0151.
+
+Msg ID: message_152 | User: user_191 | Date: 2025-04-23T09:30:00Z
+Content: UrbanCart has received an update from the payment processor. Your refund has been initiated but has not reached your account yet. Most refunds are completed within ten business days. We’ll send another update when the credit is completed. Order ref MER-0152.
+
+Msg ID: message_153 | User: user_193 | Date: 2024-03-05T09:30:00Z
+Content: Here’s the latest payroll information from Cedar Health. Your temporary monthly pay is EUR 1750.32. The reduced amount continues for the next payroll. This is the amount currently scheduled for the affected pay cycle. Payroll ref EMP-0153.
+
+Msg ID: message_154 | User: user_194 | Date: 2025-07-27T09:30:00Z
+Content: Your payroll details at Northstar Labs have changed. Your confirmed salary is now expected on 2025-08-23. This replaces the payroll date shown in the earlier update. Please use the revised date for anything you normally pay around payday. Payroll ref EMP-0154.
+
+Msg ID: message_155 | User: user_195 | Date: 2026-01-04T09:30:00Z
+Content: Hi, HarborWorks payroll here. Your next salary is reduced to EUR 1222.65. The adjustment is due to approved unpaid leave. The adjustment will be visible on your next payslip. Payroll ref EMP-0155.
+
+Msg ID: message_156 | User: user_197 | Date: 2025-10-25T09:30:00Z
+Content: Cedar Health telah memperbarui catatan penggajian Anda. Gaji pertama Anda sebesar IDR 38190000 dijadwalkan pada 2025-11-15. Tim payroll sudah menyetujui pembayaran dan mengirimkannya untuk diproses. Dana baru akan terlihat setelah bank memproses berkas penggajian. Ref payroll EMP-0156.
+
+Msg ID: message_157 | User: user_198 | Date: 2026-06-28T09:30:00Z
+Content: Here’s the latest transaction update from BluePeak Bank. The extra card charge is still being investigated. A reversal has not been posted to the account yet. The dispute is open and no reversal has been posted yet. Txn ref BAN-0157.
+
+Msg ID: message_158 | User: user_199 | Date: 2024-08-24T09:30:00Z
+Content: Ada pemberitahuan dari ShiftPay tentang aktivitas akun terbaru. Pembayaran berikutnya dari ShiftPay masih tertunda. Penghasilan mingguan di aplikasi ShiftPay masih dapat berubah sampai pembayaran diselesaikan. Saldo belum dapat ditarik sampai status pembayaran menunjukkan selesai. Ref kasus SER-0158.
+
+Msg ID: message_159 | User: user_200 | Date: 2025-02-01T09:30:00Z
+Content: Ada informasi baru dari HarborWorks tentang gaji Anda. Bonus kuartalan Anda masih menunggu hasil akhir penilaian kinerja. Jumlah akhir dan tanggal pembayaran belum disetujui. Kami akan mengirim pembaruan setelah tim payroll mengonfirmasi jumlah dan tanggalnya. Ref payroll EMP-0159.
+
+Msg ID: message_160 | User: user_201 | Date: 2026-03-26T09:30:00Z
+Content: Tim payroll Northstar Labs telah mengirim pembaruan. Kontrak musiman saat ini telah berakhir. Belum ada pendapatan di luar musim atau perpanjangan kontrak yang dikonfirmasi. Kami akan menghubungi Anda jika jadwal kerja atau kontrak berikutnya disetujui. Ref payroll EMP-0160.
+
+Msg ID: message_161 | User: user_202 | Date: 2024-11-26T09:30:00Z
+Content: Harbor Bank has new information about one of your transactions. There are minimum payments due on two separate card accounts this month. A payment to one card will not cover the amount due on the other card. The minimums belong to separate accounts, so one payment won’t clear the other. Txn ref BAN-0161.
+
+Msg ID: message_162 | User: user_204 | Date: 2025-12-24T09:30:00Z
+Content: A quick update from the payroll team at BrightPath Media. Your first salary will be EUR 2024. The confirmed credit date is 2026-01-15. The money will appear after the bank posts the credit. Payroll ref EMP-0162.
+
+Msg ID: message_163 | User: user_208 | Date: 2024-06-01T09:30:00Z
+Content: Berikut informasi akun terbaru dari Nova Securities. Nilai investasi yang ditampilkan telah turun. Investasi tersebut belum dijual dan tidak ada transaksi tunai. Nilai yang ditampilkan akan terus berubah mengikuti harga pasar. Ref akun FIN-0163.
+
+Msg ID: message_164 | User: user_210 | Date: 2026-04-01T09:30:00Z
+Content: A note from BluePeak Bank about recent activity on your account. The extra card charge is still being investigated. A reversal has not been posted to the account yet. The dispute is open and no reversal has been posted yet. Txn ref BAN-0164.
+
+Msg ID: message_165 | User: user_212 | Date: 2025-02-04T09:30:00Z
+Content: Ada informasi baru dari Greenfield Foods tentang gaji Anda. Gaji yang sudah dikonfirmasi kini diperkirakan masuk pada 2025-02-23. Tanggal ini menggantikan tanggal penggajian pada pemberitahuan sebelumnya. Gunakan tanggal terbaru ini untuk pembayaran yang biasanya dilakukan saat gajian. Ref payroll EMP-0165.
+
+Msg ID: message_166 | User: user_213 | Date: 2025-12-30T09:30:00Z
+Content: HarborWorks payroll has posted a new update. The current seasonal contract has ended. No off-season income or renewal has been confirmed. We’ll contact you separately if another shift block or contract is approved. Payroll ref EMP-0166.
+
+Msg ID: message_167 | User: user_214 | Date: 2024-11-25T09:30:00Z
+Content: BrightBasket has new information about your payment or refund. The foreign-currency refund is still processing. The final home-currency credit will be calculated when the refund settles. The home-currency credit may change with the settlement-date rate. Order ref MER-0167.
+
+Msg ID: message_168 | User: user_215 | Date: 2025-05-05T09:30:00Z
+Content: Hi, QuickCrew here. The next QuickCrew payout is still pending. The weekly earnings shown in the QuickCrew app can change until the payout is closed. The balance isn’t withdrawable until the payout shows as completed. Case ref SER-0168.
+
+Msg ID: message_169 | User: user_216 | Date: 2026-06-28T09:30:00Z
+Content: Here’s the latest payroll information from Cobalt Systems. Your monthly salary has increased to USD 2424. The change applies from 2026-07-15. The revised amount will appear on your next payslip. Payroll ref EMP-0169.
+
+Msg ID: message_170 | User: user_219 | Date: 2026-04-01T09:30:00Z
+Content: A quick update from the payroll team at BrightPath Media. Regular salary of EUR 1914 resumes on 2026-04-15. A new recurring childcare payment begins in the same month. The updated pay and deductions will appear from the next cycle. Payroll ref EMP-0170.
+
+Msg ID: message_171 | User: user_220 | Date: 2024-06-04T09:30:00Z
+Content: A quick update from the payroll team at HarborWorks. Your temporary monthly pay is EUR 1346.40. The reduced amount continues for the next payroll. This is the amount currently scheduled for the affected pay cycle. Payroll ref EMP-0171.
+
+Msg ID: message_172 | User: user_221 | Date: 2025-10-29T09:30:00Z
+Content: Here’s the latest payment status from Everyday Store. Your refund has been initiated but has not reached your account yet. Most refunds are completed within ten business days. We’ll send another update when the credit is completed. Order ref MER-0172.
+
+Msg ID: message_173 | User: user_222 | Date: 2025-12-27T09:30:00Z
+Content: There’s a new account update from ClientDesk. The client approved an invoice payment of ZAR 35200. Settlement is expected on 2026-01-15; the other submitted invoices are still awaiting approval. Only invoices marked as confirmed should be included in the upcoming payout. Case ref SER-0173.
+
+Msg ID: message_174 | User: user_224 | Date: 2025-01-23T09:30:00Z
+Content: Ada informasi baru dari BrightPath Media tentang gaji Anda. Dana terbaru dari perusahaan adalah penggantian atas biaya kerja Anda sebelumnya. Klaim sudah ditutup dan tidak ada penggantian tambahan yang dijadwalkan. Pembayaran ini terkait biaya kerja sebelumnya, bukan gaji rutin Anda. Ref payroll EMP-0174.
+
+Msg ID: message_175 | User: user_225 | Date: 2026-06-28T09:30:00Z
+Content: HomePortal memiliki informasi baru tentang pembayaran berikutnya. Perpanjangan sewa menaikkan biaya sewa bulanan sebesar 12%. Jumlah baru berlaku mulai pembayaran sewa berikutnya. Jumlah baru akan digunakan untuk pembayaran sewa berikutnya. Ref kasus SER-0175.
+
+Msg ID: message_176 | User: user_226 | Date: 2024-11-25T09:30:00Z
+Content: Greenfield Foods has updated your payroll record. Your regular salary for the next payroll is INR 260000. The same payroll includes a one-time arrears adjustment of INR 117000. Your next payslip will show the regular pay and any one-off adjustment separately. Payroll ref EMP-0176.
+
+Msg ID: message_177 | User: user_227 | Date: 2025-04-25T09:30:00Z
+Content: Hi, Cobalt Systems payroll here. Your quarterly bonus is still subject to the final performance review. The final amount and payment date have not been approved yet. We’ll send another update once payroll confirms the amount and date. Payroll ref EMP-0177.
+
+Msg ID: message_178 | User: user_228 | Date: 2026-04-04T09:30:00Z
+Content: Ada informasi baru dari Northstar Labs tentang gaji Anda. Gaji pertama Anda sebesar IDR 30400000. Tanggal kredit yang dikonfirmasi adalah 2026-04-15. Dana akan terlihat setelah bank mencatat kreditnya. Ref payroll EMP-0178.
+
+Msg ID: message_179 | User: user_229 | Date: 2024-02-25T09:30:00Z
+Content: A note from Northfield Bank about recent activity on your account. The previous debit attempt failed. The bill is still outstanding and another debit will be attempted. The bill is still open and another debit may be attempted. Txn ref BAN-0179.
+
+Msg ID: message_180 | User: user_230 | Date: 2025-08-05T09:30:00Z
+Content: Northstar Labs has updated your payroll record. One household employment record has ended. The remaining confirmed monthly salary is EUR 2827. Any income that has ended should be removed from future estimates. Payroll ref EMP-0180.
+
+Msg ID: message_181 | User: user_232 | Date: 2024-05-26T09:30:00Z
+Content: A note from Cobalt Systems about your upcoming pay. Your first salary will be EUR 2772. The confirmed credit date is 2024-06-15. The money will appear after the bank posts the credit. Payroll ref EMP-0181.
+
+Msg ID: message_182 | User: user_233 | Date: 2025-11-03T09:30:00Z
+Content: Berikut informasi penggajian terbaru dari Northstar Labs. Gaji pertama Anda sebesar IDR 16910000 dijadwalkan pada 2025-11-15. Tim payroll sudah menyetujui pembayaran dan mengirimkannya untuk diproses. Dana baru akan terlihat setelah bank memproses berkas penggajian. Ref payroll EMP-0182.
+
+Msg ID: message_183 | User: user_234 | Date: 2026-06-27T09:30:00Z
+Content: Summit Bank has reviewed the transaction on your account. The extra card charge is still being investigated. A reversal has not been posted to the account yet. The dispute is open and no reversal has been posted yet. Txn ref BAN-0183.
+
+Msg ID: message_184 | User: user_235 | Date: 2024-08-30T09:30:00Z
+Content: Hi, MarketDock here with an update on your payment. The foreign-currency refund is still processing. The final home-currency credit will be calculated when the refund settles. The home-currency credit may change with the settlement-date rate. Order ref MER-0184.
+
+Msg ID: message_185 | User: user_236 | Date: 2025-01-27T09:30:00Z
+Content: Ada pembaruan baru untuk akun PocketVest Anda. Nilai investasi yang ditampilkan telah turun. Investasi tersebut belum dijual dan tidak ada transaksi tunai. Nilai yang ditampilkan akan terus berubah mengikuti harga pasar. Ref akun FIN-0185.
+
+Msg ID: message_186 | User: user_237 | Date: 2026-03-26T09:30:00Z
+Content: Ada pembaruan singkat dari tim payroll BrightPath Media. Kontrak musiman saat ini telah berakhir. Belum ada pendapatan di luar musim atau perpanjangan kontrak yang dikonfirmasi. Kami akan menghubungi Anda jika jadwal kerja atau kontrak berikutnya disetujui. Ref payroll EMP-0186.
+
+Msg ID: message_187 | User: user_238 | Date: 2024-11-26T09:30:00Z
+Content: Your payroll details at Northstar Labs have changed. One household employment record has ended. The remaining confirmed monthly salary is USD 912. Any income that has ended should be removed from future estimates. Payroll ref EMP-0187.
+
+Msg ID: message_188 | User: user_240 | Date: 2025-12-26T09:30:00Z
+Content: Cobalt Systems payroll has posted a new update. Your first salary will be INR 62000. The confirmed credit date is 2026-01-15. The money will appear after the bank posts the credit. Payroll ref EMP-0188.
+
+Msg ID: message_189 | User: user_241 | Date: 2024-02-29T09:30:00Z
+Content: Riverline Retail telah memperbarui catatan penggajian Anda. Kontrak musiman saat ini telah berakhir. Belum ada pendapatan di luar musim atau perpanjangan kontrak yang dikonfirmasi. Kami akan menghubungi Anda jika jadwal kerja atau kontrak berikutnya disetujui. Ref payroll EMP-0189.
+
+Msg ID: message_190 | User: user_242 | Date: 2025-08-01T09:30:00Z
+Content: Hi, Riverline Retail payroll here. Your first salary of EUR 968 is scheduled for 2025-08-15. Payroll has approved the payment and sent it for processing. The credit will show only after the bank processes the payroll file. Payroll ref EMP-0190.
+
+Msg ID: message_191 | User: user_245 | Date: 2025-10-28T09:30:00Z
+Content: A quick update from the payroll team at Cedar Health. Your salary of USD 1680 is confirmed for 2025-11-15. The receiving bank will convert it using the rate applied on the settlement date. The amount received in your home currency will depend on the settlement-date conversion. Payroll ref EMP-0191.
+
+Msg ID: message_192 | User: user_246 | Date: 2026-03-24T09:30:00Z
+Content: Here’s the latest payroll information from Cedar Health. Your employment has ended. There are no regular salary payments scheduled after the final settlement. Details of any final settlement will be sent separately. Payroll ref EMP-0192.
+
+Msg ID: message_193 | User: user_247 | Date: 2024-08-30T09:30:00Z
+Content: Northstar Labs payroll has posted a new update. Your temporary monthly pay is EUR 1528.56. The reduced amount continues for the next payroll. This is the amount currently scheduled for the affected pay cycle. Payroll ref EMP-0193.
+
+Msg ID: message_194 | User: user_248 | Date: 2025-02-02T09:30:00Z
+Content: Riverline Retail payroll has posted a new update. Your confirmed base salary is USD 1548. The commission shown for open deals is still pending approval. Open deals will stay out of the payout until the commission is marked as earned. Payroll ref EMP-0194.
+
+Msg ID: message_195 | User: user_249 | Date: 2025-12-27T09:30:00Z
+Content: Here’s the latest payroll information from Greenfield Foods. Your next salary is reduced to USD 702. The adjustment is due to approved unpaid leave. The adjustment will be visible on your next payslip. Payroll ref EMP-0195.
+
+Msg ID: message_196 | User: user_250 | Date: 2024-12-01T09:30:00Z
+Content: A note from Cobalt Systems about your upcoming pay. Your first salary from the new employer is ZAR 53680. It is confirmed for 2024-12-15. Bank processing may take the usual time after the payroll is released. Payroll ref EMP-0196.
+
+Msg ID: message_197 | User: user_252 | Date: 2026-06-24T09:30:00Z
+Content: Summit Bank memiliki informasi baru tentang salah satu transaksi Anda. Tagihan kartu tambahan masih dalam penyelidikan. Dana pembalikannya belum tercatat di rekening. Sengketa masih terbuka dan dana pembalikan belum tercatat. Ref transaksi BAN-0197.
+
+Msg ID: message_198 | User: user_253 | Date: 2024-03-06T09:30:00Z
+Content: Oakline Bank has reviewed the transaction on your account. The previous debit attempt failed. The bill is still outstanding and another debit will be attempted. The bill is still open and another debit may be attempted. Txn ref BAN-0198.
+
+Msg ID: message_199 | User: user_254 | Date: 2025-07-29T09:30:00Z
+Content: Your payroll details at Greenfield Foods have changed. Your quarterly bonus is still subject to the final performance review. The final amount and payment date have not been approved yet. We’ll send another update once payroll confirms the amount and date. Payroll ref EMP-0199.
+
+Msg ID: message_200 | User: user_256 | Date: 2024-06-01T09:30:00Z
+Content: Hi, Riverline Retail payroll here. Your first salary will be INR 214000. The confirmed credit date is 2024-06-15. The money will appear after the bank posts the credit. Payroll ref EMP-0200.
+
+Msg ID: message_201 | User: user_259 | Date: 2024-08-29T09:30:00Z
+Content: BluePeak Bank has reviewed the transaction on your account. The previous debit attempt failed. The bill is still outstanding and another debit will be attempted. The bill is still open and another debit may be attempted. Txn ref BAN-0201.
+
+Msg ID: message_202 | User: user_261 | Date: 2026-06-25T09:30:00Z
+Content: Hi, Summit Bank here. The matching debit and credit came from a transfer between your two accounts. Both accounts are registered under the same account holder. Both entries will remain visible in your transaction history. Txn ref BAN-0202.
+
+Msg ID: message_203 | User: user_262 | Date: 2024-11-23T09:30:00Z
+Content: Tim payroll Cedar Health telah mengirim pembaruan. Salah satu sumber pendapatan kerja rumah tangga telah berakhir. Sisa gaji bulanan yang dikonfirmasi adalah IDR 48260000. Pendapatan yang sudah berakhir harus dikeluarkan dari perkiraan berikutnya. Ref payroll EMP-0203.
+
+Msg ID: message_204 | User: user_263 | Date: 2025-04-28T09:30:00Z
+Content: Your payroll details at Riverline Retail have changed. Your salary of EUR 1485 is confirmed for 2025-05-15. The receiving bank will convert it using the rate applied on the settlement date. The amount received in your home currency will depend on the settlement-date conversion. Payroll ref EMP-0204.
+
+Msg ID: message_205 | User: user_264 | Date: 2026-04-01T09:30:00Z
+Content: Nova Securities has shared an update about your funds. The displayed value of the investment has fallen. The holding has not been sold and there has been no cash transaction. The displayed value will continue to move with market prices. Account ref FIN-0205.
+
+Msg ID: message_206 | User: user_265 | Date: 2024-02-28T09:30:00Z
+Content: A note from Greenfield Foods about your upcoming pay. The current seasonal contract has ended. No off-season income or renewal has been confirmed. We’ll contact you separately if another shift block or contract is approved. Payroll ref EMP-0206.
+
+Msg ID: message_207 | User: user_266 | Date: 2025-07-28T09:30:00Z
+Content: Northstar Funds has shared an update about your funds. Your portfolio’s displayed market value has increased substantially. No units have been sold and no cash proceeds have been generated. The displayed value will continue to move with market prices. Account ref FIN-0207.
+
+Msg ID: message_208 | User: user_267 | Date: 2026-01-03T09:30:00Z
+Content: A note from CartLane about your recent purchase. The bill was charged in a foreign currency. Your bank will confirm the final home-currency amount when the transaction settles. The final home-currency amount will use the rate applied when it settles. Order ref MER-0208.
+
+Msg ID: message_209 | User: user_268 | Date: 2024-06-04T09:30:00Z
+Content: Here’s the latest account information from PrizeLine. Your prize claim has been verified and is still in payment processing. The payment has not been credited to your account yet. We’ll confirm again if and when the money is actually credited. Account ref FIN-0209.
+
+Msg ID: message_210 | User: user_269 | Date: 2025-10-31T09:30:00Z
+Content: Your payroll details at Northstar Labs have changed. Your first salary of ZAR 38280 is scheduled for 2025-11-15. Payroll has approved the payment and sent it for processing. The credit will show only after the bank processes the payroll file. Payroll ref EMP-0210.
+
+Msg ID: message_211 | User: user_271 | Date: 2024-08-26T09:30:00Z
+Content: Hi, Greenfield Foods payroll here. Your regular salary for the next payroll is INR 103000. The same payroll includes a one-time arrears adjustment of INR 46350. Your next payslip will show the regular pay and any one-off adjustment separately. Payroll ref EMP-0211.
+
+Msg ID: message_212 | User: user_272 | Date: 2025-02-02T09:30:00Z
+Content: Tim payroll Cobalt Systems telah mengirim pembaruan. Bonus kuartalan Anda masih menunggu hasil akhir penilaian kinerja. Jumlah akhir dan tanggal pembayaran belum disetujui. Kami akan mengirim pembaruan setelah tim payroll mengonfirmasi jumlah dan tanggalnya. Ref payroll EMP-0212.
+
+Msg ID: message_213 | User: user_273 | Date: 2026-03-30T09:30:00Z
+Content: Harbor Bank telah meninjau transaksi pada rekening Anda. Debit dan kredit dengan jumlah yang sama berasal dari transfer antara dua rekening Anda. Kedua rekening terdaftar atas nama pemilik yang sama. Kedua transaksi akan tetap terlihat dalam riwayat rekening Anda. Ref transaksi BAN-0213.
+
+Msg ID: message_214 | User: user_274 | Date: 2024-11-24T09:30:00Z
+Content: Everyday Store has new information about your payment or refund. The foreign-currency refund is still processing. The final home-currency credit will be calculated when the refund settles. The home-currency credit may change with the settlement-date rate. Order ref MER-0214.
+
+Msg ID: message_215 | User: user_275 | Date: 2025-04-24T09:30:00Z
+Content: UrbanCart memiliki informasi baru tentang pembayaran atau pengembalian dana Anda. Pengembalian dana sudah diproses, tetapi belum masuk ke rekening Anda. Sebagian besar pengembalian dana selesai dalam sepuluh hari kerja. Kami akan mengirim pembaruan saat kredit sudah selesai. Ref pesanan MER-0215.
+
+
+=== SAMPLE REQUESTS ===
+{'request_id': 'request_01', 'user_id': 'user_01', 'request_date': '2024-03-03', 'request_type': 'purchase', 'requested_amount': 25256.0, 'desired_completion_date': '2024-03-20', 'allows_partial_payment': True, 'request_text': "Would paying for the laptop today leave enough for my regular expenses? The laptop I'm looking at is ZAR 25,256.", 'amount_safe_to_pay': 25256.0, 'affordability_status': 'affordable_now', 'recommended_payment_method': 'full_payment', 'payment_plan': '2024-03-03:25256', 'earliest_date_for_full_payment': '2024-03-03', 'spending_changes_needed': 'none', 'decision_explanation': 'Pay ZAR 25,256 today. This leaves at least ZAR 18,000 available over the next 90 days.'}
+{'request_id': 'request_02', 'user_id': 'user_02', 'request_date': '2025-08-05', 'request_type': 'travel', 'requested_amount': 46018000.0, 'desired_completion_date': '2025-10-10', 'allows_partial_payment': False, 'request_text': 'The current quote for the trip is IDR 46,018,000. I need to complete it by 10 October 2025. Can I afford the full trip without putting upcoming bills at risk?', 'amount_safe_to_pay': 17229139.2, 'affordability_status': 'affordable_with_plan', 'recommended_payment_method': 'installments', 'payment_plan': '2025-08-08:15952906.67|2025-09-07:15952906.67|2025-10-07:15952906.67', 'earliest_date_for_full_payment': '2025-09-15', 'spending_changes_needed': 'none', 'decision_explanation': 'Use 3 installments of IDR 15,952,906.67, starting 8 August 2025. This leaves at least IDR 29,158,400 available.'}
+{'request_id': 'request_03', 'user_id': 'user_03', 'request_date': '2019-09-03', 'request_type': 'education', 'requested_amount': 5491000.0, 'desired_completion_date': '2019-11-15', 'allows_partial_payment': False, 'request_text': 'Should I pay for the course now, use installments, or wait? I need to decide by 15 November 2019. The course I want to take is IDR 5,491,000.', 'amount_safe_to_pay': 873000.0, 'affordability_status': 'affordable_later', 'recommended_payment_method': 'wait', 'payment_plan': '2019-11-15:5491000', 'earliest_date_for_full_payment': '2019-11-15', 'spending_changes_needed': 'none', 'decision_explanation': 'Pay IDR 5,491,000 in full on 15 November 2019. Paying earlier would take the balance below the IDR 2,668,700 minimum.'}
+{'request_id': 'request_04', 'user_id': 'user_04', 'request_date': '2024-06-04', 'request_type': 'family_transfer', 'requested_amount': 12693000.0, 'desired_completion_date': '2024-06-19', 'allows_partial_payment': True, 'request_text': 'The amount I want to send is IDR 12,693,000. Would sending the money now leave enough for my upcoming expenses?', 'amount_safe_to_pay': 8401800.0, 'affordability_status': 'affordable_later', 'recommended_payment_method': 'wait', 'payment_plan': '2024-06-15:12693000', 'earliest_date_for_full_payment': '2024-06-15', 'spending_changes_needed': 'none', 'decision_explanation': 'Wait until 15 June 2024, then pay IDR 12,693,000 in full. Paying sooner would put the IDR 30,686,600 minimum at risk.'}
+{'request_id': 'request_05', 'user_id': 'user_05', 'request_date': '2025-11-06', 'request_type': 'debt_repayment', 'requested_amount': 15488.0, 'desired_completion_date': '2026-01-12', 'allows_partial_payment': False, 'request_text': "Can I clear this additional amount without putting upcoming bills at risk? The extra repayment I'm considering is ZAR 15,488.", 'amount_safe_to_pay': 737.0, 'affordability_status': 'not_affordable', 'recommended_payment_method': 'not_recommended', 'payment_plan': 'none', 'earliest_date_for_full_payment': nan, 'spending_changes_needed': 'none', 'decision_explanation': 'Do not make this payment by 12 January 2026. None of the available options keeps the ZAR 13,100 minimum protected.'}
+{'request_id': 'request_06', 'user_id': 'user_06', 'request_date': '2026-01-03', 'request_type': 'investment', 'requested_amount': 620.4, 'desired_completion_date': '2026-01-14', 'allows_partial_payment': False, 'request_text': 'I want to put EUR 620.40 into an investment. I need to complete it by 14 January 2026. Is it safer to invest now, invest a smaller amount, or wait?', 'amount_safe_to_pay': 603.3, 'affordability_status': 'affordable_with_plan', 'recommended_payment_method': 'full_payment', 'payment_plan': '2026-01-03:620.40', 'earliest_date_for_full_payment': '2026-01-15', 'spending_changes_needed': 'stop:event_476', 'decision_explanation': 'Stop the family streaming plan, then pay EUR 620.40 today. This leaves at least EUR 800 available.'}
+{'request_id': 'request_07', 'user_id': 'user_07', 'request_date': '2024-09-05', 'request_type': 'housing', 'requested_amount': 197400.0, 'desired_completion_date': '2024-11-14', 'allows_partial_payment': True, 'request_text': 'How much of the rental deposit can I safely pay today? I need to decide by 14 November 2024. The rental deposit is INR 197,400.', 'amount_safe_to_pay': 87170.56, 'affordability_status': 'affordable_with_plan', 'recommended_payment_method': 'installments', 'payment_plan': '2024-09-12:68432|2024-10-10:68432|2024-11-07:68432', 'earliest_date_for_full_payment': '2024-10-23', 'spending_changes_needed': 'none', 'decision_explanation': 'Use 3 installments of INR 68,432, starting 12 September 2024. This leaves at least INR 93,000 available.'}
+{'request_id': 'request_08', 'user_id': 'user_08', 'request_date': '2025-02-07', 'request_type': 'emergency_expense', 'requested_amount': 996.6, 'desired_completion_date': '2025-04-15', 'allows_partial_payment': False, 'request_text': 'The repair I need is priced at EUR 996.60. Can I cover the full repair now and still manage my essential expenses?', 'amount_safe_to_pay': 284.57, 'affordability_status': 'affordable_later', 'recommended_payment_method': 'wait', 'payment_plan': '2025-04-15:996.60', 'earliest_date_for_full_payment': '2025-04-15', 'spending_changes_needed': 'none', 'decision_explanation': 'Pay EUR 996.60 in full on 15 April 2025. Paying earlier would take the balance below the EUR 800 minimum.'}
+{'request_id': 'request_09', 'user_id': 'user_09', 'request_date': '2026-07-04', 'request_type': 'other', 'requested_amount': 166.61, 'desired_completion_date': '2026-07-23', 'allows_partial_payment': True, 'request_text': 'Is the full membership fee affordable today, or should I wait? The annual membership costs EUR 166.61.', 'amount_safe_to_pay': 166.61, 'affordability_status': 'affordable_now', 'recommended_payment_method': 'full_payment', 'payment_plan': '2026-07-04:166.61', 'earliest_date_for_full_payment': '2026-07-04', 'spending_changes_needed': 'none', 'decision_explanation': 'Pay EUR 166.61 today. This keeps the EUR 600 minimum available over the next 90 days.'}
+{'request_id': 'request_10', 'user_id': 'user_10', 'request_date': '2024-12-06', 'request_type': 'purchase', 'requested_amount': 266700.0, 'desired_completion_date': '2025-02-10', 'allows_partial_payment': True, 'request_text': 'The price of the laptop is INR 266,700. I need to complete it by 10 February 2025. How much of the laptop price can I safely cover today?', 'amount_safe_to_pay': 12700.0, 'affordability_status': 'not_affordable', 'recommended_payment_method': 'not_recommended', 'payment_plan': 'none', 'earliest_date_for_full_payment': nan, 'spending_changes_needed': 'none', 'decision_explanation': 'Do not make this payment by 10 February 2025. None of the available options keeps the INR 225,400 minimum protected.'}
+{'request_id': 'request_11', 'user_id': 'user_11', 'request_date': '2025-05-03', 'request_type': 'travel', 'requested_amount': 13110000.0, 'desired_completion_date': '2025-06-12', 'allows_partial_payment': False, 'request_text': "Does paying for the trip now leave enough for the rest of the month? I need to decide by 12 June 2025. I'm planning a family trip that costs IDR 13,110,000.", 'amount_safe_to_pay': 12510645.0, 'affordability_status': 'affordable_with_plan', 'recommended_payment_method': 'full_payment', 'payment_plan': '2025-05-03:13110000', 'earliest_date_for_full_payment': '2025-07-15', 'spending_changes_needed': 'reduce_to:event_989:665950', 'decision_explanation': 'Reduce the weekend food delivery to IDR 665,950, then pay IDR 13,110,000 today. This leaves at least IDR 34,140,600 available.'}
+{'request_id': 'request_12', 'user_id': 'user_12', 'request_date': '2026-04-05', 'request_type': 'education', 'requested_amount': 65164.0, 'desired_completion_date': '2026-06-20', 'allows_partial_payment': False, 'request_text': 'The professional course costs ZAR 65,164. Can I pay for the course before enrolment closes?', 'amount_safe_to_pay': 65164.0, 'affordability_status': 'affordable_with_plan', 'recommended_payment_method': 'installments', 'payment_plan': '2026-04-19:22590.19|2026-05-20:22590.19|2026-06-20:22590.19', 'earliest_date_for_full_payment': '2026-04-05', 'spending_changes_needed': 'none', 'decision_explanation': 'Use 3 installments of ZAR 22,590.19, starting 19 April 2026. This leaves at least ZAR 43,200 available.'}
+{'request_id': 'request_13', 'user_id': 'user_13', 'request_date': '2024-03-07', 'request_type': 'family_transfer', 'requested_amount': 941.6, 'desired_completion_date': '2024-05-15', 'allows_partial_payment': True, 'request_text': 'Can I complete this family transfer and still keep my minimum balance? I want to send EUR 941.60 to my family.', 'amount_safe_to_pay': 433.4, 'affordability_status': 'affordable_later', 'recommended_payment_method': 'wait', 'payment_plan': '2024-05-15:941.60', 'earliest_date_for_full_payment': '2024-05-15', 'spending_changes_needed': 'none', 'decision_explanation': 'Pay EUR 941.60 in full on 15 May 2024. Paying earlier would take the balance below the EUR 1,300 minimum.'}
+{'request_id': 'request_14', 'user_id': 'user_14', 'request_date': '2025-08-04', 'request_type': 'debt_repayment', 'requested_amount': 5414.2, 'desired_completion_date': '2025-10-04', 'allows_partial_payment': True, 'request_text': "I'm planning an extra loan payment of EUR 5,414.20. I need to complete it by 4 October 2025. Would paying this much toward the loan leave enough for the rest of the month?", 'amount_safe_to_pay': 597.74, 'affordability_status': 'not_affordable', 'recommended_payment_method': 'not_recommended', 'payment_plan': 'none', 'earliest_date_for_full_payment': nan, 'spending_changes_needed': 'none', 'decision_explanation': 'Do not proceed with the EUR 5,414.20 request. Although EUR 597.74 is available today, the full amount cannot be completed safely within 90 days.'}
+{'request_id': 'request_15', 'user_id': 'user_15', 'request_date': '2026-01-06', 'request_type': 'investment', 'requested_amount': 3685.0, 'desired_completion_date': '2026-02-01', 'allows_partial_payment': False, 'request_text': 'How much can I invest now without affecting essential payments? I need to decide by 1 February 2026. I have an opportunity to invest EUR 3,685.', 'amount_safe_to_pay': 83.05, 'affordability_status': 'not_affordable', 'recommended_payment_method': 'not_recommended', 'payment_plan': 'none', 'earliest_date_for_full_payment': nan, 'spending_changes_needed': 'none', 'decision_explanation': 'Do not make this payment by 1 February 2026. None of the available options keeps the EUR 1,200 minimum protected.'}
+{'request_id': 'request_16', 'user_id': 'user_16', 'request_date': '2023-08-12', 'request_type': 'housing', 'requested_amount': 122500.0, 'desired_completion_date': '2023-10-11', 'allows_partial_payment': True, 'request_text': 'The landlord has asked for a deposit of INR 122,500. Can I pay the rental deposit by the requested date?', 'amount_safe_to_pay': 122500.0, 'affordability_status': 'affordable_now', 'recommended_payment_method': 'full_payment', 'payment_plan': '2023-08-12:122500', 'earliest_date_for_full_payment': '2023-08-12', 'spending_changes_needed': 'none', 'decision_explanation': 'Pay INR 122,500 today. This leaves at least INR 122,400 available over the next 90 days.'}
+{'request_id': 'request_17', 'user_id': 'user_17', 'request_date': '2026-03-01', 'request_type': 'emergency_expense', 'requested_amount': 274600.0, 'desired_completion_date': '2026-05-04', 'allows_partial_payment': False, 'request_text': 'What is the most I can put toward this repair right now? The latest estimate for the repair is INR 274,600.', 'amount_safe_to_pay': 243849.58, 'affordability_status': 'affordable_with_plan', 'recommended_payment_method': 'installments', 'payment_plan': '2026-03-01:95194.67|2026-03-31:95194.67|2026-04-30:95194.67', 'earliest_date_for_full_payment': '2026-03-15', 'spending_changes_needed': 'none', 'decision_explanation': 'Use 3 installments of INR 95,194.67, starting 1 March 2026. This leaves at least INR 166,100 available.'}
+{'request_id': 'request_18', 'user_id': 'user_18', 'request_date': '2026-07-07', 'request_type': 'other', 'requested_amount': 3246.1, 'desired_completion_date': '2026-09-15', 'allows_partial_payment': False, 'request_text': 'The annual plan comes to EUR 3,246.10. I need to complete it by 15 September 2026. Can I take the membership and still keep my minimum balance intact?', 'amount_safe_to_pay': 462.0, 'affordability_status': 'affordable_later', 'recommended_payment_method': 'wait', 'payment_plan': '2026-09-15:3246.10', 'earliest_date_for_full_payment': '2026-09-15', 'spending_changes_needed': 'none', 'decision_explanation': 'Pay EUR 3,246.10 in full on 15 September 2026. Paying earlier would take the balance below the EUR 1,400 minimum.'}
+{'request_id': 'request_19', 'user_id': 'user_19', 'request_date': '2024-09-04', 'request_type': 'purchase', 'requested_amount': 39660.0, 'desired_completion_date': '2024-10-04', 'allows_partial_payment': True, 'request_text': "Can I buy the laptop now without making next month's bills tight? I need to decide by 4 October 2024. I've been quoted INR 39,660 for the laptop.", 'amount_safe_to_pay': 28820.0, 'affordability_status': 'affordable_with_plan', 'recommended_payment_method': 'partial_payment', 'payment_plan': '2024-09-04:28820|2024-09-15:10840', 'earliest_date_for_full_payment': '2024-09-15', 'spending_changes_needed': 'none', 'decision_explanation': 'Pay INR 28,820 today and the remaining INR 10,840 on 15 September 2024. This completes the full request and keeps the INR 92,800 minimum protected.'}
+{'request_id': 'request_20', 'user_id': 'user_20', 'request_date': '2026-02-07', 'request_type': 'travel', 'requested_amount': 303700.0, 'desired_completion_date': '2026-02-22', 'allows_partial_payment': False, 'request_text': 'I can book the family trip for INR 303,700. Would it be safer to book the trip now or wait until more money comes in?', 'amount_safe_to_pay': 5400.0, 'affordability_status': 'not_affordable', 'recommended_payment_method': 'not_recommended', 'payment_plan': 'none', 'earliest_date_for_full_payment': nan, 'spending_changes_needed': 'none', 'decision_explanation': 'Do not make this payment by 22 February 2026. None of the available options keeps the INR 64,500 minimum protected.'}
+{'request_id': 'request_21', 'user_id': 'user_21', 'request_date': '2026-04-03', 'request_type': 'education', 'requested_amount': 1574.4, 'desired_completion_date': '2026-04-14', 'allows_partial_payment': False, 'request_text': 'Is it safe to cover the full course fee by the deadline? Enrolment for the course comes to USD 1,574.40.', 'amount_safe_to_pay': 1543.35, 'affordability_status': 'affordable_with_plan', 'recommended_payment_method': 'full_payment', 'payment_plan': '2026-04-03:1574.40', 'earliest_date_for_full_payment': '2026-04-15', 'spending_changes_needed': 'stop:event_1815|reduce_to:event_1816:23.50', 'decision_explanation': 'Stop the online backup subscription and reduce the streaming subscription to USD 23.50, then pay USD 1,574.40 today. This leaves at least USD 1,800 available.'}
+{'request_id': 'request_22', 'user_id': 'user_22', 'request_date': '2024-12-05', 'request_type': 'family_transfer', 'requested_amount': 731.5, 'desired_completion_date': '2025-02-10', 'allows_partial_payment': True, 'request_text': 'The transfer I have in mind is EUR 731.50. I need to complete it by 10 February 2025. Can I make the full transfer without falling short on my own bills?', 'amount_safe_to_pay': 475.46, 'affordability_status': 'affordable_with_plan', 'recommended_payment_method': 'installments', 'payment_plan': '2024-12-08:253.59|2025-01-05:253.59|2025-02-02:253.59', 'earliest_date_for_full_payment': '2025-01-15', 'spending_changes_needed': 'none', 'decision_explanation': 'Use 3 installments of EUR 253.59, starting 8 December 2024. This leaves at least EUR 500 available.'}
+{'request_id': 'request_23', 'user_id': 'user_23', 'request_date': '2025-05-07', 'request_type': 'debt_repayment', 'requested_amount': 38016.0, 'desired_completion_date': '2025-07-15', 'allows_partial_payment': False, 'request_text': 'How much extra can I put toward the loan today? I need to decide by 15 July 2025. The additional loan payment would be ZAR 38,016.', 'amount_safe_to_pay': 9152.0, 'affordability_status': 'affordable_later', 'recommended_payment_method': 'wait', 'payment_plan': '2025-07-15:38016', 'earliest_date_for_full_payment': '2025-07-15', 'spending_changes_needed': 'none', 'decision_explanation': 'Pay ZAR 38,016 in full on 15 July 2025. Paying earlier would take the balance below the ZAR 27,000 minimum.'}
+{'request_id': 'request_24', 'user_id': 'user_24', 'request_date': '2026-01-04', 'request_type': 'investment', 'requested_amount': 109600.0, 'desired_completion_date': '2026-02-08', 'allows_partial_payment': True, 'request_text': "I'm considering setting aside INR 109,600 for an investment. Would investing this amount leave my upcoming bills covered?", 'amount_safe_to_pay': 13420.0, 'affordability_status': 'not_affordable', 'recommended_payment_method': 'not_recommended', 'payment_plan': 'none', 'earliest_date_for_full_payment': nan, 'spending_changes_needed': 'none', 'decision_explanation': 'Do not proceed with the INR 109,600 request. Although INR 13,420 is available today, the full amount cannot be completed safely within 90 days.'}
+{'request_id': 'request_25', 'user_id': 'user_25', 'request_date': '2024-03-06', 'request_type': 'housing', 'requested_amount': 60496000.0, 'desired_completion_date': '2024-04-17', 'allows_partial_payment': True, 'request_text': 'Is the deposit affordable now, or do I need more time? I need IDR 60,496,000 for the rental deposit.', 'amount_safe_to_pay': 1425000.0, 'affordability_status': 'not_affordable', 'recommended_payment_method': 'not_recommended', 'payment_plan': 'none', 'earliest_date_for_full_payment': nan, 'spending_changes_needed': 'none', 'decision_explanation': 'Do not make this payment by 17 April 2024. None of the available options keeps the IDR 23,379,100 minimum protected.'}
