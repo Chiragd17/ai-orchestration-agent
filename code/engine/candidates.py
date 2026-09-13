@@ -35,11 +35,23 @@ def generate_candidates(
     # Pre-compute valid spending change combinations
     latest_recs = {}
     for e in user_state.events:
-        key = (e.description, e.direction)
-        if key not in latest_recs or e.date > latest_recs[key].date:
-            latest_recs[key] = e
-            
+        if e.recurring:
+            key = (e.description, e.direction)
+            if key not in latest_recs or e.date > latest_recs[key].date:
+                latest_recs[key] = e
+                
     base_actions = []
+    
+    # 1. Upcoming one-off events
+    for e in user_state.events:
+        if not e.recurring and e.date >= request_date:
+            if e.category not in user_state.protected_categories:
+                if e.flexibility == 'stoppable' and e.category in user_state.stop_categories:
+                    base_actions.append(f"stop:{e.event_id}")
+                elif e.flexibility == 'reducible' and e.category in user_state.reduce_categories and e.raw_minimum_allowed_amount is not None:
+                    base_actions.append(f"reduce_to:{e.event_id}:{e.raw_minimum_allowed_amount}")
+                    
+    # 2. Latest recurring events (which affect projections)
     for e in latest_recs.values():
         if e.category not in user_state.protected_categories:
             if e.flexibility == 'stoppable' and e.category in user_state.stop_categories:

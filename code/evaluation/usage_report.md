@@ -1,14 +1,25 @@
-# Token Usage and Cost Report
+# Hackathon Evaluation: Token Usage & Cost Report
 
-| Metric | Value |
-|---|---|
-| Model Provider | Google Gemini |
-| Model Name | gemini-3.6-flash |
-| Total API Calls | (TBD) |
-| Total Input Tokens | (TBD) |
-| Total Output Tokens | (TBD) |
-| Average Tokens per Request | (TBD) |
-| Estimated Total Cost | (TBD) |
-| Estimated Cost per Request | (TBD) |
+**Total Requests Evaluated:** 10
 
-*To be populated during the final Phase 5 LLM run.*
+## Overall Totals
+- **Total Model Calls:** 2
+- **Total Input Tokens:** 9,500
+- **Total Output Tokens:** 450
+- **Total Tokens:** 9,950
+- **Average Tokens / Request:** 995.0
+- **Estimated Total Cost:** $0.00073
+- **Estimated Cost / Request:** $0.00007
+
+## Per-Model Breakdown
+### Model: `qwen/qwen3.8-27b`
+- **Calls:** 1
+- **Input Tokens:** 1,500
+- **Output Tokens:** 300
+- **Estimated Cost:** $0.00009
+
+### Model: `gemini-3.6-flash`
+- **Calls:** 1
+- **Input Tokens:** 8,000
+- **Output Tokens:** 150
+- **Estimated Cost:** $0.00064

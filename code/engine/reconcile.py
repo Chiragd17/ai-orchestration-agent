@@ -138,20 +138,22 @@ def resolve(events: List[Event]) -> List[Event]:
             elif winner.linked_event_id == candidate.event_id:
                 continue # winner is already the modifier
             
-            # Priority 3: Settled wins over estimate
+            # Priority 2: Newer record wins. (Higher event_id implies newer)
+            w_num = extract_id_num(winner.event_id)
+            c_num = extract_id_num(candidate.event_id)
+            if c_num > w_num:
+                winner = candidate
+                continue
+            elif w_num > c_num:
+                continue
+                
+            # Priority 3: Settled wins over estimate (if age is the same)
             if candidate.status == 'settled' and winner.status != 'settled':
                 winner = candidate
                 continue
             elif winner.status == 'settled' and candidate.status != 'settled':
                 continue
                 
-            # Priority 2: Newer record wins. (Higher event_id implies newer)
-            w_num = extract_id_num(winner.event_id)
-            c_num = extract_id_num(candidate.event_id)
-            
-            # Wait, if they are exactly the same in status, maybe just pick newer
-            # But let's check Priority 4 first if they are truly ambiguous
-            
             # Priority 4: Financially safer interpretation
             if winner.amount != candidate.amount and winner.amount is not None and candidate.amount is not None:
                 # Safer means lower safe-to-spend. 
@@ -166,10 +168,6 @@ def resolve(events: List[Event]) -> List[Event]:
                     if candidate.amount > winner.amount:
                         winner = candidate
                         continue
-            
-            # If all else fails, pick newer
-            if c_num > w_num:
-                winner = candidate
                 
         resolved_events.append(winner)
 

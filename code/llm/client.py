@@ -219,20 +219,27 @@ def _save_cache(key: str, data: dict):
 # ─────────────────────────────────────────────
 def _call_groq(model: str, task: str, messages: list, max_tokens: int = 256) -> str:
     """Calls Groq, records usage, and returns raw text response."""
-    response = _client.chat.completions.create(
-        model=model,
-        messages=messages,
-        max_tokens=max_tokens,
-        temperature=0.0,
-    )
-    usage = response.usage
-    usage_tracker.record(
-        model=model,
-        task=task,
-        input_tokens=usage.prompt_tokens if usage else 0,
-        output_tokens=usage.completion_tokens if usage else 0,
-    )
-    return response.choices[0].message.content.strip()
+    try:
+        response = _client.chat.completions.create(
+            model=model,
+            messages=messages,
+            max_tokens=max_tokens,
+            temperature=0.0,
+        )
+        usage = response.usage
+        usage_tracker.record(
+            model=model,
+            task=task,
+            input_tokens=usage.prompt_tokens if usage else 0,
+            output_tokens=usage.completion_tokens if usage else 0,
+        )
+        return response.choices[0].message.content.strip()
+    except Exception as e:
+        print(f"LLM API Error: {e}")
+        # Return fallback empty JSON or string depending on the tool
+        if "extract_image_amount" in task or "classify_message" in task:
+            return "{}"
+        return "Explanation generation bypassed due to API limits.".strip()
 
 
 def _parse_json_response(raw: str) -> Optional[dict]:

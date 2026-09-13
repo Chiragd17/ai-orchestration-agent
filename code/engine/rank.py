@@ -35,10 +35,10 @@ def rank(candidates: List[Candidate]) -> Candidate:
     return min(candidates, key=sort_key)
 
 def get_affordability_status(winning_candidate: Candidate) -> str:
-    if winning_candidate.method == "full_payment":
-        return "affordable_now"
-    elif winning_candidate.method in ["partial_payment", "installments"] or bool(winning_candidate.spending_changes):
+    if winning_candidate.method in ["partial_payment", "installments"] or bool(winning_candidate.spending_changes):
         return "affordable_with_plan"
+    elif winning_candidate.method == "full_payment":
+        return "affordable_now"
     elif winning_candidate.method == "wait":
         return "affordable_later"
     else:

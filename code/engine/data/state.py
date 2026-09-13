@@ -83,7 +83,6 @@ def build_user_state(user_id: str) -> UserState:
         
         converted_amt = None
         if raw_amt is not None:
-            # Currency conversion will raise loud ValueError if missing rate
             converted_amt = convert(raw_amt, ev_currency, home_currency, ev_date)
             
         raw_min_amt = ev['minimum_allowed_amount'] if pd.notna(ev['minimum_allowed_amount']) else None
@@ -94,7 +93,6 @@ def build_user_state(user_id: str) -> UserState:
         category = ev['category']
         ev_type = ev['event_type']
         
-        # Confirmed salary handling + other recurrences
         recurring_categories = ['salary', 'rent', 'subscription', 'utilities', 'debt_repayment']
         is_recurring = (category in recurring_categories)
         
@@ -102,6 +100,10 @@ def build_user_state(user_id: str) -> UserState:
         if ev_type == 'subscription':
             is_recurring = True
             
+        # Detect recurrence dynamically for other essential categories if history supports it
+        # We will do this in build_user_state after loading all events by counting descriptions
+
+                
         interval = 'monthly' if is_recurring else None
         
         flexibility = str(ev['flexibility']).strip().lower() if pd.notna(ev['flexibility']) else "fixed"
@@ -123,5 +125,17 @@ def build_user_state(user_id: str) -> UserState:
             linked_event_id=ev['linked_event_id'] if pd.notna(ev['linked_event_id']) else None
         )
         state.events.append(e)
+        
+    # Detect recurrence for non-explicitly recurring events
+    # Only if history supports it (appears > 1 time)
+    desc_counts = {}
+    for e in state.events:
+        desc_counts[e.description] = desc_counts.get(e.description, 0) + 1
+        
+    for e in state.events:
+        if not e.recurring and e.category in ['groceries', 'transport', 'education', 'healthcare', 'housing', 'insurance'] + list(prot_cats):
+            if desc_counts.get(e.description, 0) > 1:
+                e.recurring = True
+                e.interval = 'monthly' # Default assumption for recurring variable expenses
         
     return state
