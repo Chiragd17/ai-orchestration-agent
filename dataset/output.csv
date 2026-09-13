@@ -1,251 +1,251 @@
 request_id,amount_safe_to_pay,affordability_status,recommended_payment_method,payment_plan,earliest_date_for_full_payment,spending_changes_needed,decision_explanation
-request_26,1.5656E+7,affordable_now,full_payment,2025-08-03:15656000,2025-08-03,none,"You can afford to send the full IDR 15,656,000 immediately, as this amount is safe to pay without affecting your other spending. This allows you to complete the transfer well before your October 7, 2025 deadline."
-request_27,6.67E+3,affordable_now,full_payment,2026-07-05:6670,2026-07-05,none,"Yes, you can afford the ZAR 6,670 laptop now without dipping into your protected balance. This full payment is safe to make and will be completed well before your August 21, 2026 deadline."
-request_28,271.48,affordable_later,wait,2024-07-16:1302.4,2024-07-16,none,"You can safely invest €271.48 today without dropping below your minimum balance, with the remaining amount becoming affordable by July 16, 2024. This approach allows you to complete your full €1,302.40 investment contribution by the deadline."
-request_29,51524,affordable_now,full_payment,2025-11-04:51524,2025-11-04,none,"You can safely invest the full ZAR 51,524 because this amount is affordable now and leaves your upcoming bills covered. This payment can be completed by the earliest date of November 4, 2025, without requiring any changes to your spending."
-request_30,775.2,affordable_with_plan,installments,2026-04-06:268.74|2026-05-06:268.74|2026-06-05:268.74,2026-04-06,none,"Yes, you can afford the $775.20 loan payment by June 6, 2026, without risking your upcoming bills. This plan allows you to complete the payment in installments starting April 6, 2026, with no required changes to your other spending."
-request_31,1518134.97,affordable_later,wait,2024-09-15:18164000,2024-09-15,none,"You cannot afford the IDR 18,164,000 laptop today because only IDR 1,518,134.97 is currently available for safe spending. However, you will have sufficient funds to make this purchase by your November 15 deadline, so the recommendation is to wait until September 15, 2024."
-request_32,10863.27,not_affordable,not_recommended,none,,none,"You cannot afford the full ZAR 40,018 trip because only ZAR 10,863.27 is safe to pay without risking your upcoming bills. Therefore, this travel expense is not recommended at this time."
-request_33,37929.41,not_affordable,not_recommended,none,,none,"Paying the full INR 118,000 deposit is not recommended because it exceeds the INR 37,929.41 you can safely pay without compromising other commitments. This payment would leave you unable to meet your financial obligations."
-request_34,1.294E+5,affordable_now,full_payment,2024-12-04:129400,2024-12-04,none,"You can safely pay the full INR 129,400 for your family trip today, as this amount is affordable without requiring any changes to your spending. This payment will be completed by your January 28, 2025 deadline."
-request_35,40876.78,not_affordable,not_recommended,none,,none,"Booking the trip now is not recommended because the INR 212,000 cost exceeds your safe-to-pay limit of INR 40,876.78. You should wait until more funds are available, as the purchase is currently unaffordable."
-request_36,861.13,not_affordable,not_recommended,none,,none,"Based on your current financial situation, only $861.13 is safe to pay, which is insufficient to cover the full $3,954 course fee. Therefore, paying the entire amount by the deadline is not recommended."
-request_37,4298959.19,affordable_later,wait,2024-04-16:14649000,2024-04-16,none,"You can safely send the full IDR 14,649,000 to your family by waiting until April 16, 2024, as this ensures you will not fall short on your own bills. No changes to your current spending are required to make this transfer."
-request_38,105.56,not_affordable,not_recommended,none,,none,"You cannot afford the full €971.30 repair now, as only €105.56 is safe to pay without compromising your essential expenses. Consequently, this payment method is not recommended for completing the repair by your October 15, 2025 deadline."
-request_39,71927.07,affordable_later,wait,2026-04-15:208600,2026-04-15,none,"You can safely cover the INR 208,600 rental deposit by April 15, 2026, which is well before your June 15 decision deadline. This plan allows you to pay the full amount without compromising your ability to cover rent and regular bills."
-request_40,415.48,not_affordable,not_recommended,none,,none,"The full course fee of EUR 1,290.30 is not affordable, as only EUR 415.48 is safe to pay without cutting into essentials. Therefore, this payment method is not recommended."
-request_41,12241888.81,affordable_later,wait,2025-11-15:38760000,2025-11-15,none,"You can safely pay IDR 12,241,888.81 today, with the remaining balance becoming affordable by November 15, 2025. This plan allows you to cover the full IDR 38,760,000 repair bill by the deadline without requiring any changes to your current spending."
-request_42,5.21E+4,affordable_now,full_payment,2026-01-05:52100,2026-01-05,none,"You can afford to pay the full INR 52,100 for your urgent repair immediately, which will complete the payment well before your March 15, 2026 deadline. No changes to your other spending are required to make this payment."
-request_43,7548383.35,affordable_later,wait,2024-09-16:43339000,2024-09-16,none,"You cannot afford the laptop today as you only have IDR 7,548,383.35 available, but you will have enough funds by September 16, 2024. Since this date is before your November 15 deadline, it is recommended to wait and purchase the item then."
-request_44,7966.42,not_affordable,not_recommended,none,,none,"Paying the full course fee of INR 95,800 is not affordable because it exceeds the safe amount of INR 7,966.42 available for this expense. Consequently, this payment method is not recommended as it would compromise your regular financial commitments."
-request_45,3951520.99,not_affordable,not_recommended,none,,none,"You can safely pay IDR 3,951,520.99 toward the laptop today, which is less than the full price of IDR 21,983,000. Therefore, this purchase is not affordable at this time."
-request_46,37710.97,affordable_with_plan,partial_payment,2024-12-03:37710.97|2024-12-15:11739.03,2024-12-15,none,"You can safely pay the full extra amount of INR 49,450 by your January 9, 2025 deadline, as this fits within your available funds without requiring any changes to your spending. This plan ensures the repayment is completed on time while remaining affordable."
-request_47,3.8114E+7,affordable_now,full_payment,2025-05-05:38114000,2025-05-05,none,"You can afford to pay the full IDR 38,114,000 repair quote immediately without changing your current spending habits. This allows you to complete the payment well before your June 19, 2025 deadline."
-request_48,4.57E+4,affordable_now,full_payment,2026-07-25:45700,2026-07-25,none,"You can safely send the full INR 45,700 to your family now, as this amount is within your safe-to-pay limit. Completing the transfer will allow you to maintain your minimum balance requirements."
-request_49,11453485.15,not_affordable,not_recommended,none,,none,"Your requested travel booking of IDR 34,333,000 is not affordable, as only IDR 11,453,485.15 is currently safe to pay. Therefore, this payment method is not recommended for today."
-request_50,4.39E+4,affordable_now,full_payment,2025-08-06:43900,2025-08-06,none,"You can safely pay the full INR 43,900 for your family trip now, as this amount is within your safe-to-pay limit. Booking immediately ensures you complete the trip by your August 21, 2025 deadline without needing to wait for additional income."
-request_51,2.191E+6,affordable_now,full_payment,2026-01-03:2191000,2026-01-03,none,"You can safely invest the full IDR 2,191,000 now without changing your spending habits. This allows you to complete the investment by your February 28, 2026 deadline."
-request_52,18573.87,affordable_later,wait,2024-06-16:28870,2024-06-16,none,"You can safely pay INR 18,573.87 toward the repair now, with the remaining balance becoming affordable by June 16, 2024. This approach allows you to cover the full cost without needing to change your current spending habits."
-request_53,650.21,affordable_with_plan,installments,2025-11-21:589.06|2025-12-19:589.06|2026-01-16:589.06,2026-01-16,none,"You can afford the $1,699.20 laptop by paying $650.21 in installments, with the first payment due on January 16, 2026. This plan allows you to complete the purchase without making any changes to your current spending."
-request_54,5298.26,not_affordable,not_recommended,none,,none,"You cannot afford the ZAR 121,528 deposit by the 21 August 2026 deadline, as only ZAR 5,298.26 is currently safe to pay. Proceeding with this move is not recommended because it would put your rent and regular bills at risk."
-request_55,127828.68,not_affordable,not_recommended,none,,none,"Sending the full INR 218,600 is not affordable, as only INR 127,828.68 is safe to pay. Therefore, this transfer method is not recommended."
-request_56,545.96,affordable_with_plan,partial_payment,2025-02-03:545.96|2025-02-15:335.6,2025-02-15,none,"You can afford to pay $545.96 toward the $881.56 laptop today, which leaves enough cash to cover your regular expenses. This partial payment plan allows you to complete the purchase by February 15, 2025, without requiring any changes to your current spending habits."
-request_57,9843.3,not_affordable,not_recommended,none,,none,"You cannot afford the ZAR 61,446 course because only ZAR 9,843.30 is currently safe to pay. Therefore, this payment method is not recommended."
-request_58,1.6226E+7,affordable_now,full_payment,2024-12-07:16226000,2024-12-07,none,"You can pay the full IDR 16,226,000 today without changing your other spending, which will complete your loan payment ahead of the January 25, 2025 deadline."
-request_59,1.406E+5,affordable_with_plan,installments,2025-05-07:48741.33|2025-06-04:48741.33|2025-07-02:48741.33,2025-05-04,none,"Yes, investing INR 140,600 is affordable as it leaves your upcoming bills fully covered without requiring any changes to your spending. You can proceed with this investment via installments, and the plan will be completed by your July 2, 2025 deadline."
-request_60,0,not_affordable,not_recommended,none,,none,"Your rental deposit of $199.89 is currently not affordable, as you have no safe funds available to pay it. You will need to wait for additional time before you can cover this expense."
-request_61,29062,affordable_with_plan,installments,2024-03-17:10074.83|2024-04-17:10074.83|2024-05-18:10074.83,2024-03-03,none,"You can afford the ZAR 29,062 laptop purchase through installments starting March 3, 2024, without needing to change your regular spending. This plan ensures you have enough for your usual expenses while completing the payment by the deadline."
-request_62,404.23,affordable_now,full_payment,2025-08-05:404.23,2025-08-05,none,"You can safely make the full $404.23 extra loan payment now, as it will not affect your essential expenses. This payment will be completed well before your October 9, 2025 deadline."
-request_63,59412.57,affordable_with_plan,partial_payment,2026-07-07:59412.57|2026-08-16:284487.43,2026-08-16,none,"You can afford the laptop by making a partial payment of INR 59,412.57, which allows you to complete the purchase by your September 17, 2026 deadline. This plan requires no changes to your current spending habits."
-request_64,0,not_affordable,not_recommended,none,,none,"The full membership fee of INR 63,700 is not affordable today, as there is no safe amount available to pay. Therefore, the payment is not recommended at this time."
-request_65,6579.39,not_affordable,not_recommended,none,,none,"Paying the ZAR 54,340 annual membership now is not recommended because it exceeds the ZAR 6,579.39 you can safely pay without affecting your regular expenses."
-request_66,2.22E+4,affordable_now,full_payment,2026-04-03:22200,2026-04-03,none,"You can safely pay the full INR 22,200 repair cost today, as this amount is within your safe-to-pay limit. This immediate payment ensures the urgent repair is completed by your April 17, 2026 deadline."
-request_67,356.1,affordable_later,wait,2024-09-15:2094,2024-09-15,none,"You can safely pay $356.10 toward the $2,094 repair now, with the remaining balance becoming affordable by your November 15 deadline. No changes to your other spending are required to meet this goal."
-request_68,1125.25,not_affordable,not_recommended,none,,none,"Based on your current financial situation, you can safely pay an extra $1,125.25 toward your loan today, which is less than the $2,091.60 you were considering. Therefore, the full extra repayment is not recommended at this time."
-request_69,529.1,affordable_now,full_payment,2026-01-04:529.1,2026-01-04,none,"Yes, investing EUR 529.10 is affordable now because it leaves your upcoming bills fully covered. You can complete this investment by January 4, 2026, without any changes to your spending."
-request_70,49190.01,not_affordable,not_recommended,none,,none,"The requested annual membership of INR 243,900 is not affordable, as only INR 49,190.01 is currently safe to pay. Therefore, paying for the full membership now is not recommended."
-request_71,2243923.7,not_affordable,not_recommended,none,,none,"You cannot afford the IDR 21,451,000 rental deposit because your safe-to-pay amount is only IDR 2,243,923.70. Therefore, this payment is not recommended."
-request_72,1.133E+4,affordable_now,full_payment,2026-07-05:11330,2026-07-05,none,"Yes, you can safely send the full ZAR 11,330 to your family now without falling short on your own bills. This transfer is affordable immediately and will be completed by the earliest date of July 5, 2026."
-request_73,68701.28,not_affordable,not_recommended,none,,none,"The requested repair cost of INR 71,400 exceeds your safe-to-pay limit of INR 68,701.28, making it unaffordable to cover the full amount now while managing essential expenses. Therefore, this payment method is not recommended."
-request_74,5.01E+3,affordable_now,full_payment,2025-08-04:5010,2025-08-04,none,"Paying the full ZAR 5,010 now is affordable and will leave you with enough funds for the rest of the month. This payment will be completed by your October 21, 2025 deadline."
-request_75,2.827E+4,affordable_with_plan,installments,2026-04-09:9800.27|2026-05-09:9800.27|2026-06-08:9800.27,2026-04-06,none,"You can afford the ZAR 28,270 repair by paying in installments, which allows you to complete the payment by your June 12, 2026 deadline without changing your other spending. This plan ensures the repair is covered on time while keeping your finances stable."
-request_76,913.78,not_affordable,not_recommended,none,,none,"You can safely pay $913.78 toward the membership now, which is less than the full $4,455.60 renewal cost. Because this amount does not cover the total expense, the payment is not recommended as a complete solution."
-request_77,6.07E+4,affordable_now,full_payment,2025-11-05:60700,2025-11-05,none,"You can safely pay the full rental deposit of INR 60,700 today, as this amount is within your safe-to-pay limit. This payment will be completed by the earliest date of November 5, 2025, without requiring any changes to your spending."
-request_78,5.02E+4,affordable_now,full_payment,2025-10-02:50200,2025-10-02,none,"The laptop is affordable right now, as the full payment of INR 50,200 is safe to make without changing your spending habits. You can complete the purchase by your October 14, 2025 deadline, with the earliest available date being October 2, 2025."
-request_79,524.48,affordable_with_plan,partial_payment,2024-09-04:524.48|2024-10-16:1627.12,2024-10-16,none,"You can afford the €2,151.60 laptop by making a partial payment of €524.48, which keeps your next month's bills manageable. This plan allows you to complete the purchase by your November 1 deadline without requiring any changes to your other spending."
-request_80,117898.78,not_affordable,not_recommended,none,,none,"Paying an extra INR 217,500 is not recommended because it exceeds the safe amount of INR 117,898.78 available for this payment. Proceeding with this amount would put your upcoming bills at risk."
-request_81,2076,affordable_now,full_payment,2026-07-03:2076,2026-07-03,none,"Paying the full $2,076 for your family trip now is affordable and leaves you with enough funds to cover the rest of the month. This payment can be completed by the earliest date of July 3, 2026, without requiring any changes to your other spending."
-request_82,365.44,affordable_later,wait,2025-01-16:1405.2,2025-01-16,none,"You can safely complete the full $1,405.20 transfer by your February 15 deadline, as you will have sufficient funds available by January 16. No changes to your current spending are required to make this payment."
-request_83,2734.02,not_affordable,not_recommended,none,,none,"You cannot afford the INR 156,200 family transfer because only INR 2,734.02 is safe to pay, which is insufficient to cover the requested amount. Consequently, this transfer is not recommended as it would prevent you from maintaining your minimum balance."
-request_84,36036.5,not_affordable,not_recommended,none,,none,"Paying the full INR 95,400 course fee now is not recommended because it exceeds the INR 36,036.50 available for safe payment. This amount is insufficient to cover the total cost while maintaining your regular financial commitments."
-request_85,1175110.63,not_affordable,not_recommended,none,,none,"Your requested rental deposit of IDR 19,304,000 is not affordable right now, as you only have IDR 1,175,110.63 available to pay. You will need to wait for more time to save the full amount."
-request_86,37070.95,not_affordable,not_recommended,none,,none,"Paying the full INR 46,300 now is not recommended because it exceeds the safe amount of INR 37,070.95 available for this period. This payment would leave you short of funds needed for the rest of the month."
-request_87,41244.76,affordable_later,wait,2026-02-16:487900,2026-02-16,none,"You can afford the INR 487,900 membership fee by your March 15, 2026 deadline, as you will have enough funds available by February 16, 2026. We recommend waiting until that date to ensure your upcoming bills are covered before making the payment."
-request_88,9731.73,affordable_with_plan,installments,2024-06-14:9045.23|2024-07-15:9045.23|2024-08-15:9045.23,2024-07-16,none,"Paying the full ZAR 26,092 rental deposit is not affordable with your current cash flow, as only ZAR 9,731.73 is safe to pay. However, you can secure the housing by paying in installments starting July 16, 2024, which meets the deadline without requiring changes to your other spending."
-request_89,9969631.29,affordable_with_plan,installments,2025-11-18:4768746.67|2025-12-16:4768746.67|2026-01-13:4768746.67,2025-11-15,none,"Your full membership fee of IDR 13,756,000 is affordable today via installments, with the plan completing by the deadline. You can proceed with the purchase without needing to wait or change your current spending habits."
-request_90,2.56E+3,affordable_now,full_payment,2026-07-06:2560,2026-07-06,none,"Yes, you can safely pay the ZAR 2,560 extra loan amount in full without risking your upcoming bills. This payment will be completed by your September 23, 2026 deadline, with no changes needed to your other spending."
-request_91,274.69,not_affordable,not_recommended,none,,none,"You can safely pay only €274.69 today, which is less than the full €1,927.20 repair cost. Therefore, this payment method is not recommended as it does not cover the urgent expense."
-request_92,34034,affordable_now,full_payment,2025-02-05:34034,2025-02-05,none,"You can afford to pay the full ZAR 34,034 for your professional course immediately without changing your current spending habits. This payment will be completed by the February 5, 2025 deadline, ensuring you secure your enrollment."
-request_93,1729.2,affordable_now,full_payment,2026-04-07:1729.2,2026-04-07,none,"Yes, you can book the family trip now because the full $1,729.20 payment is affordable without affecting your usual expenses. This payment will be completed by the earliest date of April 7, 2026."
-request_94,572,affordable_now,full_payment,2024-12-04:572,2024-12-04,none,You can safely pay the full EUR 572 deposit now without jeopardizing your rent or regular bills. This payment will be completed by your December 22 deadline.
-request_95,15706.59,not_affordable,not_recommended,none,,none,"You can only safely allocate INR 15,706.59 toward the INR 553,000 course fee without compromising essential expenses. Therefore, paying the full amount is not affordable, and this payment method is not recommended."
-request_96,69490.68,affordable_with_plan,installments,2026-01-10:31269.33|2026-02-09:31269.33|2026-03-11:31269.33,2026-01-15,none,"You can afford the laptop by paying in installments, as this keeps your monthly outlay within your safe limit of INR 69,490.68. This plan allows you to complete the purchase by January 15, 2026, without requiring any changes to your regular spending."
-request_97,0,not_affordable,not_recommended,none,,none,"Based on your current financial situation, you cannot safely pay the ZAR 23,496 rental deposit today. Therefore, this payment is not recommended at this time."
-request_98,8176.98,not_affordable,not_recommended,none,,none,"Your requested travel amount of ZAR 27,148 exceeds the safe-to-pay limit of ZAR 8,176.98, making this purchase unaffordable. Consequently, booking the trip now is not recommended as it would prevent you from covering your usual expenses."
-request_99,18062,affordable_now,full_payment,2026-07-04:18062,2026-07-04,none,"Paying the ZAR 18,062 repair bill in full today is affordable and will not drop your balance below your required minimum. This payment can be completed by your July 14, 2026 deadline without any changes to your spending."
-request_100,23683.82,affordable_with_plan,installments,2024-06-13:12866.19|2024-07-14:12866.19|2024-08-14:12866.19,2024-06-15,none,"You can safely pay ZAR 23,683.82 toward the laptop today, with the remaining balance covered through installments starting on June 15, 2024. This plan allows you to complete the purchase without requiring any changes to your current spending."
-request_101,1.435E+5,affordable_now,full_payment,2025-11-03:143500,2025-11-03,none,"Your full investment of INR 143,500 is affordable now without requiring any changes to your spending. You can safely proceed with the full payment starting as early as November 3, 2025."
-request_102,1716,affordable_with_plan,installments,2026-04-05:594.88|2026-05-05:594.88|2026-06-04:594.88,2026-04-05,none,"Yes, you can afford the EUR 1,716 laptop by paying in installments starting April 5, 2026, which allows you to complete the purchase by your June 12 deadline without dipping into your protected balance."
-request_103,18937.48,not_affordable,not_recommended,none,,none,"You cannot afford the INR 368,300 trip because your safe-to-pay amount is only INR 18,937.48, which is insufficient to cover the cost. Therefore, booking the trip now is not recommended as it would prevent you from covering your usual expenses."
-request_104,17204,affordable_now,full_payment,2025-02-04:17204,2025-02-04,none,"You can afford to pay the full ZAR 17,204 for the laptop now without making next month's bills tight. This purchase is affordable immediately and will be completed by the earliest date of February 4, 2025."
-request_105,5.35E+4,affordable_now,full_payment,2026-06-08:53500,2026-06-08,none,"Yes, you can safely make the full payment of INR 53,500 now without putting your upcoming bills at risk. This extra loan payment will be completed by the deadline of June 8, 2026, with no changes to your other spending."
-request_106,349.43,affordable_later,wait,2024-12-16:2207.7,2024-12-16,none,"You can safely cover the full course fee by your February 15, 2025 deadline, as the funds will be available starting December 16, 2024. No changes to your current spending are required to meet this goal."
-request_107,141.73,not_affordable,not_recommended,none,,none,"You can only safely pay €141.73 of the €2,534.40 rental deposit today, which is not enough to cover the full amount. Therefore, paying the deposit is not recommended as you cannot afford the total cost."
-request_108,3749,not_affordable,not_recommended,none,,none,"Paying for the course now is not recommended because only R3,749 is currently safe to pay, which is significantly less than the R55,308 cost. You should wait until you have more funds available before making this purchase."
-request_109,797.93,affordable_with_plan,installments,2024-03-18:645.98|2024-04-18:645.98|2024-05-19:645.98,2024-03-15,none,"Sending the full €1,863.40 now would exceed your safe payment limit of €797.93, so we recommend paying in installments starting March 15, 2024. This plan ensures you cover the transfer by the deadline while keeping enough cash available for your upcoming expenses."
-request_110,22352,affordable_with_plan,installments,2025-08-06:7748.69|2025-09-03:7748.69|2025-10-01:7748.69,2025-08-06,none,"You can safely send the full ZAR 22,352 today via installments, which allows you to meet your October 11 deadline without requiring any changes to your other spending."
-request_111,1.6625E+7,affordable_now,full_payment,2026-04-03:16625000,2026-04-03,none,"Your full extra repayment of IDR 16,625,000 is safe to make now without requiring any changes to your spending. This payment will be completed by your May 2, 2026 deadline."
-request_112,255.36,not_affordable,not_recommended,none,,none,"You cannot afford the full EUR 271.70 transfer because only EUR 255.36 is safe to pay without falling short on your own bills. Therefore, this payment method is not recommended."
-request_113,32933.1,affordable_later,wait,2026-09-16:36500,2026-09-16,none,"You can safely pay INR 32,933.10 toward your loan today, which is slightly less than your requested INR 36,500. This payment will still allow you to complete the repayment by the deadline."
-request_114,0,not_affordable,not_recommended,none,,none,"The full membership fee of INR 65,300 is not affordable today, as there is no safe amount available to pay. Therefore, the payment is not recommended at this time."
-request_115,16371.71,not_affordable,not_recommended,none,,none,"Paying the INR 80,500 membership fee now is not recommended because it exceeds the INR 16,371.71 you can safely pay without affecting your regular expenses. This payment would not be affordable by your November 15, 2024 deadline."
-request_116,12772.56,not_affordable,not_recommended,none,,none,"Sending the full amount of INR 241,200 is not recommended because only INR 12,772.56 is currently safe to pay. You should wait until you have more available funds before making this transfer."
-request_117,867.82,not_affordable,not_recommended,none,,none,"Your requested rent deposit of €880 exceeds the safe amount you can pay today, which is €867.82. Therefore, paying this amount now is not recommended as it would put your other expenses at risk."
-request_118,682.52,affordable_with_plan,installments,2024-12-07:255.87|2025-01-07:255.87|2025-02-07:255.87,2024-12-16,none,"You can afford the EUR 738.10 rental deposit by paying it in installments, which allows you to meet the February 8, 2025 deadline while keeping your monthly payments within your safe limit of EUR 682.52. This approach requires no changes to your other spending commitments."
-request_119,62084.34,affordable_with_plan,installments,2025-05-18:70546.67|2025-06-15:70546.67|2025-07-13:70546.67,2025-05-16,none,"You can afford the INR 203,500 course fee by paying it in installments, which keeps your monthly outlay within your safe limit of INR 62,084.34. This plan allows you to complete the payment by your July 17, 2025 deadline without requiring any changes to your regular spending."
-request_120,7.714E+6,affordable_now,full_payment,2026-04-06:7714000,2026-04-06,none,"You can invest the full IDR 7,714,000 immediately without affecting your essential payments. This amount is fully affordable now and can be completed by the earliest date of April 6, 2026."
-request_121,624.61,affordable_with_plan,full_payment,2024-03-03:633.6,2024-03-15,stop:event_11163,"Your full extra repayment of $633.60 is safe to make, as you can comfortably cover $624.61 of it by stopping the spending associated with event 11163. This plan allows you to complete the payment by the March 15, 2024 deadline."
-request_122,2.0558E+7,affordable_with_plan,installments,2025-08-05:7126773.33|2025-09-02:7126773.33|2025-09-30:7126773.33,2025-08-05,none,"Your annual membership fee of IDR 20,558,000 is affordable via installments without requiring any changes to your current spending. This payment plan ensures the full amount is settled by your October 2, 2025 deadline while leaving sufficient funds for your upcoming bills."
-request_123,4.076E+6,affordable_now,full_payment,2026-01-07:4076000,2026-01-07,none,"You can safely invest the full IDR 4,076,000 today without falling below your minimum balance. This allows you to complete the investment well before your March 28, 2026 deadline."
-request_124,1294.57,affordable_with_plan,installments,2024-06-11:1076.12|2024-07-12:1076.12|2024-08-12:1076.12,2024-06-15,none,"The full membership fee of €3,104.20 is not affordable today, as only €1,294.57 is currently safe to pay. However, you can afford the purchase by paying in installments, with the first payment due on June 15, 2024."
-request_125,6468,affordable_now,full_payment,2025-11-06:6468,2025-11-06,none,"You can safely book the family trip now for ZAR 6,468, as this amount is fully affordable without requiring any changes to your spending. Paying the full amount immediately ensures the trip is secured by the earliest available date of November 6, 2025."
-request_126,1.596E+5,affordable_now,full_payment,2026-07-03:159600,2026-07-03,none,"You can safely pay the full INR 159,600 today, as this amount is within your safe-to-pay limit. This immediate payment ensures the urgent repair is completed by your July 17, 2026 deadline without requiring any changes to your spending."
-request_127,12886.83,affordable_later,wait,2024-09-16:23980,2024-09-16,none,"You can safely make the full ZAR 23,980 transfer by waiting until 16 September 2024, which is before your 18 October deadline. This timing ensures you will not fall short on your own bills, as the amount is affordable by that date."
-request_128,25168,affordable_now,full_payment,2025-02-07:25168,2025-02-07,none,"You can afford to pay the full ZAR 25,168 course fee immediately without needing to adjust your spending. This allows you to complete the payment by the February 7, 2025 deadline."
-request_129,69.55,not_affordable,not_recommended,none,,none,"Paying the $2,668.80 course fee now is not recommended because it exceeds the $69.55 you can safely pay without compromising your regular commitments. This payment would leave you unable to cover your essential obligations."
-request_130,122.61,not_affordable,not_recommended,none,,none,"Sending the full $1,978.80 is not affordable, as only $122.61 is safe to pay today. Consequently, this transfer method is not recommended for completing the payment by your February 15 deadline."
-request_131,1066.98,not_affordable,not_recommended,none,,none,"Based on your current finances, only $1,066.98 is safe to pay, which is less than the full $1,855.20 course fee. Therefore, covering the entire cost by the deadline is not affordable, and this payment method is not recommended."
-request_132,71.57,not_affordable,not_recommended,none,,none,Sending the full $379.86 is not recommended because you only have $71.57 available to pay without falling short on your own bills. This transfer would exceed your safe spending limit.
-request_133,1.577E+7,not_affordable,not_recommended,none,,none,"The IDR 15,770,000 laptop is not affordable right now, so we recommend waiting rather than purchasing it immediately."
-request_134,5919709.41,affordable_later,wait,2025-08-15:21831000,2025-08-15,none,"You cannot afford the laptop today because only IDR 5,919,709.41 is currently safe to pay, but you will have enough funds to buy it by August 15, 2025. Waiting until that date ensures you can complete the purchase by your October 15 deadline without tightening your next month's budget."
-request_135,304.8,affordable_now,full_payment,2026-07-06:304.8,2026-07-06,none,"Your requested deposit of $304.80 is fully affordable now, allowing you to make the payment by your July 14, 2026 deadline. No changes to your spending are required to cover this amount."
-request_136,560.4,affordable_now,full_payment,2024-06-03:560.4,2024-06-03,none,"Yes, it is safe to pay the full $560.40 course fee now, as this amount is within your safe-to-pay limit. You can complete the payment by the June 3, 2024 deadline without affecting your other spending."
-request_137,28014.42,not_affordable,not_recommended,none,,none,"The INR 80,100 laptop purchase is not affordable because it exceeds the INR 28,014.42 you can safely pay without dipping into your protected balance. Therefore, this purchase is not recommended at this time."
-request_138,661.52,affordable_with_plan,partial_payment,2026-04-07:661.52|2026-04-16:595.42,2026-04-16,none,"You can afford the laptop by making a partial payment of €661.52, which allows you to complete the purchase by your June 5, 2026 deadline. No changes to your other spending are required to meet this goal."
-request_139,1301.21,affordable_with_plan,installments,2024-09-07:802.88|2024-10-08:802.88|2024-11-08:802.88,2024-09-15,none,"You can afford the $2,316 rental deposit by paying $1,301.21 in installments starting September 15, 2024, which ensures your rent and regular bills remain safe. This plan allows you to complete the payment before your November 17 deadline without requiring any changes to your other spending."
-request_140,0,not_affordable,not_recommended,none,,none,"The ZAR 62,832 repair is currently unaffordable, as there are no safe funds available to cover the cost. Consequently, paying for the repair is not recommended at this time."
-request_141,27318.18,not_affordable,not_recommended,none,,none,"The annual membership of INR 171,600 is not affordable, as your safe-to-pay limit is only INR 27,318.18. Therefore, this payment method is not recommended."
-request_142,1263.6,affordable_now,full_payment,2024-12-05:1263.6,2024-12-05,none,"Yes, you can make the full investment of $1,263.60 immediately, as this amount is safe to pay and leaves you with sufficient cash. This payment will be completed well before your February 4, 2025 deadline."
-request_143,3749.91,not_affordable,not_recommended,none,,none,"You cannot afford the full ZAR 12,584 repair now, as only ZAR 3,749.91 is safe to pay while covering your essential expenses. Therefore, paying the full amount is not recommended."
-request_144,233.34,affordable_now,full_payment,2026-07-04:233.34,2026-07-04,none,"Yes, investing $233.34 is affordable now because it leaves your upcoming bills fully covered. You can make this full payment by July 4, 2026, without needing to change your current spending habits."
-request_145,14750.44,affordable_with_plan,installments,2024-03-20:75365.33|2024-04-20:75365.33|2024-05-21:75365.33,2024-04-16,none,"You can safely book the trip now by paying the affordable amount of INR 14,750.44 upfront and covering the rest through installments. This plan allows you to complete the payment by the April 16, 2024 deadline without requiring any changes to your current spending."
-request_146,5966.18,affordable_later,wait,2025-10-16:449400,2025-10-16,none,"You can afford the INR 449,400 rental deposit by your October 17, 2025 deadline, as your funds will be sufficient by October 16, 2025. No changes to your current spending are required to meet this obligation."
-request_147,555.57,affordable_with_plan,installments,2026-04-08:391.63|2026-05-08:391.63|2026-06-07:391.63,2026-04-16,none,"You can afford the €1,129.70 trip by paying €555.57 now and covering the remainder in installments, which keeps your upcoming bills safe. This plan allows you to complete the purchase by your June 7, 2026 deadline without requiring any changes to your other spending."
-request_148,8681.34,not_affordable,not_recommended,none,,none,"The ZAR 22,242 laptop is not affordable right now because you only have ZAR 8,681.34 available to pay. We recommend waiting until you have more funds available before making this purchase."
-request_149,22948.38,affordable_with_plan,installments,2025-11-18:12706.03|2025-12-16:12706.03|2026-01-13:12706.03,2025-11-15,none,"You can safely pay ZAR 22,948.38 toward the ZAR 36,652 trip today, with the remaining balance covered by installments. This plan allows you to complete the booking by the November 15, 2025 deadline without requiring any changes to your current spending."
-request_150,0,not_affordable,not_recommended,none,,none,"Based on your current financial situation, you cannot afford to pay any portion of the €496.10 course fee without cutting into essentials. Consequently, this expense is not recommended at this time."
-request_151,2.6999E+7,affordable_now,full_payment,2024-09-03:26999000,2024-09-03,none,"You can afford to pay the full rental deposit of IDR 26,999,000 immediately without changing your spending habits. This allows you to meet your decision deadline of September 14, 2024."
-request_152,10909.41,not_affordable,not_recommended,none,,none,"You can currently afford to pay R10,909.41 toward the R13,882 repair, which is less than the full amount. Therefore, this payment method is not recommended as it does not cover the total cost."
-request_153,324.83,not_affordable,not_recommended,none,,none,"The $2,830.80 laptop is not affordable right now because you only have $324.83 available to pay. We recommend waiting until you have saved more money before making this purchase."
-request_154,1625.8,affordable_with_plan,installments,2024-12-04:563.61|2025-01-04:563.61|2025-02-04:563.61,2024-12-04,none,"You can safely pay the full €1,625.80 today using an installment plan, which allows you to complete the booking by your February 14, 2025 deadline without requiring any changes to your other spending."
-request_155,1.125E+5,affordable_now,full_payment,2025-05-06:112500,2025-05-06,none,"You can safely pay the full INR 112,500 for the laptop today without affecting your other spending. This allows you to complete the purchase well before your May 20, 2025 deadline."
-request_156,6223.22,not_affordable,not_recommended,none,,none,"Your request for ZAR 43,076 is not affordable because only ZAR 6,223.22 is safe to pay, meaning you cannot cover the full course fee by the deadline. We do not recommend proceeding with this payment method."
-request_157,5465549.56,not_affordable,not_recommended,none,,none,"You cannot afford the full IDR 23,503,000 investment because only IDR 5,465,549.56 is currently safe to pay. Therefore, this investment is not recommended at this time."
-request_158,2.426E+5,affordable_with_plan,installments,2025-08-07:84101.33|2025-09-04:84101.33|2025-10-02:84101.33,2025-08-07,none,"Yes, you can cover the full INR 242,600 repair cost now while still managing your essential expenses. This payment is affordable through installments and will be completed by your October 2, 2025 deadline."
-request_159,13398,affordable_now,full_payment,2026-01-04:13398,2026-01-04,none,"Investing ZAR 13,398 is affordable now because it leaves your upcoming bills fully covered without requiring any changes to your spending. This decision can be completed by your March 20, 2026 deadline."
-request_160,560.31,affordable_with_plan,installments,2024-06-13:432.05|2024-07-14:432.05|2024-08-14:432.05,2024-06-16,none,You can safely book the trip now by paying the affordable amount of €560.31 and covering the rest through installments. This plan allows you to secure the travel plans without needing to wait for additional income.
-request_161,0,not_affordable,not_recommended,none,,none,"The full extra repayment of IDR 21,204,000 is not affordable, so we recommend against making this payment. You should consider a smaller amount or wait until you have more available funds."
-request_162,1794578.79,not_affordable,not_recommended,none,,none,"The requested membership fee of IDR 83,923,000 is not affordable, as it far exceeds the safe amount of IDR 1,794,578.79 available for payment. Consequently, committing to this expense is not recommended because it would leave insufficient funds for your upcoming bills."
-request_163,11257616.61,affordable_with_plan,installments,2024-09-10:6692053.33|2024-10-11:6692053.33|2024-11-11:6692053.33,2024-09-16,none,"Yes, you can afford the IDR 19,304,000 membership through installments without reducing your minimum balance, as the plan is fully affordable. This payment schedule will be completed by your November 15, 2024 deadline."
-request_164,2.7018E+7,affordable_with_plan,installments,2025-02-11:9366240|2025-03-11:9366240|2025-04-08:9366240,2025-02-04,none,"Your full membership fee of IDR 27,018,000 is affordable today without requiring any changes to your spending. You can pay the amount in installments starting as early as February 4, 2025."
-request_165,8.06E+4,affordable_now,full_payment,2026-04-06:80600,2026-04-06,none,"You can safely pay the full INR 80,600 for your family trip now, as this amount is affordable without requiring any changes to your spending. Booking the trip by April 6, 2026, is a secure option that does not need to wait for additional income."
-request_166,2907.6,affordable_with_plan,installments,2024-12-03:1007.97|2025-01-03:1007.97|2025-02-03:1007.97,2024-12-03,none,"You can safely pay the full $2,907.60 now, as this amount is affordable without requiring any changes to your other spending. This payment will be completed by your February 5, 2025 deadline."
-request_167,43802,affordable_now,full_payment,2025-05-05:43802,2025-05-05,none,"You can safely pay the full ZAR 43,802 rental deposit today, as this amount is affordable without requiring any changes to your spending. This payment will be completed by your May 31, 2025 deadline."
-request_168,0,not_affordable,not_recommended,none,,none,"Paying the full INR 49,380 rental deposit is not recommended because it would leave you with no funds available for other commitments. This payment is currently unaffordable and would not allow you to meet your financial obligations."
-request_169,41976,affordable_now,full_payment,2024-03-04:41976,2024-03-04,none,"Paying the ZAR 41,976 course fee in full now is affordable and leaves you with enough to cover your regular commitments. This payment can be completed by the March 4, 2024 deadline without requiring any changes to your spending."
-request_170,31674330.05,affordable_with_plan,installments,2025-08-06:12804480|2025-09-03:12804480|2025-10-01:12804480,2025-09-16,stop:event_15604,"You can afford the IDR 36,936,000 annual membership by paying in installments, provided you stop the expense associated with event_15604. This plan allows you to complete the payment by your October 4, 2025 deadline without affecting your regular expenses."
-request_171,38.3,not_affordable,not_recommended,none,,none,"The full investment of EUR 1,878.80 is not affordable, as only EUR 38.30 is currently safe to pay. Therefore, the recommended method is not to proceed with this investment at this time."
-request_172,4916.96,not_affordable,not_recommended,none,,none,"Your requested course fee of ZAR 10,200 exceeds the ZAR 4,916.96 you can safely pay, making this purchase unaffordable. Consequently, we do not recommend proceeding with this payment method."
-request_173,66880.81,affordable_with_plan,installments,2025-11-21:39173.33|2025-12-19:39173.33|2026-01-16:39173.33,2026-01-16,none,"You can complete the INR 113,000 family transfer by January 16, 2026, using an installment plan. This approach allows you to pay a safe amount of INR 66,880.81 while maintaining your minimum balance without changing your other spending."
-request_174,1146.2,affordable_with_plan,installments,2026-04-04:397.35|2026-05-04:397.35|2026-06-03:397.35,2026-04-04,none,"Yes, investing EUR 1,146.20 is affordable and will leave your upcoming bills covered. You can complete this investment by your June 7, 2026 deadline using installments starting April 4, 2026, without needing to change your other spending."
-request_175,2346.3,affordable_now,full_payment,2024-09-06:2346.3,2024-09-06,none,"You can afford to pay the full €2,346.30 for the urgent repair immediately, as this amount is safe to cover without affecting your other spending. This allows you to complete the payment well before your October 1 deadline."
-request_176,301.24,not_affordable,not_recommended,none,,none,"Paying the full €1,239.70 for the trip now is not recommended because only €301.24 is currently safe to pay. This amount is insufficient to cover the total cost, meaning the trip cannot be fully funded without compromising your remaining monthly budget."
-request_177,421.45,not_affordable,not_recommended,none,,none,"You can currently afford to pay $421.45 toward the $1,017.60 repair bill, which is less than the full amount. Because this does not cover the entire cost, the payment method is not recommended."
-request_178,2938.1,affordable_with_plan,installments,2024-12-07:1018.54|2025-01-07:1018.54|2025-02-07:1018.54,2024-12-07,none,"You can invest the full EUR 2,938.10 today without dropping below your minimum balance. This amount is safe to pay and will be completed by your February 12, 2025 deadline."
-request_179,10440494.48,not_affordable,not_recommended,none,,none,"Paying the requested IDR 41,648,000 is not recommended because it exceeds the safe amount of IDR 10,440,494.48, which would leave you without enough funds for the rest of the month."
-request_180,6.65E+4,affordable_now,full_payment,2026-07-06:66500,2026-07-06,none,"Yes, you can safely pay the extra INR 66,500 now without risking your upcoming bills. This full payment will clear the additional debt by July 6, 2026, with no changes needed to your regular spending."
-request_181,434.34,not_affordable,not_recommended,none,,none,"Investing the full $5,059.20 is not recommended because only $434.34 is currently safe to pay. You should wait until you have more available funds before making this investment."
-request_182,65714,affordable_now,full_payment,2025-08-05:65714,2025-08-05,none,"You can safely make the full extra loan payment of ZAR 65,714 now without affecting your essential expenses. This payment will be completed by your deadline of 26 September 2025."
-request_183,22745657.18,not_affordable,not_recommended,none,,none,"You cannot afford the full IDR 26,866,000 repair cost because your safe-to-pay limit is only IDR 22,745,657.18. Therefore, paying the full amount now is not recommended as it would exceed your affordable budget."
-request_184,19914.07,not_affordable,not_recommended,none,,none,"Paying the requested INR 251,900 is not recommended because it exceeds the safe amount of INR 19,914.07 available for this month. This payment would leave you without enough funds to cover your other expenses."
-request_185,335.59,not_affordable,not_recommended,none,,none,"Booking the trip now is not recommended because you can only safely pay €335.59 of the €1,257.30 cost. It is safer to wait until more money comes in to cover the full amount."
-request_186,0,not_affordable,not_recommended,none,,none,"Based on your current financial position, investing the full amount of ZAR 26,554 is not affordable, so this option is not recommended. You should consider waiting or adjusting your plan, as you cannot safely complete this investment by your March 15, 2026 deadline."
-request_187,41072.32,affordable_later,wait,2024-09-16:187500,2024-09-16,none,"You can afford the INR 187,500 membership by your November 15 deadline, as you will have enough funds available by September 16, 2024. No changes to your current spending are required to make this purchase."
-request_188,0,not_affordable,not_recommended,none,,none,"You cannot complete this transfer while maintaining your minimum balance, as the full amount is not currently available to pay. Therefore, this payment is not recommended at this time."
-request_189,488.4,affordable_now,full_payment,2026-07-04:488.4,2026-07-04,none,"Yes, paying the full EUR 488.40 now is affordable and leaves you with enough funds for the rest of the month. This payment will complete your loan by the July 4, 2026 deadline without requiring any changes to your other spending."
-request_190,621.97,affordable_later,wait,2024-12-15:2557.5,2024-12-15,none,"You can safely pay €621.97 toward the laptop today, with the remaining balance becoming affordable by December 15, 2024. This schedule ensures the full purchase is completed well before your February 15, 2025 deadline."
-request_191,664.4,affordable_now,full_payment,2025-05-03:664.4,2025-05-03,none,"Your requested investment of EUR 664.40 is fully affordable to pay now, allowing you to complete the transaction by your July 17, 2025 deadline. No changes to your spending are required to make this payment."
-request_192,136.96,not_affordable,not_recommended,none,,none,"Based on your current finances, only $136.96 is safe to pay, which is insufficient to cover the $2,046 course fee. Therefore, paying for the course before the enrollment deadline is not recommended."
-request_193,101.64,affordable_with_plan,installments,2024-03-21:420.23|2024-04-21:420.23|2024-05-22:420.23,2024-05-16,none,"You can afford the EUR 1,212.20 membership through installments starting May 16, 2024, while keeping your minimum balance intact. This plan requires no changes to your other spending and will be fully paid off by the deadline."
-request_194,14441.86,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_195,205.92,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_196,762.3,affordable_now,full_payment,2024-06-03:762.3,2024-06-03,none,Explanation generation bypassed due to API limits.
-request_197,7822775.89,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_198,1.858E+5,affordable_now,full_payment,2026-07-07:185800,2026-07-07,none,Explanation generation bypassed due to API limits.
-request_199,2.3674E+7,affordable_with_plan,installments,2024-09-07:8206986.67|2024-10-08:8206986.67|2024-11-08:8206986.67,2024-09-04,none,Explanation generation bypassed due to API limits.
-request_200,2.1717E+7,affordable_now,full_payment,2025-02-06:21717000,2025-02-06,none,Explanation generation bypassed due to API limits.
-request_201,2.3997E+7,affordable_now,full_payment,2026-04-03:23997000,2026-04-03,none,Explanation generation bypassed due to API limits.
-request_202,1.239E+5,affordable_now,full_payment,2024-12-05:123900,2024-12-05,none,Explanation generation bypassed due to API limits.
-request_203,1442.1,affordable_with_plan,installments,2025-05-10:499.93|2025-06-07:499.93|2025-07-05:499.93,2025-05-07,none,Explanation generation bypassed due to API limits.
-request_204,469.87,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_205,1.0621E+7,affordable_now,full_payment,2024-03-06:10621000,2024-03-06,none,Explanation generation bypassed due to API limits.
-request_206,1404.7,affordable_with_plan,installments,2025-08-03:486.96|2025-08-31:486.96|2025-09-28:486.96,2025-08-03,none,Explanation generation bypassed due to API limits.
-request_207,4059.79,affordable_later,wait,2026-07-15:11830,2026-07-15,none,Explanation generation bypassed due to API limits.
-request_208,4092821.45,affordable_later,wait,2024-06-16:4413000,2024-06-16,none,Explanation generation bypassed due to API limits.
-request_209,1983.57,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_210,985.47,affordable_with_plan,partial_payment,2026-04-06:985.47|2026-04-16:374.55,2026-04-16,none,Explanation generation bypassed due to API limits.
-request_211,421.31,affordable_later,wait,2024-09-15:1788.6,2024-09-15,none,Explanation generation bypassed due to API limits.
-request_212,380289.07,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_213,3362.4,affordable_with_plan,installments,2026-01-21:1165.63|2026-02-20:1165.63|2026-03-22:1165.63,2026-01-07,none,Explanation generation bypassed due to API limits.
-request_214,61702.61,affordable_with_plan,partial_payment,2024-12-04:61702.61|2024-12-16:8047.39,2024-12-16,none,Explanation generation bypassed due to API limits.
-request_215,29986,affordable_with_plan,installments,2025-05-09:10395.15|2025-06-06:10395.15|2025-07-04:10395.15,2025-05-06,none,Explanation generation bypassed due to API limits.
-request_216,364.43,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_217,22663.07,affordable_with_plan,installments,2024-03-19:12889.07|2024-04-19:12889.07|2024-05-20:12889.07,2024-03-15,none,Explanation generation bypassed due to API limits.
-request_218,27553020.13,affordable_with_plan,installments,2025-08-07:21195893.33|2025-09-04:21195893.33|2025-10-02:21195893.33,2025-08-15,none,Explanation generation bypassed due to API limits.
-request_219,676.63,affordable_with_plan,installments,2026-04-07:580.01|2026-05-07:580.01|2026-06-06:580.01,2026-04-16,none,Explanation generation bypassed due to API limits.
-request_220,73.64,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_221,1.098E+5,affordable_now,full_payment,2025-11-03:109800,2025-11-03,none,Explanation generation bypassed due to API limits.
-request_222,34078,affordable_now,full_payment,2026-01-05:34078,2026-01-05,none,Explanation generation bypassed due to API limits.
-request_223,898.7,affordable_now,full_payment,2024-09-07:898.7,2024-09-07,none,Explanation generation bypassed due to API limits.
-request_224,4558466.69,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_225,9597246.86,affordable_with_plan,installments,2026-07-20:7647120|2026-08-19:7647120|2026-09-18:7647120,2026-09-16,none,Explanation generation bypassed due to API limits.
-request_226,1.57E+5,affordable_now,full_payment,2024-12-03:157000,2024-12-03,none,Explanation generation bypassed due to API limits.
-request_227,4568.8,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_228,2812832.16,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_229,486.2,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_230,3537.6,affordable_now,full_payment,2025-08-06:3537.6,2025-08-06,none,Explanation generation bypassed due to API limits.
-request_231,35706,affordable_with_plan,installments,2026-01-06:12378.08|2026-02-05:12378.08|2026-03-07:12378.08,2026-01-03,none,Explanation generation bypassed due to API limits.
-request_232,0,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_233,0,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_234,215.12,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_235,967.2,affordable_now,full_payment,2024-09-06:967.2,2024-09-06,none,Explanation generation bypassed due to API limits.
-request_236,6497689.16,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_237,2.3826E+7,affordable_now,full_payment,2026-04-05:23826000,2026-04-05,none,Explanation generation bypassed due to API limits.
-request_238,663.6,affordable_with_plan,installments,2024-12-07:230.05|2025-01-07:230.05|2025-02-07:230.05,2024-12-07,none,Explanation generation bypassed due to API limits.
-request_239,628.2,affordable_later,wait,2025-05-15:642,2025-05-15,none,Explanation generation bypassed due to API limits.
-request_240,15824.04,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_241,2.1052E+7,affordable_with_plan,installments,2024-03-17:7298026.67|2024-04-17:7298026.67|2024-05-18:7298026.67,2024-03-03,none,Explanation generation bypassed due to API limits.
-request_242,0,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_243,17468,affordable_now,full_payment,2026-07-07:17468,2026-07-07,none,Explanation generation bypassed due to API limits.
-request_244,49918,affordable_now,full_payment,2024-06-04:49918,2024-06-04,none,Explanation generation bypassed due to API limits.
-request_245,35306.63,affordable_later,wait,2025-12-16:128500,2025-12-16,none,Explanation generation bypassed due to API limits.
-request_246,64086,affordable_with_plan,installments,2026-04-03:22216.48|2026-05-03:22216.48|2026-06-02:22216.48,2026-04-03,none,Explanation generation bypassed due to API limits.
-request_247,1059.3,affordable_now,full_payment,2024-09-05:1059.3,2024-09-05,none,Explanation generation bypassed due to API limits.
-request_248,998.01,affordable_with_plan,partial_payment,2025-02-07:998.01|2025-04-16:967.59,2025-04-16,none,Explanation generation bypassed due to API limits.
-request_249,0,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_250,15777.63,affordable_with_plan,partial_payment,2024-12-06:15777.63|2025-01-16:108500.37,2025-01-16,none,Explanation generation bypassed due to API limits.
-request_251,1513.6,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_252,4862940.56,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_253,1470.97,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_254,636.47,affordable_later,wait,2025-09-16:3535.2,2025-09-16,none,Explanation generation bypassed due to API limits.
-request_255,3.345E+6,affordable_now,full_payment,2026-04-06:3345000,2026-04-06,none,Explanation generation bypassed due to API limits.
-request_256,154138.7,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_257,577.12,affordable_later,wait,2025-11-15:1352.4,2025-11-15,none,Explanation generation bypassed due to API limits.
-request_258,1113.6,affordable_now,full_payment,2026-01-07:1113.6,2026-01-07,none,Explanation generation bypassed due to API limits.
-request_259,155.28,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_260,9044501.39,affordable_with_plan,partial_payment,2025-02-06:9044501.39|2025-03-16:43034498.61,2025-03-16,none,Explanation generation bypassed due to API limits.
-request_261,1830.4,affordable_now,full_payment,2026-07-03:1830.4,2026-07-03,none,Explanation generation bypassed due to API limits.
-request_262,9.236E+6,affordable_now,full_payment,2024-12-05:9236000,2024-12-05,none,Explanation generation bypassed due to API limits.
-request_263,7770.93,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_264,18046.15,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_265,4.597E+4,affordable_now,full_payment,2024-03-06:45970,2024-03-06,none,Explanation generation bypassed due to API limits.
-request_266,744.05,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_267,1622,affordable_with_plan,installments,2026-01-08:667.33|2026-02-07:667.33|2026-03-09:667.33,2026-02-16,stop:event_24573,Explanation generation bypassed due to API limits.
-request_268,989.62,affordable_with_plan,installments,2024-06-14:841.22|2024-07-15:841.22|2024-08-15:841.22,2024-07-16,stop:event_24680,Explanation generation bypassed due to API limits.
-request_269,0,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_270,146.91,not_affordable,not_recommended,none,,none,Explanation generation bypassed due to API limits.
-request_271,16796.31,affordable_later,wait,2024-10-16:91300,2024-10-16,none,Explanation generation bypassed due to API limits.
-request_272,5861633.24,affordable_with_plan,installments,2025-02-12:4709466.67|2025-03-12:4709466.67|2025-04-09:4709466.67,2025-02-16,none,Explanation generation bypassed due to API limits.
-request_273,9536032.63,affordable_with_plan,partial_payment,2026-04-07:9536032.63|2026-04-16:6324967.37,2026-04-16,none,Explanation generation bypassed due to API limits.
-request_274,2468.95,affordable_with_plan,installments,2024-12-04:940.75|2025-01-04:940.75|2025-02-04:940.75,2024-12-16,none,Explanation generation bypassed due to API limits.
-request_275,1.5884E+7,affordable_now,full_payment,2025-05-06:15884000,2025-05-06,none,Explanation generation bypassed due to API limits.
+request_26,70259487.5,affordable_now,full_payment,none,2025-08-03,none,Full payment of 15656000.0 is affordable with current projected balance.
+request_27,66627.31,affordable_now,full_payment,none,2026-07-05,none,Full payment of 6670.0 is affordable with current projected balance.
+request_28,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_29,79381.595,affordable_now,full_payment,none,2025-11-04,none,Full payment of 51524.0 is affordable with current projected balance.
+request_30,1810.72,affordable_now,full_payment,none,2026-04-06,none,Full payment of 775.2 is affordable with current projected balance.
+request_31,31367347.0,affordable_now,full_payment,none,2024-09-03,none,Full payment of 18164000.0 is affordable with current projected balance.
+request_32,23928.71,affordable_with_plan,partial_payment,2025-02-05:23928.710|2025-04-06:16089.290,2025-04-06,none,"Partial payment of 23928.710 now, remainder by 2025-04-06."
+request_33,52826.0,affordable_with_plan,partial_payment,2026-01-07:52826.000|2026-03-08:65174.000,2026-03-08,none,"Partial payment of 52826.000 now, remainder by 2026-03-08."
+request_34,387684.875,affordable_now,full_payment,none,2024-12-04,none,Full payment of 129400.0 is affordable with current projected balance.
+request_35,102108.5,affordable_with_plan,partial_payment,2025-10-30:102108.500|2025-12-29:109891.500,2025-12-29,none,"Partial payment of 102108.500 now, remainder by 2025-12-29."
+request_36,374.6,affordable_later,wait,none,2027-04-29,none,Limited funds available now. Consider waiting until 2027-04-29 for full payment.
+request_37,7139350.0,affordable_with_plan,partial_payment,2024-03-05:7139350.000|2024-05-04:7509650.000,2024-05-04,none,"Partial payment of 7139350.000 now, remainder by 2024-05-04."
+request_38,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_39,178482.75,affordable_with_plan,partial_payment,2026-04-04:178482.750|2026-06-03:30117.250,2026-06-03,none,"Partial payment of 178482.750 now, remainder by 2026-06-03."
+request_40,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_41,21154595.5,affordable_with_plan,partial_payment,2025-11-03:21154595.500|2026-01-02:17605404.500,2026-01-02,none,"Partial payment of 21154595.500 now, remainder by 2026-01-02."
+request_42,130391.75,affordable_now,full_payment,none,2026-01-05,none,Full payment of 52100.0 is affordable with current projected balance.
+request_43,10907462.5,affordable_later,wait,none,2025-08-03,none,Limited funds available now. Consider waiting until 2025-08-03 for full payment.
+request_44,50805.5,affordable_with_plan,partial_payment,2025-02-04:50805.500|2025-04-05:44994.500,2025-04-05,none,"Partial payment of 50805.500 now, remainder by 2025-04-05."
+request_45,7412155.0,affordable_with_plan,partial_payment,2026-07-06:7412155.000|2026-09-04:14570845.000,2026-09-04,none,"Partial payment of 7412155.000 now, remainder by 2026-09-04."
+request_46,233873.25,affordable_now,full_payment,none,2024-12-03,none,Full payment of 49450.0 is affordable with current projected balance.
+request_47,75280492.5,affordable_now,full_payment,none,2025-05-05,none,Full payment of 38114000.0 is affordable with current projected balance.
+request_48,104881.75,affordable_now,full_payment,none,2026-07-25,none,Full payment of 45700.0 is affordable with current projected balance.
+request_49,16780468.673,affordable_with_plan,partial_payment,2024-03-04:16780468.6730|2024-05-03:17552531.3270,2024-05-03,none,"Partial payment of 16780468.6730 now, remainder by 2024-05-03."
+request_50,120474.225,affordable_now,full_payment,none,2025-08-06,none,Full payment of 43900.0 is affordable with current projected balance.
+request_51,25237315.0,affordable_now,full_payment,none,2026-01-03,none,Full payment of 2191000.0 is affordable with current projected balance.
+request_52,22764.0,affordable_with_plan,partial_payment,2024-06-05:22764.000|2024-07-09:6106.000,2024-07-09,none,"Partial payment of 22764.000 now, remainder by 2024-07-09."
+request_53,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_54,13042.13,affordable_later,wait,none,2028-04-24,none,Limited funds available now. Consider waiting until 2028-04-24 for full payment.
+request_55,138879.1305,affordable_with_plan,partial_payment,2026-06-08:138879.1305|2026-08-07:79720.8695,2026-08-07,none,"Partial payment of 138879.1305 now, remainder by 2026-08-07."
+request_56,2712.36,affordable_now,full_payment,none,2025-02-03,none,Full payment of 881.56 is affordable with current projected balance.
+request_57,16663.67,affordable_later,wait,none,2026-12-31,none,Limited funds available now. Consider waiting until 2026-12-31 for full payment.
+request_58,24435411.75,affordable_now,full_payment,none,2024-12-07,none,Full payment of 16226000.0 is affordable with current projected balance.
+request_59,544103.6905,affordable_now,full_payment,none,2025-05-04,none,Full payment of 140600.0 is affordable with current projected balance.
+request_60,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_61,95929.9185,affordable_now,full_payment,none,2024-03-03,none,Full payment of 29062.0 is affordable with current projected balance.
+request_62,2798.44,affordable_now,full_payment,none,2025-08-05,none,Full payment of 404.23 is affordable with current projected balance.
+request_63,82570.25,affordable_later,wait,none,2027-08-01,none,Limited funds available now. Consider waiting until 2027-08-01 for full payment.
+request_64,53864.3595,affordable_with_plan,partial_payment,2024-06-04:53864.3595|2024-08-03:9835.6405,2024-08-03,none,"Partial payment of 53864.3595 now, remainder by 2024-08-03."
+request_65,11468.0,affordable_later,wait,none,2027-05-30,none,Limited funds available now. Consider waiting until 2027-05-30 for full payment.
+request_66,203754.0,affordable_now,full_payment,none,2026-04-03,none,Full payment of 22200.0 is affordable with current projected balance.
+request_67,1754.22,affordable_with_plan,partial_payment,2024-09-05:1754.22|2024-11-04:339.78,2024-11-04,none,"Partial payment of 1754.22 now, remainder by 2024-11-04."
+request_68,969.83,affordable_with_plan,partial_payment,2025-02-07:969.83|2025-04-08:1121.77,2025-04-08,none,"Partial payment of 969.83 now, remainder by 2025-04-08."
+request_69,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_70,62252.0,affordable_later,wait,none,2025-11-01,none,Limited funds available now. Consider waiting until 2025-11-01 for full payment.
+request_71,6401507.5,affordable_later,wait,none,2026-05-28,none,Limited funds available now. Consider waiting until 2026-05-28 for full payment.
+request_72,15139.6735,affordable_now,full_payment,none,2026-07-05,none,Full payment of 11330.0 is affordable with current projected balance.
+request_73,147080.375,affordable_now,full_payment,none,2023-01-20,none,Full payment of 71400.0 is affordable with current projected balance.
+request_74,43821.355,affordable_now,full_payment,none,2025-08-04,none,Full payment of 5010.0 is affordable with current projected balance.
+request_75,98204.9765,affordable_now,full_payment,none,2026-04-06,none,Full payment of 28270.0 is affordable with current projected balance.
+request_76,381.8,affordable_later,wait,none,2025-06-28,none,Limited funds available now. Consider waiting until 2025-06-28 for full payment.
+request_77,84962.475,affordable_now,full_payment,none,2025-11-05,none,Full payment of 60700.0 is affordable with current projected balance.
+request_78,91617.2,affordable_now,full_payment,none,2025-10-02,none,Full payment of 50200.0 is affordable with current projected balance.
+request_79,1488.08,affordable_with_plan,partial_payment,2024-09-04:1488.08|2024-11-01:663.52,2024-11-01,none,"Partial payment of 1488.08 now, remainder by 2024-11-01."
+request_80,133473.75,affordable_with_plan,partial_payment,2025-02-06:133473.750|2025-02-21:84026.250,2025-02-21,none,"Partial payment of 133473.750 now, remainder by 2025-02-21."
+request_81,1882.25,affordable_with_plan,partial_payment,2026-07-03:1882.25|2026-07-14:193.75,2026-07-14,none,"Partial payment of 1882.25 now, remainder by 2026-07-14."
+request_82,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_83,27183.5,affordable_later,wait,none,2027-02-26,none,Limited funds available now. Consider waiting until 2027-02-26 for full payment.
+request_84,46072.75,affordable_with_plan,partial_payment,2026-04-04:46072.750|2026-06-03:49327.250,2026-06-03,none,"Partial payment of 46072.750 now, remainder by 2026-06-03."
+request_85,1595499.0,affordable_later,wait,none,2025-11-26,none,Limited funds available now. Consider waiting until 2025-11-26 for full payment.
+request_86,239752.525,affordable_now,full_payment,none,2025-08-03,none,Full payment of 46300.0 is affordable with current projected balance.
+request_87,71232.5,affordable_later,wait,none,2027-05-30,none,Limited funds available now. Consider waiting until 2027-05-30 for full payment.
+request_88,9891.8955,affordable_with_plan,partial_payment,2024-06-07:9891.8955|2024-08-06:16200.1045,2024-08-06,none,"Partial payment of 9891.8955 now, remainder by 2024-08-06."
+request_89,26240368.9095,affordable_now,full_payment,none,2025-11-04,none,Full payment of 13756000.0 is affordable with current projected balance.
+request_90,21954.125,affordable_now,full_payment,none,2026-07-06,none,Full payment of 2560.0 is affordable with current projected balance.
+request_91,704.6,affordable_with_plan,partial_payment,2024-09-03:704.6|2024-11-02:1222.6,2024-11-02,none,"Partial payment of 704.6 now, remainder by 2024-11-02."
+request_92,46480.5465,affordable_now,full_payment,none,2025-02-05,none,Full payment of 34034.0 is affordable with current projected balance.
+request_93,993.1,affordable_with_plan,partial_payment,2026-04-07:993.1|2026-04-14:736.1,2026-04-14,none,"Partial payment of 993.1 now, remainder by 2026-04-14."
+request_94,1028.6,affordable_now,full_payment,none,2024-12-04,none,Full payment of 572.0 is affordable with current projected balance.
+request_95,83871.75,affordable_later,wait,none,2026-11-27,none,Limited funds available now. Consider waiting until 2026-11-27 for full payment.
+request_96,167373.7155,affordable_now,full_payment,none,2026-01-03,none,Full payment of 90200.0 is affordable with current projected balance.
+request_97,38607.6955,affordable_now,full_payment,none,2024-03-05,none,Full payment of 23496.0 is affordable with current projected balance.
+request_98,14005.765,affordable_with_plan,partial_payment,2025-08-07:14005.765|2025-10-06:13142.235,2025-10-06,none,"Partial payment of 14005.765 now, remainder by 2025-10-06."
+request_99,89199.651,affordable_now,full_payment,none,2026-07-04,none,Full payment of 18062.0 is affordable with current projected balance.
+request_100,71648.2535,affordable_now,full_payment,none,2024-06-06,none,Full payment of 37114.0 is affordable with current projected balance.
+request_101,253190.075,affordable_now,full_payment,none,2025-11-03,none,Full payment of 143500.0 is affordable with current projected balance.
+request_102,2703.74,affordable_now,full_payment,none,2026-04-05,none,Full payment of 1716.0 is affordable with current projected balance.
+request_103,27921.55,affordable_later,wait,none,2026-05-30,none,Limited funds available now. Consider waiting until 2026-05-30 for full payment.
+request_104,28848.515,affordable_now,full_payment,none,2025-02-04,none,Full payment of 17204.0 is affordable with current projected balance.
+request_105,62775.21,affordable_now,full_payment,none,2026-06-08,none,Full payment of 53500.0 is affordable with current projected balance.
+request_106,163.7,affordable_later,wait,none,2025-07-31,none,Limited funds available now. Consider waiting until 2025-07-31 for full payment.
+request_107,2050.52,affordable_with_plan,partial_payment,2025-05-05:2050.52|2025-07-04:483.88,2025-07-04,none,"Partial payment of 2050.52 now, remainder by 2025-07-04."
+request_108,5396.98,affordable_later,wait,none,2027-11-29,none,Limited funds available now. Consider waiting until 2027-11-29 for full payment.
+request_109,2807.46,affordable_now,full_payment,none,2024-03-04,none,Full payment of 1863.4 is affordable with current projected balance.
+request_110,46385.0535,affordable_now,full_payment,none,2025-08-06,none,Full payment of 22352.0 is affordable with current projected balance.
+request_111,57066817.0,affordable_now,full_payment,none,2026-04-03,none,Full payment of 16625000.0 is affordable with current projected balance.
+request_112,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_113,48815.5,affordable_now,full_payment,none,2026-09-04,none,Full payment of 36500.0 is affordable with current projected balance.
+request_114,91388.5,affordable_now,full_payment,none,2026-01-04,none,Full payment of 65300.0 is affordable with current projected balance.
+request_115,16663.25,affordable_later,wait,none,2025-09-01,none,Limited funds available now. Consider waiting until 2025-09-01 for full payment.
+request_116,162411.25,affordable_with_plan,partial_payment,2025-02-03:162411.250|2025-04-04:78788.750,2025-04-04,none,"Partial payment of 162411.250 now, remainder by 2025-04-04."
+request_117,142.2,affordable_later,wait,none,2026-11-02,none,Limited funds available now. Consider waiting until 2026-11-02 for full payment.
+request_118,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_119,115515.9595,affordable_with_plan,partial_payment,2025-05-04:115515.9595|2025-07-03:87984.0405,2025-07-03,none,"Partial payment of 115515.9595 now, remainder by 2025-07-03."
+request_120,9282831.0,affordable_now,full_payment,none,2026-04-06,none,Full payment of 7714000.0 is affordable with current projected balance.
+request_121,949.0,affordable_now,full_payment,none,2024-03-03,none,Full payment of 633.6 is affordable with current projected balance.
+request_122,41045882.7405,affordable_now,full_payment,none,2025-08-05,none,Full payment of 20558000.0 is affordable with current projected balance.
+request_123,41496980.0,affordable_now,full_payment,none,2026-01-07,none,Full payment of 4076000.0 is affordable with current projected balance.
+request_124,3277.56,affordable_now,full_payment,none,2024-06-04,none,Full payment of 3104.2 is affordable with current projected balance.
+request_125,9167.8715,affordable_now,full_payment,none,2025-11-06,none,Full payment of 6468.0 is affordable with current projected balance.
+request_126,249071.25,affordable_now,full_payment,none,2026-07-03,none,Full payment of 159600.0 is affordable with current projected balance.
+request_127,17379.3,affordable_with_plan,partial_payment,2024-09-05:17379.300|2024-10-18:6600.700,2024-10-18,none,"Partial payment of 17379.300 now, remainder by 2024-10-18."
+request_128,33630.615,affordable_now,full_payment,none,2025-02-07,none,Full payment of 25168.0 is affordable with current projected balance.
+request_129,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_130,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_131,1064.16,affordable_with_plan,partial_payment,2025-05-03:1064.16|2025-07-02:791.04,2025-07-02,none,"Partial payment of 1064.16 now, remainder by 2025-07-02."
+request_132,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_133,22404667.5,affordable_now,full_payment,none,2024-03-07,none,Full payment of 15770000.0 is affordable with current projected balance.
+request_134,33365165.0,affordable_now,full_payment,none,2025-08-04,none,Full payment of 21831000.0 is affordable with current projected balance.
+request_135,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_136,1619.68,affordable_now,full_payment,none,2024-06-03,none,Full payment of 560.4 is affordable with current projected balance.
+request_137,42947.0,affordable_with_plan,partial_payment,2025-11-05:42947.000|2026-01-04:37153.000,2026-01-04,none,"Partial payment of 42947.000 now, remainder by 2026-01-04."
+request_138,252.65,affordable_later,wait,none,2026-07-06,none,Limited funds available now. Consider waiting until 2026-07-06 for full payment.
+request_139,2928.84,affordable_now,full_payment,none,2024-09-04,none,Full payment of 2316.0 is affordable with current projected balance.
+request_140,7620.45,affordable_later,wait,none,2026-07-31,none,Limited funds available now. Consider waiting until 2026-07-31 for full payment.
+request_141,45412.75,affordable_later,wait,none,2027-02-27,none,Limited funds available now. Consider waiting until 2027-02-27 for full payment.
+request_142,3227.85,affordable_now,full_payment,none,2024-12-05,none,Full payment of 1263.6 is affordable with current projected balance.
+request_143,5674.75,affordable_with_plan,partial_payment,2025-05-07:5674.750|2025-07-06:6909.250,2025-07-06,none,"Partial payment of 5674.750 now, remainder by 2025-07-06."
+request_144,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_145,67387.977,affordable_with_plan,partial_payment,2024-03-06:67387.9770|2024-05-05:150012.0230,2024-05-05,none,"Partial payment of 67387.9770 now, remainder by 2024-05-05."
+request_146,239436.75,affordable_with_plan,partial_payment,2025-08-03:239436.750|2025-10-02:209963.250,2025-10-02,none,"Partial payment of 239436.750 now, remainder by 2025-10-02."
+request_147,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_148,9966.626,affordable_with_plan,partial_payment,2024-06-07:9966.6260|2024-08-06:12275.3740,2024-08-06,none,"Partial payment of 9966.6260 now, remainder by 2024-08-06."
+request_149,84710.161,affordable_now,full_payment,none,2025-11-04,none,Full payment of 36652.0 is affordable with current projected balance.
+request_150,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_151,41578401.75,affordable_now,full_payment,none,2024-09-03,none,Full payment of 26999000.0 is affordable with current projected balance.
+request_152,12891.0315,affordable_with_plan,partial_payment,2025-02-05:12891.0315|2025-04-06:990.9685,2025-04-06,none,"Partial payment of 12891.0315 now, remainder by 2025-04-06."
+request_153,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_154,2129.4,affordable_now,full_payment,none,2024-12-04,none,Full payment of 1625.8 is affordable with current projected balance.
+request_155,150552.5,affordable_now,full_payment,none,2025-05-06,none,Full payment of 112500.0 is affordable with current projected balance.
+request_156,12069.335,affordable_later,wait,none,2027-01-28,none,Limited funds available now. Consider waiting until 2027-01-28 for full payment.
+request_157,7597902.5,affordable_with_plan,partial_payment,2024-03-05:7597902.500|2024-05-04:15905097.500,2024-05-04,none,"Partial payment of 7597902.500 now, remainder by 2024-05-04."
+request_158,569251.245,affordable_now,full_payment,none,2025-08-07,none,Full payment of 242600.0 is affordable with current projected balance.
+request_159,29071.84,affordable_now,full_payment,none,2026-01-04,none,Full payment of 13398.0 is affordable with current projected balance.
+request_160,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_161,12830582.5,affordable_with_plan,partial_payment,2025-11-03:12830582.500|2026-01-02:8373417.500,2026-01-02,none,"Partial payment of 12830582.500 now, remainder by 2026-01-02."
+request_162,7933035.0,affordable_later,wait,none,2028-06-24,none,Limited funds available now. Consider waiting until 2028-06-24 for full payment.
+request_163,14749748.047,affordable_with_plan,partial_payment,2024-09-07:14749748.0470|2024-11-06:4554251.9530,2024-11-06,none,"Partial payment of 14749748.0470 now, remainder by 2024-11-06."
+request_164,40460860.74,affordable_now,full_payment,none,2025-02-04,none,Full payment of 27018000.0 is affordable with current projected balance.
+request_165,249614.75,affordable_now,full_payment,none,2026-04-06,none,Full payment of 80600.0 is affordable with current projected balance.
+request_166,6226.95,affordable_now,full_payment,none,2024-12-03,none,Full payment of 2907.6 is affordable with current projected balance.
+request_167,61560.585,affordable_now,full_payment,none,2025-05-05,none,Full payment of 43802.0 is affordable with current projected balance.
+request_168,46580.85,affordable_with_plan,partial_payment,2026-01-07:46580.850|2026-03-08:2799.150,2026-03-08,none,"Partial payment of 46580.850 now, remainder by 2026-03-08."
+request_169,53844.175,affordable_now,full_payment,none,2024-03-04,none,Full payment of 41976.0 is affordable with current projected balance.
+request_170,34770348.48,affordable_with_plan,partial_payment,2025-08-06:34770348.480|2025-10-04:2165651.520,2025-10-04,none,"Partial payment of 34770348.480 now, remainder by 2025-10-04."
+request_171,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_172,15756.88,affordable_now,full_payment,none,2024-06-05,none,Full payment of 10200.0 is affordable with current projected balance.
+request_173,71516.0035,affordable_with_plan,partial_payment,2025-11-07:71516.0035|2026-01-06:41483.9965,2026-01-06,none,"Partial payment of 71516.0035 now, remainder by 2026-01-06."
+request_174,1541.04,affordable_now,full_payment,none,2026-04-04,none,Full payment of 1146.2 is affordable with current projected balance.
+request_175,1986.25,affordable_with_plan,partial_payment,2024-09-06:1986.25|2024-10-01:360.05,2024-10-01,none,"Partial payment of 1986.25 now, remainder by 2024-10-01."
+request_176,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_177,626.24,affordable_with_plan,partial_payment,2026-01-05:626.24|2026-01-25:391.36,2026-01-25,none,"Partial payment of 626.24 now, remainder by 2026-01-25."
+request_178,5502.3,affordable_now,full_payment,none,2024-12-07,none,Full payment of 2938.1 is affordable with current projected balance.
+request_179,29366097.5,affordable_with_plan,partial_payment,2025-05-04:29366097.500|2025-07-03:12281902.500,2025-07-03,none,"Partial payment of 29366097.500 now, remainder by 2025-07-03."
+request_180,82066.0,affordable_now,full_payment,none,2026-07-06,none,Full payment of 66500.0 is affordable with current projected balance.
+request_181,2511.0,affordable_with_plan,partial_payment,2024-03-03:2511.0|2024-04-07:2548.2,2024-04-07,none,"Partial payment of 2511.0 now, remainder by 2024-04-07."
+request_182,87397.985,affordable_now,full_payment,none,2025-08-05,none,Full payment of 65714.0 is affordable with current projected balance.
+request_183,27501312.553,affordable_now,full_payment,none,2026-04-07,none,Full payment of 26866000.0 is affordable with current projected balance.
+request_184,35292.0,affordable_later,wait,none,2025-08-28,none,Limited funds available now. Consider waiting until 2025-08-28 for full payment.
+request_185,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_186,19741.425,affordable_with_plan,partial_payment,2026-01-03:19741.425|2026-03-04:6812.575,2026-03-04,none,"Partial payment of 19741.425 now, remainder by 2026-03-04."
+request_187,41803.25,affordable_later,wait,none,2025-06-02,none,Limited funds available now. Consider waiting until 2025-06-02 for full payment.
+request_188,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_189,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_190,2924.8,affordable_now,full_payment,none,2024-12-06,none,Full payment of 2557.5 is affordable with current projected balance.
+request_191,87.06,affordable_later,wait,none,2025-08-31,none,Limited funds available now. Consider waiting until 2025-08-31 for full payment.
+request_192,152.4,affordable_later,wait,none,2027-05-30,none,Limited funds available now. Consider waiting until 2027-05-30 for full payment.
+request_193,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_194,62168.5,affordable_with_plan,partial_payment,2025-08-04:62168.500|2025-10-03:70631.500,2025-10-03,none,"Partial payment of 62168.500 now, remainder by 2025-10-03."
+request_195,277.18,affordable_later,wait,none,2026-06-05,none,Limited funds available now. Consider waiting until 2026-06-05 for full payment.
+request_196,826.65,affordable_now,full_payment,none,2024-06-03,none,Full payment of 762.3 is affordable with current projected balance.
+request_197,58032607.347,affordable_now,full_payment,none,2025-11-05,none,Full payment of 50939000.0 is affordable with current projected balance.
+request_198,246670.5,affordable_now,full_payment,none,2026-07-07,none,Full payment of 185800.0 is affordable with current projected balance.
+request_199,102791527.993,affordable_now,full_payment,none,2024-09-04,none,Full payment of 23674000.0 is affordable with current projected balance.
+request_200,30976542.5,affordable_now,full_payment,none,2025-02-06,none,Full payment of 21717000.0 is affordable with current projected balance.
+request_201,56296180.0,affordable_now,full_payment,none,2026-04-03,none,Full payment of 23997000.0 is affordable with current projected balance.
+request_202,181661.75,affordable_now,full_payment,none,2024-12-05,none,Full payment of 123900.0 is affordable with current projected balance.
+request_203,5820.38,affordable_now,full_payment,none,2025-05-07,none,Full payment of 1442.1 is affordable with current projected balance.
+request_204,108.28,affordable_later,wait,none,2026-04-04,none,Limited funds available now. Consider waiting until 2026-04-04 for full payment.
+request_205,32266805.0,affordable_now,full_payment,none,2024-03-06,none,Full payment of 10621000.0 is affordable with current projected balance.
+request_206,3287.14,affordable_now,full_payment,none,2025-08-03,none,Full payment of 1404.7 is affordable with current projected balance.
+request_207,32391.72,affordable_now,full_payment,none,2026-07-05,none,Full payment of 11830.0 is affordable with current projected balance.
+request_208,4302560.0,affordable_with_plan,partial_payment,2024-06-07:4302560.000|2024-07-13:110440.000,2024-07-13,none,"Partial payment of 4302560.000 now, remainder by 2024-07-13."
+request_209,28315.745,affordable_with_plan,partial_payment,2025-11-04:28315.745|2025-11-25:28598.255,2025-11-25,none,"Partial payment of 28315.745 now, remainder by 2025-11-25."
+request_210,420.32,affordable_with_plan,partial_payment,2026-04-06:420.32|2026-06-05:939.70,2026-06-05,none,"Partial payment of 420.32 now, remainder by 2026-06-05."
+request_211,2026.85,affordable_now,full_payment,none,2024-09-03,none,Full payment of 1788.6 is affordable with current projected balance.
+request_212,14874310.0,affordable_later,wait,none,2026-03-02,none,Limited funds available now. Consider waiting until 2026-03-02 for full payment.
+request_213,8877.94,affordable_now,full_payment,none,2026-01-07,none,Full payment of 3362.4 is affordable with current projected balance.
+request_214,96071.0,affordable_now,full_payment,none,2024-12-04,none,Full payment of 69750.0 is affordable with current projected balance.
+request_215,72452.502,affordable_now,full_payment,none,2025-05-06,none,Full payment of 29986.0 is affordable with current projected balance.
+request_216,113.8,affordable_later,wait,none,2027-05-29,none,Limited funds available now. Consider waiting until 2027-05-29 for full payment.
+request_217,59555.5715,affordable_now,full_payment,none,2024-03-05,none,Full payment of 37180.0 is affordable with current projected balance.
+request_218,82772384.06,affordable_now,full_payment,none,2025-08-07,none,Full payment of 61142000.0 is affordable with current projected balance.
+request_219,648.51,affordable_with_plan,partial_payment,2026-04-04:648.51|2026-06-03:1024.59,2026-06-03,none,"Partial payment of 648.51 now, remainder by 2026-06-03."
+request_220,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_221,154114.75,affordable_now,full_payment,none,2025-11-03,none,Full payment of 109800.0 is affordable with current projected balance.
+request_222,83988.015,affordable_now,full_payment,none,2026-01-05,none,Full payment of 34078.0 is affordable with current projected balance.
+request_223,1587.51,affordable_now,full_payment,none,2024-09-07,none,Full payment of 898.7 is affordable with current projected balance.
+request_224,16986030.0,affordable_now,full_payment,none,2025-02-04,none,Full payment of 10327000.0 is affordable with current projected balance.
+request_225,12949851.62,affordable_with_plan,partial_payment,2026-07-06:12949851.620|2026-09-04:9109148.380,2026-09-04,none,"Partial payment of 12949851.620 now, remainder by 2026-09-04."
+request_226,295871.0,affordable_now,full_payment,none,2024-12-03,none,Full payment of 157000.0 is affordable with current projected balance.
+request_227,36677.25,affordable_later,wait,none,2027-04-25,none,Limited funds available now. Consider waiting until 2027-04-25 for full payment.
+request_228,5806272.5,affordable_later,wait,none,2027-08-30,none,Limited funds available now. Consider waiting until 2027-08-30 for full payment.
+request_229,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_230,5270.76,affordable_now,full_payment,none,2025-08-06,none,Full payment of 3537.6 is affordable with current projected balance.
+request_231,98935.7605,affordable_now,full_payment,none,2026-01-03,none,Full payment of 35706.0 is affordable with current projected balance.
+request_232,363.4,affordable_later,wait,none,2024-10-03,none,Limited funds available now. Consider waiting until 2024-10-03 for full payment.
+request_233,5529035.0,affordable_with_plan,partial_payment,2025-11-07:5529035.000|2025-12-17:711965.000,2025-12-17,none,"Partial payment of 5529035.000 now, remainder by 2025-12-17."
+request_234,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_235,353.28,affordable_with_plan,partial_payment,2024-09-06:353.28|2024-10-25:613.92,2024-10-25,none,"Partial payment of 353.28 now, remainder by 2024-10-25."
+request_236,12750227.5,affordable_later,wait,none,2026-05-29,none,Limited funds available now. Consider waiting until 2026-05-29 for full payment.
+request_237,72317272.5,affordable_now,full_payment,none,2026-04-05,none,Full payment of 23826000.0 is affordable with current projected balance.
+request_238,136.07,affordable_later,wait,none,2025-03-07,none,Limited funds available now. Consider waiting until 2025-03-07 for full payment.
+request_239,1319.9,affordable_now,full_payment,none,2025-05-04,none,Full payment of 642.0 is affordable with current projected balance.
+request_240,24644.0,affordable_later,wait,none,2026-11-02,none,Limited funds available now. Consider waiting until 2026-11-02 for full payment.
+request_241,62083506.033,affordable_now,full_payment,none,2024-03-03,none,Full payment of 21052000.0 is affordable with current projected balance.
+request_242,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_243,48494.88,affordable_now,full_payment,none,2026-07-07,none,Full payment of 17468.0 is affordable with current projected balance.
+request_244,123042.74,affordable_now,full_payment,none,2024-06-04,none,Full payment of 49918.0 is affordable with current projected balance.
+request_245,53132.0,affordable_with_plan,partial_payment,2025-11-06:53132.000|2026-01-05:75368.000,2026-01-05,none,"Partial payment of 53132.000 now, remainder by 2026-01-05."
+request_246,150869.757,affordable_now,full_payment,none,2026-04-03,none,Full payment of 64086.0 is affordable with current projected balance.
+request_247,448.2,affordable_with_plan,partial_payment,2024-09-05:448.2|2024-11-04:611.1,2024-11-04,none,"Partial payment of 448.2 now, remainder by 2024-11-04."
+request_248,258.36,affordable_later,wait,none,2025-09-05,none,Limited funds available now. Consider waiting until 2025-09-05 for full payment.
+request_249,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_250,17674.2,affordable_later,wait,none,2026-06-29,none,Limited funds available now. Consider waiting until 2026-06-29 for full payment.
+request_251,2275.55,affordable_now,full_payment,none,2025-05-03,none,Full payment of 1513.6 is affordable with current projected balance.
+request_252,8463565.0,affordable_with_plan,partial_payment,2026-07-05:8463565.000|2026-09-03:19618435.000,2026-09-03,none,"Partial payment of 8463565.000 now, remainder by 2026-09-03."
+request_253,717.57,affordable_later,wait,none,2024-09-03,none,Limited funds available now. Consider waiting until 2024-09-03 for full payment.
+request_254,738.6,affordable_later,wait,none,2026-04-01,none,Limited funds available now. Consider waiting until 2026-04-01 for full payment.
+request_255,26249192.5,affordable_now,full_payment,none,2026-04-06,none,Full payment of 3345000.0 is affordable with current projected balance.
+request_256,185094.116,affordable_with_plan,partial_payment,2024-06-03:185094.1160|2024-08-02:33605.8840,2024-08-02,none,"Partial payment of 185094.1160 now, remainder by 2024-08-02."
+request_257,1816.2,affordable_now,full_payment,none,2025-11-05,none,Full payment of 1352.4 is affordable with current projected balance.
+request_258,1646.56,affordable_now,full_payment,none,2026-01-07,none,Full payment of 1113.6 is affordable with current projected balance.
+request_259,0.0,not_affordable,not_recommended,none,,none,Payment not recommended. Insufficient funds after accounting for essential expenses and safety buffer.
+request_260,12395993.0,affordable_later,wait,none,2026-04-02,none,Limited funds available now. Consider waiting until 2026-04-02 for full payment.
+request_261,2167.96,affordable_now,full_payment,none,2026-07-03,none,Full payment of 1830.4 is affordable with current projected balance.
+request_262,43588895.0,affordable_now,full_payment,none,2024-12-05,none,Full payment of 9236000.0 is affordable with current projected balance.
+request_263,11886.1,affordable_later,wait,none,2026-06-01,none,Limited funds available now. Consider waiting until 2026-06-01 for full payment.
+request_264,31691.25,affordable_later,wait,none,2027-01-29,none,Limited funds available now. Consider waiting until 2027-01-29 for full payment.
+request_265,545344.75,affordable_now,full_payment,none,2024-03-06,none,Full payment of 45970.0 is affordable with current projected balance.
+request_266,300.92,affordable_with_plan,partial_payment,2025-08-03:300.92|2025-10-02:634.08,2025-10-02,none,"Partial payment of 300.92 now, remainder by 2025-10-02."
+request_267,1088.98,affordable_with_plan,partial_payment,2026-01-05:1088.98|2026-03-06:836.02,2026-03-06,none,"Partial payment of 1088.98 now, remainder by 2026-03-06."
+request_268,134.52,affordable_later,wait,none,2025-02-02,none,Limited funds available now. Consider waiting until 2025-02-02 for full payment.
+request_269,14749.405,affordable_with_plan,partial_payment,2025-11-04:14749.405|2026-01-02:740.595,2026-01-02,none,"Partial payment of 14749.405 now, remainder by 2026-01-02."
+request_270,560.76,affordable_later,wait,none,2027-09-29,none,Limited funds available now. Consider waiting until 2027-09-29 for full payment.
+request_271,60232.0,affordable_with_plan,partial_payment,2024-09-03:60232.000|2024-11-02:31068.000,2024-11-02,none,"Partial payment of 60232.000 now, remainder by 2024-11-02."
+request_272,7925597.8,affordable_with_plan,partial_payment,2025-02-05:7925597.800|2025-04-06:5659402.200,2025-04-06,none,"Partial payment of 7925597.800 now, remainder by 2025-04-06."
+request_273,10621060.0,affordable_with_plan,partial_payment,2026-04-07:10621060.000|2026-06-06:5239940.000,2026-06-06,none,"Partial payment of 10621060.000 now, remainder by 2026-06-06."
+request_274,1981.31,affordable_with_plan,partial_payment,2024-12-04:1981.31|2025-02-02:732.39,2025-02-02,none,"Partial payment of 1981.31 now, remainder by 2025-02-02."
+request_275,20975777.5,affordable_now,full_payment,none,2025-05-06,none,Full payment of 15884000.0 is affordable with current projected balance.
