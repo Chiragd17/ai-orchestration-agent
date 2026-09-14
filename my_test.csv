@@ -1,2 +1,0 @@
-request_id,amount_safe_to_pay,affordability_status,recommended_payment_method,payment_plan,earliest_date_for_full_payment,spending_changes_needed,decision_explanation
-request_26,1.5656E+7,affordable_now,full_payment,2025-08-03:15656000.0,2025-08-03,none,You can safely pay the full amount of 15656000.0 immediately. This allows you to complete the request without affecting your other spending.

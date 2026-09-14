@@ -1,6 +1,7 @@
 import sys, os, datetime
 from decimal import Decimal
 sys.path.append(os.path.abspath('code'))
+# pyrefly: ignore [missing-import]
 from engine.data.state import build_user_state
 
 def test_var_expense():
